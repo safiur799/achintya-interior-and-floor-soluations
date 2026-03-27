@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Padams | Premium Interior Design & Architecture</title>
+    <meta name="description" content="Experience luxury interior design with Padams. Transforming homes and offices with modern, minimalist, and functional aesthetics.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="#"><img src="assets/logo.png" alt="Padams Interior Logo"></a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#presence">Our Presence</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg></a></li>
+            </ul>
+            <div class="mobile-menu-btn" id="menuBtn">
+               <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
+            </div>
+        </nav>
+        <!-- Mobile Nav Overlay -->
+        <div class="mobile-nav" id="mobileNav">
+            <a href="#about">About Us</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#presence">Our Presence</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Design Your Future</h1>
+            <p>Premium Interior Solutions for Modern Living</p>
+            <br>
+            <a href="#contact" class="btn">Contact Us</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2 class="section-title">Redefining Spaces</h2>
+        <div class="grid">
+            <div class="card">
+                <img src="assets/kitchen.png" alt="Modern Kitchen Design">
+                <div style="padding: 1.5rem;">
+                    <h3>Modern Kitchens</h3>
+                    <p>Minimalist aesthetics combined with functional excellence.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="assets/bedroom.png" alt="Serene Bedroom Design">
+                <div style="padding: 1.5rem;">
+                    <h3>Luxury Bedrooms</h3>
+                    <p>Creating serene sanctuaries for ultimate comfort.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Presence Section -->
+    <section id="presence" class="map-section">
+        <div class="map-visual">
+            <!-- Simplified SVG Map of India (Placeholder) -->
+            <svg viewBox="0 0 400 500" width="100%" height="auto" style="max-width:350px;">
+                <path d="M150 50L200 20L250 50L300 100L350 150L380 250L350 350L250 450L150 480L50 450L20 350L10 250L50 150L100 100L150 50Z" fill="#ddd" />
+                <circle cx="150" cy="200" r="8" fill="#e31e24" /> <!-- Mumbai/Head Office -->
+                <circle cx="180" cy="150" r="5" fill="#333" />
+                <circle cx="210" cy="180" r="5" fill="#333" />
+                <circle cx="190" cy="250" r="5" fill="#333" />
+                <circle cx="250" cy="300" r="5" fill="#333" />
+            </svg>
+        </div>
+        <div class="presence-info">
+            <h2>Head Office</h2>
+            <p><strong>Mumbai, India</strong></p>
+            <br>
+            <h3>PAN INDIA PRESENCE</h3>
+            <div class="presence-list">
+                <ul>
+                    <li>Pune</li>
+                    <li>NCR</li>
+                    <li>Bengaluru</li>
+                    <li>Ahmedabad</li>
+                </ul>
+                <ul>
+                    <li>Hyderabad</li>
+                    <li>Chennai</li>
+                    <li>Gurgaon</li>
+                    <li>Kolkata</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Get In Touch -->
+    <section id="contact">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Mumbai Head Office</h3>
+                <p><strong>Address:</strong> 1101, Lotus Trade Centre, New Link Road, Andheri West, Mumbai, Maharashtra, 400058</p>
+                <br>
+                <p><strong>Email:</strong> queries@padams.in</p>
+                <p><strong>Phone:</strong> (+91) 22267 39000</p>
+                <br>
+                <div class="card">
+                    <img src="assets/hero.png" alt="Office Interior Sample" style="height: 200px;">
+                </div>
+            </div>
+            <div class="contact-form">
+                <form id="padamsForm">
+                    <div class="form-group">
+                        <label for="topic">Select Topic</label>
+                        <select id="topic" required>
+                            <option value="">Select Topic</option>
+                            <option value="residential">Residential Design</option>
+                            <option value="commercial">Commercial Office</option>
+                            <option value="consultation">Design Consultation</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="Enter your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" placeholder="Enter your phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" rows="4" placeholder="Your message..."></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">SEND MESSAGE</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="social-links">
+            <a href="#">F</a> <a href="#">X</a> <a href="#">I</a> <a href="#">L</a>
+        </div>
+        <div class="footer-nav">
+            <a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a> | <a href="#">Careers</a>
+        </div>
+        <div class="certifications">
+            <p>Certified Excellence</p>
+            <br>
+            <!-- Certification placeholders -->
+            <span style="border: 2px solid white; padding: 0.5rem; border-radius: 50%; display: inline-block; width: 60px; height: 60px; line-height: 45px; font-weight: 700;">ISO</span>
+            <span style="border: 2px solid white; padding: 0.5rem; border-radius: 50%; display: inline-block; width: 60px; height: 60px; line-height: 45px; font-weight: 700;">EC</span>
+        </div>
+        <br>
+        <p>&copy; 2026 Padams Interior Design. All rights reserved.</p>
+    </footer>
+
+    <!-- JS -->
+    <script src="index.js"></script>
+</body>
+</html>
