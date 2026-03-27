@@ -1,73 +1,148 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const menuBtn = document.getElementById('menuBtn');
-    const mobileNav = document.getElementById('mobileNav');
-    const navLinks = document.querySelectorAll('.nav-links a, .mobile-nav a');
-    const contactForm = document.getElementById('padamsForm');
 
-    // Mobile Menu Toggle
-    menuBtn.addEventListener('click', () => {
-        mobileNav.classList.toggle('active');
-        // Update icon based on state
-        const isActive = mobileNav.classList.contains('active');
-        menuBtn.innerHTML = isActive 
-            ? '<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>'
-            : '<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12h18M3 6h18M3 18h18"/></svg>';
+    // --- 1. Percentage Loader ---
+    const loader = document.getElementById('loader');
+    const percentSpan = document.getElementById('percent');
+    let count = 0;
+
+    const interval = setInterval(() => {
+        count += Math.floor(Math.random() * 15) + 1;
+        if (count >= 100) {
+            count = 100;
+            clearInterval(interval);
+            setTimeout(() => {
+                loader.style.opacity = '0';
+                loader.style.transform = 'translateY(-100%)';
+                setTimeout(() => loader.style.display = 'none', 1000);
+                startHeroAnimations();
+            }, 500);
+        }
+        percentSpan.textContent = count < 10 ? `0${count}` : count;
+    }, 80);
+
+    // --- 2. Hero Slider (Swiper) ---
+    const swiper = new Swiper('.hero-slider', {
+        loop: true,
+        autoplay: { delay: 5000, disableOnInteraction: false },
+        pagination: { el: '.swiper-pagination', clickable: true },
+        effect: 'fade',
+        fadeEffect: { crossFade: true }
     });
 
-    // Close menu when link is clicked
-    navLinks.forEach(link => {
-        link.addEventListener('click', (e) => {
-            mobileNav.classList.remove('active');
-            menuBtn.innerHTML = '<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12h18M3 6h18M3 18h18"/></svg>';
-            
-            // Smooth Scroll
-            const targetId = link.getAttribute('href');
-            if (targetId.startsWith('#')) {
-                e.preventDefault();
-                const targetEl = document.querySelector(targetId);
-                if (targetEl) {
-                    const headerOffset = 80;
-                    const elementPosition = targetEl.getBoundingClientRect().top;
-                    const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+    function startHeroAnimations() {
+        gsap.to('.hero-content h1', {
+            opacity: 1,
+            y: 0,
+            duration: 1.2,
+            stagger: 0.3,
+            ease: 'power4.out'
+        });
+    }
 
-                    window.scrollTo({
-                        top: offsetPosition,
-                        behavior: 'smooth'
-                    });
-                }
+    // --- 3. Sticky Header ---
+    const header = document.querySelector('header');
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 100) {
+            header.classList.add('scrolled');
+        } else {
+            header.classList.remove('scrolled');
+        }
+    });
+
+    // --- 4. GSAP ScrollTrigger Animations ---
+    gsap.registerPlugin(ScrollTrigger);
+
+    // Text Fill Animation
+    const textFills = document.querySelectorAll('.text-fill');
+    textFills.forEach(text => {
+        gsap.to(text, {
+            backgroundSize: '100% 100%',
+            ease: 'none',
+            scrollTrigger: {
+                trigger: text,
+                start: 'top 80%',
+                end: 'top 30%',
+                scrub: 1,
             }
         });
     });
 
-    // Form Submission Handling
-    contactForm.addEventListener('submit', (e) => {
-        e.preventDefault();
-        
-        // Basic feedback
-        const submitBtn = contactForm.querySelector('.submit-btn');
-        const originalText = submitBtn.textContent;
-        
-        submitBtn.textContent = 'SENDING...';
-        submitBtn.disabled = true;
-
-        // Simulate API call
-        setTimeout(() => {
-            alert('Thank you for contacting Padams! We have received your message and will get back to you soon.');
-            contactForm.reset();
-            submitBtn.textContent = originalText;
-            submitBtn.disabled = false;
-        }, 1500);
+    // Reveal Up Animation
+    const revealUps = document.querySelectorAll('.reveal-up');
+    revealUps.forEach(el => {
+        gsap.from(el, {
+            y: 100,
+            opacity: 0,
+            duration: 1,
+            ease: 'power3.out',
+            scrollTrigger: {
+                trigger: el,
+                start: 'top 90%',
+            }
+        });
     });
 
-    // Sticky Header Scroll Effect
-    window.addEventListener('scroll', () => {
-        const header = document.querySelector('header');
-        if (window.scrollY > 50) {
-            header.style.padding = '0.5rem 0';
-            header.style.boxShadow = '0 10px 30px rgba(0,0,0,0.1)';
-        } else {
-            header.style.padding = '1rem 0';
-            header.style.boxShadow = 'var(--shadow)';
-        }
+    // Reveal Left/Right for Map
+    gsap.from('.reveal-right', {
+        x: -100, opacity: 0, duration: 1.2, scrollTrigger: { trigger: '.map-section', start: 'top 80%' }
     });
+    gsap.from('.reveal-left', {
+        x: 100, opacity: 0, duration: 1.2, scrollTrigger: { trigger: '.map-section', start: 'top 80%' }
+    });
+
+    // --- 5. Navigation Overlay & GSAP Stagger ---
+    const menuBtn = document.getElementById('menuBtn');
+    const closeBtn = document.getElementById('closeBtn');
+    const navOverlay = document.getElementById('navOverlay');
+    const menuItems = document.querySelectorAll('.menu-item');
+    const overlayFooter = document.querySelectorAll('.overlay-footer > *');
+
+    const openMenu = () => {
+        navOverlay.classList.add('active');
+        document.body.style.overflow = 'hidden';
+
+        // GSAP Staggered Entry
+        gsap.fromTo(menuItems,
+            { x: 50, opacity: 0 },
+            { x: 0, opacity: 1, duration: 0.8, stagger: 0.1, ease: 'power3.out', delay: 0.3 }
+        );
+
+        gsap.fromTo(overlayFooter,
+            { y: 20, opacity: 0 },
+            { y: 0, opacity: 1, duration: 0.8, stagger: 0.1, ease: 'power3.out', delay: 0.7 }
+        );
+    };
+
+    const closeMenu = () => {
+        navOverlay.classList.remove('active');
+        document.body.style.overflow = 'auto';
+    };
+
+    menuBtn.addEventListener('click', openMenu);
+    closeBtn.addEventListener('click', closeMenu);
+
+    // Close menu when link is clicked
+    document.querySelectorAll('.main-menu a').forEach(link => {
+        link.addEventListener('click', () => {
+            closeMenu();
+        });
+    });
+
+    // --- 6. Form Submission Simulation ---
+    const contactForm = document.getElementById('contactForm');
+    if (contactForm) {
+        contactForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            const btn = contactForm.querySelector('.submit-btn');
+            btn.textContent = 'PROCEEDING...';
+            btn.disabled = true;
+
+            setTimeout(() => {
+                alert('Your request has been sent to Achintya Interior and Floor Solutions.');
+                contactForm.reset();
+                btn.textContent = 'PROCEED';
+                btn.disabled = false;
+            }, 1500);
+        });
+    }
 });
