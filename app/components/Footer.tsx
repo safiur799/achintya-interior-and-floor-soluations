@@ -1,6 +1,11 @@
 import React from "react";
+import { assets } from "../json/assets";
 
 const announcements = [
+  "Project Awarded - Stryker Global Technology Centre | Gurgaon",
+  "Project Awarded - Shiv Nadar Foundation | Dadri, UP",
+  "Project Awarded - Morgan Stanley Advantage Services | Mumbai",
+  "Project Awarded - German Consulate General | mumbai",
   "Project Awarded - Stryker Global Technology Centre | Gurgaon",
   "Project Awarded - Shiv Nadar Foundation | Dadri, UP",
   "Project Awarded - Morgan Stanley Advantage Services | Mumbai",
@@ -8,13 +13,22 @@ const announcements = [
 ];
 
 const certifications = [
-  { src: "/assets/certificate1.png", alt: "ISO 9001" },
-  { src: "/assets/certificate1.png", alt: "ISO 14001" },
-  { src: "/assets/certificate1.png", alt: "ISO 45001" },
-  { src: "/assets/certificate1.png", alt: "D-U-N-S" },
+  { src: assets.certificate1, alt: "ISO 9001" },
+  { src: assets.certificate1, alt: "ISO 14001" },
+  { src: assets.certificate1, alt: "ISO 45001" },
+  { src: assets.certificate1, alt: "D-U-N-S" },
 ];
 
 export default function Footer() {
+  const [currentIndex, setCurrentIndex] = React.useState(0);
+
+  React.useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentIndex((prev) => (prev + 1) % announcements.length);
+    }, 3000);
+    return () => clearInterval(interval);
+  }, []);
+
   return (
     <footer className="site-footer">
       {/* Top Banner */}
@@ -23,11 +37,16 @@ export default function Footer() {
           <div className="banner-grid">
             <div className="announcements">
               <h3>Announcements</h3>
-              <ul>
-                {announcements.map((item, i) => (
-                  <li key={i}>{item}</li>
-                ))}
-              </ul>
+              <div className="announcements-window">
+                <ul
+                  className="announcements-slider"
+                  style={{ transform: `translateY(-${currentIndex * 40}px)` }}
+                >
+                  {announcements.map((item, i) => (
+                    <li key={i}>{item}</li>
+                  ))}
+                </ul>
+              </div>
             </div>
             <div className="insights">
               <h3>Insights and inspiration: Our latest news</h3>

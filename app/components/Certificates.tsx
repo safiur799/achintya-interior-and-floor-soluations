@@ -1,4 +1,4 @@
-import React from "react";
+import { assets } from "../json/assets";
 
 const Certificates = () => {
   return (
@@ -7,7 +7,7 @@ const Certificates = () => {
         {Array.from({ length: 4 }).map((_, i) => {
           return (
             <div key={i}>
-              <img src="/assets/certificate1.png" alt="certificate" />
+              <img src={assets.certificate1} alt="certificate" />
             </div>
           );
         })}

@@ -60,7 +60,10 @@ export default function NavOverlay({
               }}
             >
               <a href={item.href} onClick={() => setIsMenuOpen(false)}>
-                {item.text}
+                <span className="flip-text-inner">
+                  <span className="text-front">{item.text}</span>
+                  <span className="text-back">{item.text}</span>
+                </span>
               </a>
             </li>
           ))}

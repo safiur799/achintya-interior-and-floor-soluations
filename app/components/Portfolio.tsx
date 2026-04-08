@@ -4,45 +4,55 @@ import React, { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
+import { assets } from "../json/assets";
+
 const portfolioItems = [
   {
-    img: "/assets/kitchen.png",
+    img: assets.kitchen,
     title: "Bespoke Kitchens",
   },
   {
-    img: "/assets/bedroom.png",
+    img: assets.bedroom,
     title: "Serene Retreats",
   },
   {
-    img: "/assets/flooring.png",
+    img: assets.flooring,
     title: "Master Flooring",
   },
   {
-    img: "/assets/hero.png",
+    img: assets.hero,
     title: "Commercial Spaces",
   },
 ];
 
 export default function Portfolio() {
-  const sectionRef = useRef<HTMLElement>(null);
+  const sectionRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
 
     let ctx = gsap.context(() => {
-      // MASTER TIMELINE
+      // Independent Marquee Animation
+      gsap.to(".scrolling-text p", {
+        xPercent: -100,
+        repeat: -1,
+        duration: 20,
+        ease: "none",
+      });
+
       const tl = gsap.timeline({
         scrollTrigger: {
           trigger: sectionRef.current,
           start: "top top",
-          end: "+=600%",
+          end: "+=500%",
           pin: true,
-          scrub: 1,
+          scrub: 0.5,
         },
       });
 
       // Initial state
-      gsap.set(".portfolio-grid", { opacity: 0, scale: 0.1 });
+      gsap.set(".portfolio-grid", { opacity: 0, xPercent: -100, rotate: 5 });
+      gsap.set(".scrolling-text", { opacity: 0 });
 
       // 1. Split Text & Deep Fade
       tl.to(
@@ -54,27 +64,39 @@ export default function Portfolio() {
         { yPercent: 400, opacity: 0, duration: 1.5 },
         0,
       );
-
-      // 2. Center Grid Reveal (Popping out from the gap)
       tl.to(
-        ".portfolio-grid",
-        { opacity: 1, scale: 1, duration: 1.5, ease: "power2.inOut" },
-        0.5,
+        ".scrolling-text",
+        { opacity: 1, duration: 1, ease: "power2.inOut" },
+        0,
       );
 
-      // 3. Card Stacking
+      // 2. Center Grid Reveal
+      tl.to(
+        ".portfolio-grid",
+        {
+          opacity: 1,
+          xPercent: 0,
+          rotate: 0,
+          duration: 1,
+          yPercent: 10,
+          ease: "power2.inOut",
+        },
+        2,
+      );
+
+      // 3. Card Stacking with Pendulum Motion
       const cards = gsap.utils.toArray(".portfolio-card") as HTMLElement[];
       cards.forEach((card, i) => {
         if (i === 0) return;
 
-        // Fade out previous card's overlay as new card arrives
+        const xPos = i % 2 === 0 ? -120 : 120; // Alternate left/right
+        const rotationVal = i % 2 === 0 ? 5 : -5; // Swing angle
+
         const prevOverlay = cards[i - 1].querySelector(".portfolio-overlay");
         if (prevOverlay) {
           tl.to(
             prevOverlay,
             {
-              opacity: 0,
-              yPercent: -20,
               duration: 1,
               ease: "power2.inOut",
             },
@@ -84,13 +106,22 @@ export default function Portfolio() {
 
         tl.fromTo(
           card,
-          { yPercent: 100 },
-          { yPercent: 0, ease: "none", duration: 2 },
-          i * 2 + 1, // Ensure they come after the split reveal
+          {
+            xPercent: xPos,
+            yPercent: -5, // Slightly from top
+            rotation: rotationVal,
+          },
+          {
+            xPercent: 0,
+            yPercent: 0,
+            rotation: 0,
+            ease: "power2.out",
+            duration: 2,
+          },
+          i * 2 + 1,
         );
       });
 
-      // After all cards reveal, move grid to top layer
       tl.set(".portfolio-grid", { zIndex: 30 }, "+=0.1");
     }, sectionRef);
 
@@ -137,14 +168,23 @@ export default function Portfolio() {
   };
 
   return (
-    <section id="portfolio" className="portfolio-section" ref={sectionRef}>
+    <div id="portfolio" className="portfolio-section" ref={sectionRef}>
       <div className="reveal-container">
         <div className="expertise-wrapper" style={{ zIndex: 10 }}>
           <div className="expertise-text expertise-top">Expertise</div>
           <div className="expertise-text expertise-bottom">Expertise</div>
         </div>
-
-        <div className="portfolio-grid" style={{ zIndex: 5 }}>
+        <div className="scrolling-text">
+          <p>
+            Expertise & Quality & Creativity & Solutions & Innovation & Design &
+            Comfort & Luxury & Excellence & Expertise & Quality
+          </p>
+          <p aria-hidden="true">
+            Expertise & Quality & Creativity & Solutions & Innovation & Design &
+            Comfort & Luxury & Excellence & Expertise & Quality
+          </p>
+        </div>
+        <div className="portfolio-grid" style={{ zIndex: 50 }}>
           {portfolioItems.map((item, index) => (
             <div
               key={index}
@@ -169,6 +209,6 @@ export default function Portfolio() {
           ))}
         </div>
       </div>
-    </section>
+    </div>
   );
 }

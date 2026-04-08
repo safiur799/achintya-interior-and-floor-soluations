@@ -18,6 +18,8 @@ import Footer from "./components/Footer";
 
 import Stats from "./components/Stats";
 import Certificates from "./components/Certificates";
+import TrustedBy from "./components/TrustedBy";
+import BottomCards from "./components/BottomCards";
 
 export default function Home() {
   const [percent, setPercent] = useState(0);
@@ -197,13 +199,12 @@ export default function Home() {
         overlayFooterRef={overlayFooterRef}
       />
       <HeroSlider />
-      {/* <Marquee /> */}
       <About />
       <Stats />
       <Certificates />
       <Portfolio />
-      <Presence />
-      {/* <Contact formStatus={formStatus} handleFormSubmit={handleFormSubmit} /> */}
+      <TrustedBy />
+      <BottomCards />
       <Footer />
     </>
   );
