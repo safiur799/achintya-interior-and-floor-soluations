@@ -26,7 +26,7 @@ export const solutionCards: ExpertiseCardProps[] = [
   },
   {
     id: 2,
-    title: "Build Solutions",
+    title: "Design Solutions",
     image: assets.bedroom,
     description:
       "For over 30 years, Padams has delivered world-class facilities across India with a core focus on comprehensive build solutions. Driven by a commitment to excellence and innovation, we bring global design standards to life, transforming spaces for international, multinational, and traditional business houses. Our hallmark is precision execution, with safety and quality at the forefront. Senior management’s dedicated attention to each client ensures an exceptional and seamless project experience.",
@@ -39,7 +39,7 @@ export const solutionCards: ExpertiseCardProps[] = [
   },
   {
     id: 3,
-    title: "Build Solutions",
+    title: "Workplace Strategy",
     image: assets.bedroom,
     description:
       "For over 30 years, Padams has delivered world-class facilities across India with a core focus on comprehensive build solutions. Driven by a commitment to excellence and innovation, we bring global design standards to life, transforming spaces for international, multinational, and traditional business houses. Our hallmark is precision execution, with safety and quality at the forefront. Senior management’s dedicated attention to each client ensures an exceptional and seamless project experience.",
@@ -52,7 +52,7 @@ export const solutionCards: ExpertiseCardProps[] = [
   },
   {
     id: 4,
-    title: "Build Solutions",
+    title: "Integrated Facility Management",
     image: assets.bedroom,
     description:
       "For over 30 years, Padams has delivered world-class facilities across India with a core focus on comprehensive build solutions. Driven by a commitment to excellence and innovation, we bring global design standards to life, transforming spaces for international, multinational, and traditional business houses. Our hallmark is precision execution, with safety and quality at the forefront. Senior management’s dedicated attention to each client ensures an exceptional and seamless project experience.",
@@ -101,8 +101,8 @@ const Page = () => {
   return (
     <Wrapper hideAnnouncements={true}>
       <CommonBanner
-        title="Our Expertise"
-        description="Lorem ipsum dolor sit amet consectetur adipisicing elit. A sint nulla iusto doloremque dignissimos! Consequuntur eius tenetur corporis, nulla distinctio vel. Voluptatum molestias reiciendis deserunt? Inventore excepturi quo saepe ad.  "
+        title="Expertise"
+        description="Today, our team of over 5,000+ skilled and multifaceted professionals bring unparalleled expertise and a commitment to excellence to every project we undertake.Explore our detailed services to see how we bring your vision to life!"
         bgImage={assets.hero}
       />
       <section className="expertise-section">
