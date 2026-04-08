@@ -1181,3 +1181,183 @@ section {
     font-size: 60px !important;
   }
 }
+
+/* --- Common Banner --- */
+.common-banner {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.banner-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  z-index: 1;
+}
+
+.common-banner h1 {
+  color: var(--white);
+  font-size: clamp(2.5rem, 6vw, 5rem);
+  font-family: var(--font-montserrat), sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  z-index: 2;
+  text-align: center;
+  padding: 0 20px 20px;
+}
+
+.common-banner p {
+  color: var(--white);
+  font-size: clamp(1rem, 2vw, 1.5rem);
+  font-family: var(--font-montserrat), sans-serif;
+  font-weight: 400;
+  text-align: center;
+  padding: 0 60px;
+}
+
+/* --- Expertise Cards --- */
+.expertise-section {
+  padding: 100px 0;
+  background: var(--white);
+}
+
+.expertise-cards-container {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 40px;
+  gap: 80px 40px;
+  position: relative;
+}
+
+.expertise-card {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 60px;
+}
+
+.expertise-card-title {
+  color: var(--primary-color);
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-family: var(--font-montserrat), sans-serif;
+  font-weight: 500;
+  margin-bottom: 25px;
+  text-transform: none;
+}
+
+.expertise-card-image {
+  width: 100%;
+  /* aspect-ratio: 4 / 3; */
+  overflow: hidden;
+  margin-bottom: 25px;
+  height: 600px;
+}
+
+.expertise-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.expertise-card-description {
+  color: #333;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 25px;
+  font-family: var(--font-inter), sans-serif;
+}
+
+.expertise-services-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.expertise-service-item {
+  background: #e9e9d7;
+  color: #002147;
+  padding: 12px 20px;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 1.05rem;
+  font-family: var(--font-montserrat), sans-serif;
+  transition: var(--transition);
+}
+
+.expertise-service-item:hover {
+  background: #dfdfc5;
+}
+
+@media (max-width: 968px) {
+  .expertise-cards-container {
+    grid-template-columns: 1fr;
+    gap: 60px;
+  }
+}
+/* --- Expertise Scroll Track --- */
+.expertise-scroll-track {
+  position: absolute;
+  left: 10px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  z-index: 10;
+}
+
+.expertise-scroll-line {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #eee;
+}
+
+.expertise-scroll-progress {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--primary-color);
+  transform: scaleY(0);
+  transform-origin: top;
+}
+
+.expertise-scroll-dot {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 12px;
+  height: 12px;
+  background: var(--primary-color);
+  border-radius: 50%;
+  transform: translateX(-50%);
+  z-index: 11;
+}
+
+@media (max-width: 1024px) {
+  .expertise-scroll-track {
+    left: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .expertise-scroll-track {
+    display: none;
+  }
+}

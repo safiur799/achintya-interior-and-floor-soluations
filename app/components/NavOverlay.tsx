@@ -13,7 +13,7 @@ interface NavOverlayProps {
 
 const menuLinks = [
   { href: "#projects", text: "Projects" },
-  { href: "#portfolio", text: "Our Expertise" },
+  { href: "/expertise", text: "Our Expertise" },
   { href: "#about", text: "About Us" },
   { href: "#presence", text: "Our Presence" },
   { href: "#contact", text: "Contact Us" },

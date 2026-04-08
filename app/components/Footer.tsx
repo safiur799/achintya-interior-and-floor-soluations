@@ -19,7 +19,11 @@ const certifications = [
   { src: assets.certificate1, alt: "D-U-N-S" },
 ];
 
-export default function Footer() {
+export default function Footer({
+  hideAnnouncements,
+}: {
+  hideAnnouncements?: boolean;
+}) {
   const [currentIndex, setCurrentIndex] = React.useState(0);
 
   React.useEffect(() => {
@@ -32,38 +36,40 @@ export default function Footer() {
   return (
     <footer className="site-footer">
       {/* Top Banner */}
-      <div className="footer-banner">
-        <div className="container">
-          <div className="banner-grid">
-            <div className="announcements">
-              <h3>Announcements</h3>
-              <div className="announcements-window">
-                <ul
-                  className="announcements-slider"
-                  style={{ transform: `translateY(-${currentIndex * 40}px)` }}
-                >
-                  {announcements.map((item, i) => (
-                    <li key={i}>{item}</li>
-                  ))}
-                </ul>
+      {!hideAnnouncements && (
+        <div className="footer-banner">
+          <div className="container">
+            <div className="banner-grid">
+              <div className="announcements">
+                <h3>Announcements</h3>
+                <div className="announcements-window">
+                  <ul
+                    className="announcements-slider"
+                    style={{ transform: `translateY(-${currentIndex * 40}px)` }}
+                  >
+                    {announcements.map((item, i) => (
+                      <li key={i}>{item}</li>
+                    ))}
+                  </ul>
+                </div>
               </div>
-            </div>
-            <div className="insights">
-              <h3>Insights and inspiration: Our latest news</h3>
-              <p>
-                Stay up-to-date with our latest News, where we share valuable
-                insights, industry trends, and inspiring stories.
-              </p>
-              <a href="#" className="more-link">
-                More &rarr;
-              </a>
-              <p className="visit-site">
-                Visit our Site - <span>achintya.in</span>
-              </p>
+              <div className="insights">
+                <h3>Insights and inspiration: Our latest news</h3>
+                <p>
+                  Stay up-to-date with our latest News, where we share valuable
+                  insights, industry trends, and inspiring stories.
+                </p>
+                <a href="#" className="more-link">
+                  More &rarr;
+                </a>
+                <p className="visit-site">
+                  Visit our Site - <span>achintya.in</span>
+                </p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
+      )}
 
       {/* Middle Social Section */}
       <div className="footer-socials">
