@@ -8,7 +8,6 @@ import { assets } from "../json/assets";
 import Wrapper from "../layout/Wrapper";
 
 const sectors = [
-  // ... existing sectors ...
   "Technology",
   "BFSI",
   "Food & Beverages",
@@ -29,7 +28,6 @@ const sectors = [
 ];
 
 const locations = [
-  // ... existing locations ...
   "Chennai",
   "Delhi",
   "Kolkata",
@@ -88,7 +86,7 @@ const Page = () => {
         isVideo
       />
 
-      <div className="projects-section">
+      <section className="projects-section">
         <div className="project-left">
           <ProjectFilters sectors={sectors} locations={locations} />
         </div>
@@ -99,7 +97,7 @@ const Page = () => {
             ))}
           </div>
         </div>
-      </div>
+      </section>
     </Wrapper>
   );
 };
