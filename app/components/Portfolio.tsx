@@ -25,68 +25,73 @@ const portfolioItems = [
 
 export default function Portfolio() {
   const sectionRef = useRef<HTMLElement>(null);
-  const triggerRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
 
     let ctx = gsap.context(() => {
-      // 1. Split Text Animation with Pinning
-      ScrollTrigger.create({
-        trigger: triggerRef.current,
-        start: "center center",
-        end: "+=100%",
-        pin: true,
-        pinSpacing: true,
-        scrub: 1,
-      });
-
-      gsap.to(".expertise-top", {
-        yPercent: -100,
+      // MASTER TIMELINE
+      const tl = gsap.timeline({
         scrollTrigger: {
-          trigger: triggerRef.current,
-          start: "center center",
-          end: "+=100%",
+          trigger: sectionRef.current,
+          start: "top top",
+          end: "+=600%",
+          pin: true,
           scrub: 1,
         },
       });
 
-      gsap.to(".expertise-bottom", {
-        yPercent: 100,
-        scrollTrigger: {
-          trigger: triggerRef.current,
-          start: "center center",
-          end: "+=100%",
-          scrub: 1,
-        },
-      });
+      // Initial state
+      gsap.set(".portfolio-grid", { opacity: 0, scale: 0.1 });
 
-      // 2. Card Stacking Effect
+      // 1. Split Text & Deep Fade
+      tl.to(
+        ".expertise-top",
+        { yPercent: -400, opacity: 0, duration: 1.5 },
+        0,
+      ).to(
+        ".expertise-bottom",
+        { yPercent: 400, opacity: 0, duration: 1.5 },
+        0,
+      );
+
+      // 2. Center Grid Reveal (Popping out from the gap)
+      tl.to(
+        ".portfolio-grid",
+        { opacity: 1, scale: 1, duration: 1.5, ease: "power2.inOut" },
+        0.5,
+      );
+
+      // 3. Card Stacking
       const cards = gsap.utils.toArray(".portfolio-card") as HTMLElement[];
       cards.forEach((card, i) => {
-        // Pin each card when it reaches the top
-        ScrollTrigger.create({
-          trigger: card,
-          start: "top top",
-          pin: true,
-          pinSpacing: false, // Allows the next card to slide over
-          id: `pin-${i}`,
-        });
+        if (i === 0) return;
 
-        // Alternating Reveal (Optional, might look busy with stacking)
-        const isEven = i % 2 === 0;
-        gsap.from(card.querySelector(".portfolio-overlay"), {
-          xPercent: isEven ? -100 : 100,
-          opacity: 0,
-          duration: 1.2,
-          ease: "power2.out",
-          scrollTrigger: {
-            trigger: card,
-            start: "top 80%",
-            toggleActions: "play none none reverse",
-          },
-        });
+        // Fade out previous card's overlay as new card arrives
+        const prevOverlay = cards[i - 1].querySelector(".portfolio-overlay");
+        if (prevOverlay) {
+          tl.to(
+            prevOverlay,
+            {
+              opacity: 0,
+              yPercent: -20,
+              duration: 1,
+              ease: "power2.inOut",
+            },
+            i * 2,
+          );
+        }
+
+        tl.fromTo(
+          card,
+          { yPercent: 100 },
+          { yPercent: 0, ease: "none", duration: 2 },
+          i * 2 + 1, // Ensure they come after the split reveal
+        );
       });
+
+      // After all cards reveal, move grid to top layer
+      tl.set(".portfolio-grid", { zIndex: 30 }, "+=0.1");
     }, sectionRef);
 
     return () => ctx.revert();
@@ -101,7 +106,7 @@ export default function Portfolio() {
       gsap.to(btn, {
         x: x - btn.offsetWidth / 2,
         y: y - btn.offsetHeight / 2,
-        duration: 0.8, // Slightly slower for smoother follow
+        duration: 0.8,
         ease: "power3.out",
       });
     }
@@ -115,7 +120,6 @@ export default function Portfolio() {
         scale: 1,
         duration: 0.4,
         ease: "back.out(1.7)",
-        display: "flex", // Ensure it's rendered
       });
     }
   };
@@ -128,44 +132,42 @@ export default function Portfolio() {
         scale: 0,
         duration: 0.3,
         ease: "power2.in",
-        onComplete: () => {
-          btn.style.display = "none";
-        },
       });
     }
   };
 
   return (
     <section id="portfolio" className="portfolio-section" ref={sectionRef}>
-      <div className="expertise-trigger" ref={triggerRef}>
-        <div className="expertise-wrapper">
+      <div className="reveal-container">
+        <div className="expertise-wrapper" style={{ zIndex: 10 }}>
           <div className="expertise-text expertise-top">Expertise</div>
           <div className="expertise-text expertise-bottom">Expertise</div>
         </div>
-      </div>
 
-      <div className="portfolio-grid">
-        {portfolioItems.map((item, index) => (
-          <div
-            key={index}
-            className="portfolio-card"
-            onMouseMove={(e) => handleMouseMove(e, index)}
-            onMouseEnter={() => handleMouseEnter(index)}
-            onMouseLeave={() => handleMouseLeave(index)}
-          >
-            <img src={item.img} alt={item.title} className="portfolio-img" />
-            <div className="portfolio-overlay">
-              <h3 className="portfolio-title">{item.title}</h3>
-            </div>
+        <div className="portfolio-grid" style={{ zIndex: 5 }}>
+          {portfolioItems.map((item, index) => (
             <div
-              id={`btn-${index}`}
-              className="know-more-btn"
-              style={{ display: "none" }} // Initially hidden
+              key={index}
+              className="portfolio-card"
+              style={{ zIndex: index + 1 }}
+              onMouseMove={(e) => handleMouseMove(e, index)}
+              onMouseEnter={() => handleMouseEnter(index)}
+              onMouseLeave={() => handleMouseLeave(index)}
             >
-              Know More
+              <img src={item.img} alt={item.title} className="portfolio-img" />
+              <div className="portfolio-overlay">
+                <h3 className="portfolio-title">{item.title}</h3>
+              </div>
+              <div
+                id={`btn-${index}`}
+                className="know-more-btn"
+                style={{ opacity: 0, scale: 0, zIndex: 100 }}
+              >
+                Know More
+              </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
     </section>
   );

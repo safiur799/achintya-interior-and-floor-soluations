@@ -399,26 +399,29 @@ section {
 
 /* --- Advanced Portfolio Section --- */
 .portfolio-section {
-  padding: 120px 0;
+  position: relative;
   overflow: hidden;
-  /* background: var(--light-bg); */
+  height: 100vh;
 }
 
-.expertise-trigger {
-  height: 50vh;
+.reveal-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 60px;
 }
 
 .expertise-wrapper {
-  position: relative;
+  position: absolute;
+  z-index: 20;
   font-family: var(--font-montserrat), sans-serif;
-  font-size: clamp(60px, 12vw, 120px);
-  font-weight: 800;
+  font-size: clamp(60px, 12vw, 200px);
+  font-weight: 500;
   text-transform: uppercase;
   line-height: 1;
+  pointer-events: none;
 }
 
 .expertise-text {
@@ -427,6 +430,7 @@ section {
   left: 50%;
   transform: translate(-50%, -50%);
   white-space: nowrap;
+  font-size: 200px;
 }
 
 .expertise-top {
@@ -436,24 +440,32 @@ section {
 
 .expertise-bottom {
   clip-path: inset(50% 0 0 0);
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 .portfolio-grid {
-  display: flex;
-  flex-direction: column;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
 }
 
 .portfolio-card {
-  position: relative;
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100vh;
   overflow: hidden;
   cursor: none;
-  z-index: 1;
 }
 
 .portfolio-img {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -488,6 +500,8 @@ section {
 
 .know-more-btn {
   position: absolute;
+  top: 0;
+  left: 0;
   width: 150px;
   height: 150px;
   background: var(--primary-color);
