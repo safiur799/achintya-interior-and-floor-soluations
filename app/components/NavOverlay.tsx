@@ -13,7 +13,7 @@ interface NavOverlayProps {
 
 const menuLinks = [
   { href: "#projects", text: "Projects" },
-  { href: "#portfolio", text: "Our Expertise" },
+  { href: "/expertise", text: "Our Expertise" },
   { href: "#about", text: "About Us" },
   { href: "#presence", text: "Our Presence" },
   { href: "#contact", text: "Contact Us" },
@@ -60,7 +60,10 @@ export default function NavOverlay({
               }}
             >
               <a href={item.href} onClick={() => setIsMenuOpen(false)}>
-                {item.text}
+                <span className="flip-text-inner">
+                  <span className="text-front">{item.text}</span>
+                  <span className="text-back">{item.text}</span>
+                </span>
               </a>
             </li>
           ))}
