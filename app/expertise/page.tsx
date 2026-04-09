@@ -2,6 +2,7 @@
 import React, { useEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { MotionPathPlugin } from "gsap/MotionPathPlugin";
 import Wrapper from "../layout/Wrapper";
 import CommonBanner from "../components/CommonBanner";
 import { assets } from "../json/assets";
@@ -67,7 +68,7 @@ export const solutionCards: ExpertiseCardProps[] = [
 
 const Page = () => {
   useEffect(() => {
-    gsap.registerPlugin(ScrollTrigger);
+    gsap.registerPlugin(ScrollTrigger, MotionPathPlugin);
 
     const tl = gsap.timeline({
       scrollTrigger: {
@@ -84,9 +85,10 @@ const Page = () => {
     }).to(
       ".expertise-scroll-dot",
       {
-        y: (index, target) => {
-          const track = document.querySelector(".expertise-scroll-track");
-          return track ? track.clientHeight : 0;
+        motionPath: {
+          path: "#scrollPath",
+          align: "#scrollPath",
+          alignOrigin: [0.5, 0.5],
         },
         ease: "none",
       },
@@ -106,12 +108,21 @@ const Page = () => {
         bgImage={assets.hero}
       />
       <section className="expertise-section">
-        <div className="expertise-cards-container">
-          {/* <div className="expertise-scroll-track">
-            <div className="expertise-scroll-line"></div>
+        <div className="expertise-scroll-track">
+          <div className="expertise-scroll-line">
             <div className="expertise-scroll-progress"></div>
-            <div className="expertise-scroll-dot"></div>
-          </div> */}
+          </div>
+          <div className="expertise-scroll-dot"></div>
+          <svg
+            className="expertise-scroll-path-svg"
+            viewBox="0 0 2 1000"
+            preserveAspectRatio="none"
+            style={{ height: "100%", position: "absolute", top: 0 }}
+          >
+            <path id="scrollPath" d="M1,0 L1,1000" fill="none" />
+          </svg>
+        </div>
+        <div className="expertise-cards-container">
           {solutionCards.map((card, idx) => (
             <ExpertiseCard key={idx} {...card} />
           ))}

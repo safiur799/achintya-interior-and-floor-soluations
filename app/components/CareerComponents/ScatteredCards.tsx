@@ -34,16 +34,16 @@ const ScatteredCards: React.FC<ScatteredCardsProps> = ({ cards }) => {
 
       // Arc positions (relative to center)
       const finalPositions = [
-        { x: -600, y: 300, rotate: -35 }, // Far Left
-        { x: -360, y: 50, rotate: -20 }, // Mid Left
-        { x: -120, y: -200, rotate: -5 }, // Center Left (Peak)
-        { x: 120, y: -200, rotate: 5 }, // Center Right (Peak)
-        { x: 360, y: 50, rotate: 20 }, // Mid Right
-        { x: 600, y: 300, rotate: 35 }, // Far Right
+        { x: -550, y: 300, rotate: -35 }, // Far Left
+        { x: -350, y: 60, rotate: -20 }, // Mid Left
+        { x: -130, y: -200, rotate: -10 }, // Center Left (Peak)
+        { x: 130, y: -200, rotate: 10 }, // Center Right (Peak)
+        { x: 350, y: 60, rotate: 20 }, // Mid Right
+        { x: 550, y: 300, rotate: 35 }, // Far Right
       ];
 
       cards.forEach((_, index) => {
-        const pos = finalPositions[index] || { x: 0, y: 0, rotate: 0 };
+        const pos = finalPositions[index] || { x: 0, y: 0 + index, rotate: 0 };
         tl.to(
           cardsRef.current[index],
           {
