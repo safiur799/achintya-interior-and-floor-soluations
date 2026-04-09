@@ -7,7 +7,9 @@ export const assets = {
   hero: "/assets/hero.png",
   kitchen: "/assets/kitchen.png",
   logo: "/assets/logo.jpeg",
-  commercial: "/images/commercial.jpg",
-  residential: "/images/residential.jpg",
-  industrial: "/images/industrial.jpg",
+  commercial: "/assets/commercial.jpg",
+  residential: "/assets/residential.jpg",
+  industrial: "/assets/industrial.jpg",
+  amazon: "/assets/amazon.png",
+  office_team: "/assets/office_team.png",
 };

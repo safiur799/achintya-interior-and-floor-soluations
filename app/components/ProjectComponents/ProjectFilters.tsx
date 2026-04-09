@@ -1,3 +1,4 @@
+import { ArrowRight } from "lucide-react";
 import React from "react";
 
 interface FilterGroupProps {
@@ -12,6 +13,9 @@ const FilterGroup = ({ title, items }: FilterGroupProps) => (
       {items.map((item, index) => (
         <button key={index} className="filter-btn">
           {item}
+          <i className="arrow_btn">
+            <ArrowRight size={14} color="var(--primary-color)" />
+          </i>
         </button>
       ))}
     </div>

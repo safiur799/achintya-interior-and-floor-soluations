@@ -1,5 +1,6 @@
 import React from "react";
 import Image, { StaticImageData } from "next/image";
+import Link from "next/link";
 
 export interface ProjectCardProps {
   image: string | StaticImageData;
@@ -20,6 +21,9 @@ const ProjectCard = ({
     <div className="project-card">
       <div className="project-card-image">
         <Image src={image} alt={title} fill />
+        <div className="hover_effect">
+          <Link href="/project-details">View</Link>
+        </div>
       </div>
       <div className="project-card-content">
         <div className="project-card-info">
