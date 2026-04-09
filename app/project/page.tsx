@@ -96,6 +96,11 @@ const Page = () => {
               <ProjectCard key={idx} {...project} />
             ))}
           </div>
+
+          <div className="bottom_navigation">
+            <button className="prev">Previous</button>
+            <button className="next">Next</button>
+          </div>
         </div>
       </section>
     </Wrapper>
