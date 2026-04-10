@@ -23,21 +23,6 @@ export default function Home() {
     gsap.registerPlugin(ScrollTrigger);
 
     const ctx = gsap.context(() => {
-      // Text Fill Animation
-      const textFills = document.querySelectorAll(".text-fill");
-      textFills.forEach((text) => {
-        gsap.to(text, {
-          backgroundSize: "100% 100%, 100% 100%",
-          ease: "none",
-          scrollTrigger: {
-            trigger: text,
-            start: "top 80%",
-            end: "top 30%",
-            scrub: 1,
-          },
-        });
-      });
-
       // Reveal Up Animation
       const revealUps = document.querySelectorAll(".reveal-up");
       revealUps.forEach((el) => {
