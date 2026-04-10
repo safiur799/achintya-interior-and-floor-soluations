@@ -1989,12 +1989,31 @@ section {
 }
 
 @media (max-width: 768px) {
-  .scattered-card {
-    width: 240px;
-    padding: 20px;
+  .scattered-section {
+    height: auto;
+    padding: 60px 20px;
+    overflow: visible;
   }
+
+  .scattered-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    height: auto;
+    width: 100%;
+    max-width: 500px;
+  }
+
+  .scattered-card {
+    position: relative;
+    width: 100%;
+    opacity: 1;
+    transform: none !important;
+    padding: 30px;
+  }
+
   .scattered-title {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
   }
 }
 

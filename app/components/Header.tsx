@@ -10,7 +10,7 @@ export default function Header({ isScrolled, toggleMenu }: HeaderProps) {
     <header className={`${isScrolled ? "scrolled" : "transparent"}`}>
       <nav>
         <div className="logo">
-          <a href="#">
+          <a href="/">
             <img src={assets.achintya_logo} alt="Achintya Interior Logo" />
           </a>
         </div>

@@ -20,7 +20,9 @@ const ScatteredCards: React.FC<ScatteredCardsProps> = ({ cards }) => {
   const cardsRef = useRef<(HTMLDivElement | null)[]>([]);
 
   useEffect(() => {
-    const ctx = gsap.context(() => {
+    const mm = gsap.matchMedia();
+
+    mm.add("(min-width: 768px)", () => {
       const tl = gsap.timeline({
         scrollTrigger: {
           trigger: scatteredContainerRef.current,
@@ -62,7 +64,7 @@ const ScatteredCards: React.FC<ScatteredCardsProps> = ({ cards }) => {
       setTimeout(() => ScrollTrigger.refresh(), 100);
     });
 
-    return () => ctx.revert();
+    return () => mm.revert();
   }, [cards]);
 
   return (
