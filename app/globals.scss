@@ -653,6 +653,16 @@ section {
     gap: 3rem;
   }
 
+  img {
+    max-width: 800px;
+    width: 100%;
+    object-fit: contain;
+
+    @media (max-width: 768px) {
+      height: 360px;
+    }
+  }
+
   .presence-list {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -1916,6 +1926,17 @@ section {
     font-size: 3rem;
     color: var(--secondary-color);
     margin-bottom: 40px;
+    line-height: 1.7;
+
+    @media (max-width: 1024px) {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+
+    @media (max-width: 768px) {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+    }
   }
 }
 
@@ -1923,11 +1944,21 @@ section {
   width: 100%;
   padding: 40px 0 100px;
   overflow: hidden;
+  @media (max-width: 1024px) {
+    padding: 20px 0 60px;
+  }
+  @media (max-width: 768px) {
+    padding: 10px 0 40px;
+  }
 
   .cards-wrapper {
     display: flex;
     gap: 20px;
     width: 100%;
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+    }
   }
 
   .choice-card {
@@ -1943,6 +1974,15 @@ section {
     overflow: hidden;
     position: relative;
 
+    @media (max-width: 768px) {
+      height: auto;
+      // min-height: 200px;
+      padding: 24px;
+      border-radius: 12px;
+      justify-content: center;
+      align-items: center;
+    }
+
     @media (max-width: 1024px) {
       padding: 30px;
     }
@@ -1950,10 +1990,19 @@ section {
     h3 {
       font-size: 30px;
       font-weight: 500;
-      line-height: 1.1;
+      line-height: 1.5;
       text-transform: none;
       max-width: 90%;
       margin-bottom: 20px;
+      @media (max-width: 1200px) {
+        font-size: 24px;
+      }
+      @media (max-width: 1024px) {
+        font-size: 20px;
+      }
+      @media (max-width: 768px) {
+        font-size: 16px;
+      }
     }
 
     p {
@@ -1987,6 +2036,12 @@ section {
     padding: 30px;
     border-radius: 12px;
     transition: var(--transition);
+    @media (max-width: 1024px) {
+      padding: 16px;
+    }
+    @media (max-width: 768px) {
+      padding: 12px;
+    }
 
     &:hover {
       background: #f0f0f0;
@@ -2012,7 +2067,10 @@ section {
 
   .career-content {
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 0 auto 60px;
+    @media (max-width: 768px) {
+      margin: 0 auto 30px;
+    }
   }
 
   .career-title {
@@ -2034,6 +2092,12 @@ section {
 
 .join-team-section {
   padding: 100px 0;
+  @media (max-width: 1024px) {
+    padding: 60px 0;
+  }
+  @media (max-width: 768px) {
+    padding: 40px 0 !important;
+  }
 
   .join-team-container {
     margin: 0 auto;
@@ -2047,6 +2111,7 @@ section {
       grid-template-columns: 1fr;
       gap: 40px;
       text-align: center;
+      padding: 0;
 
       .join-team-title,
       .join-team-description,
@@ -2067,6 +2132,12 @@ section {
     margin-bottom: 20px;
     text-transform: none;
     text-align: left;
+    @media (max-width: 1024px) {
+      font-size: 3rem;
+    }
+    @media (max-width: 768px) {
+      font-size: 2rem;
+    }
   }
 
   .join-team-description {
@@ -2113,11 +2184,18 @@ section {
     height: 480px;
     object-fit: fill;
     object-position: center;
+    @media (max-width: 1024px) {
+      height: 300px;
+    }
+    @media (max-width: 768px) {
+      height: 200px;
+    }
 
     img {
       width: 100%;
-      height: auto;
+      height: 100%;
       display: block;
+      object-fit: cover;
     }
   }
 }
@@ -2129,6 +2207,9 @@ section {
   .job-opp-container {
     margin: 0 auto;
     padding: 0 30px;
+    @media (max-width: 768px) {
+      padding: 0;
+    }
   }
 
   .job-opp-title {
@@ -2139,7 +2220,8 @@ section {
     text-align: left;
 
     @media (max-width: 768px) {
-      font-size: 2.2rem;
+      font-size: 2rem;
+      margin-bottom: 30px;
     }
   }
 
@@ -2155,6 +2237,7 @@ section {
 
     @media (max-width: 768px) {
       grid-template-columns: 1fr;
+      gap: 20px;
     }
   }
 
@@ -2234,6 +2317,9 @@ section {
     gap: 15px;
     text-align: center;
 
+    .scattered-card-inner {
+      width: 100%;
+    }
     @media (max-width: 1024px) {
       width: 280px;
     }
@@ -2243,7 +2329,8 @@ section {
       width: 100%;
       opacity: 1;
       transform: none !important;
-      padding: 30px;
+      padding: 25px;
+      justify-content: center;
     }
 
     .scattered-icon {

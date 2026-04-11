@@ -74,17 +74,14 @@ const ContactUs = () => {
         bgImage={assets.hero}
       />
 
-      <section
-        ref={sectionRef}
-        className="map-section py-20 px-6 max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-center"
-      >
+      <section ref={sectionRef} className="map-section ">
         <div className="fade-up">
           <Image
             src={assets.map_image}
             alt="India Map"
             width={800}
             height={600}
-            className="w-full h-auto"
+            className=""
             priority
           />
         </div>

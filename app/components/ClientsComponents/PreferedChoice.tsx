@@ -26,7 +26,9 @@ const PreferedChoice = () => {
   const cardsRef = useRef<(HTMLDivElement | null)[]>([]);
 
   useLayoutEffect(() => {
-    const ctx = gsap.context(() => {
+    const mm = gsap.matchMedia();
+
+    mm.add("(min-width: 768px)", () => {
       const tl = gsap.timeline({
         scrollTrigger: {
           trigger: containerRef.current,
@@ -45,7 +47,28 @@ const PreferedChoice = () => {
       });
     });
 
-    return () => ctx.revert();
+    mm.add("(max-width: 767px)", () => {
+      cardsRef.current.forEach((card) => {
+        if (!card) return;
+        gsap.fromTo(
+          card,
+          { autoAlpha: 0, y: 30 },
+          {
+            autoAlpha: 1,
+            y: 0,
+            duration: 0.6,
+            ease: "power2.out",
+            scrollTrigger: {
+              trigger: card,
+              start: "top 90%",
+              toggleActions: "play none none reverse",
+            },
+          },
+        );
+      });
+    });
+
+    return () => mm.revert();
   }, []);
 
   return (
