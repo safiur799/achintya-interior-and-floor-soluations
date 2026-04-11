@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Inter, Montserrat } from "next/font/google";
-import "./globals.css";
+import "./globals.scss";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/effect-fade";
@@ -18,7 +18,8 @@ const montserrat = Montserrat({
 
 export const metadata: Metadata = {
   title: "Achintya Interior and Floor Solutions | Premium Design & Flooring",
-  description: "Experience bespoke interior design and premium flooring solutions with Achintya. Transforming spaces into masterpieces.",
+  description:
+    "Experience bespoke interior design and premium flooring solutions with Achintya. Transforming spaces into masterpieces.",
 };
 
 export default function RootLayout({

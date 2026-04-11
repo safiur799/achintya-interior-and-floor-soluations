@@ -83,7 +83,7 @@ const TeamSection = () => {
         <div className="team-header">
           <h2>Our team</h2>
           <p>
-            Led by Mr. Shankar Kularia and Mr. Dharam Kularia, Padams Group is
+            Led by Mr. Shankar Kularia and Mr. Dharam Kularia, Achintya Group is
             powered by a dedicated workforce of over 5,000 professionals. Our
             Head Office in Mumbai, with them, overseeing core operations across
             India, while our regional offices, managed by experienced Regional

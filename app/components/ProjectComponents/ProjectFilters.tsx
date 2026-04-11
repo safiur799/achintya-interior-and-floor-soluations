@@ -1,5 +1,6 @@
-import { ArrowRight } from "lucide-react";
-import React from "react";
+"use client";
+import { ArrowRight, Filter, X } from "lucide-react";
+import React, { useState } from "react";
 
 interface FilterGroupProps {
   title: string;
@@ -28,10 +29,29 @@ interface ProjectFiltersProps {
 }
 
 const ProjectFilters = ({ sectors, locations }: ProjectFiltersProps) => {
+  const [isMobileOpen, setIsMobileOpen] = useState(false);
+
   return (
-    <aside className="project-filters">
-      <FilterGroup title="Sort by sector" items={sectors} />
-      <FilterGroup title="Sort by location" items={locations} />
+    <aside className={`project-filters ${isMobileOpen ? "is-open" : ""}`}>
+      <button
+        className="filter-toggle-btn"
+        onClick={() => setIsMobileOpen(!isMobileOpen)}
+      >
+        {isMobileOpen ? (
+          <>
+            <X size={20} /> Close Filters
+          </>
+        ) : (
+          <>
+            <Filter size={20} /> Show Filters
+          </>
+        )}
+      </button>
+
+      <div className="filters-content">
+        <FilterGroup title="Sort by sector" items={sectors} />
+        <FilterGroup title="Sort by location" items={locations} />
+      </div>
     </aside>
   );
 };

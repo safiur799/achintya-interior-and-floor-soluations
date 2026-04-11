@@ -2,7 +2,6 @@
 import React, { useEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { MotionPathPlugin } from "gsap/MotionPathPlugin";
 import Wrapper from "../layout/Wrapper";
 import CommonBanner from "../components/CommonBanner";
 import { assets } from "../json/assets";
@@ -67,8 +66,16 @@ export const solutionCards: ExpertiseCardProps[] = [
 ];
 
 const Page = () => {
+  const trackRef = React.useRef<HTMLDivElement>(null);
+  const dotRef = React.useRef<HTMLDivElement>(null);
+
   useEffect(() => {
-    gsap.registerPlugin(ScrollTrigger, MotionPathPlugin);
+    gsap.registerPlugin(ScrollTrigger);
+
+    const track = trackRef.current;
+    const dot = dotRef.current;
+
+    if (!track || !dot) return;
 
     const tl = gsap.timeline({
       scrollTrigger: {
@@ -83,13 +90,9 @@ const Page = () => {
       scaleY: 1,
       ease: "none",
     }).to(
-      ".expertise-scroll-dot",
+      dot,
       {
-        motionPath: {
-          path: "#scrollPath",
-          align: "#scrollPath",
-          alignOrigin: [0.5, 0.5],
-        },
+        y: () => track.offsetHeight - dot.offsetHeight,
         ease: "none",
       },
       0,
@@ -108,19 +111,11 @@ const Page = () => {
         bgImage={assets.hero}
       />
       <section className="expertise-section">
-        <div className="expertise-scroll-track">
+        <div className="expertise-scroll-track" ref={trackRef}>
           <div className="expertise-scroll-line">
             <div className="expertise-scroll-progress"></div>
           </div>
-          <div className="expertise-scroll-dot"></div>
-          <svg
-            className="expertise-scroll-path-svg"
-            viewBox="0 0 2 1000"
-            preserveAspectRatio="none"
-            style={{ height: "100%", position: "absolute", top: 0 }}
-          >
-            <path id="scrollPath" d="M1,0 L1,1000" fill="none" />
-          </svg>
+          <div className="expertise-scroll-dot" ref={dotRef}></div>
         </div>
         <div className="expertise-cards-container">
           {solutionCards.map((card, idx) => (
