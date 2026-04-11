@@ -14,15 +14,15 @@ export default function Contact({
       <h2 className="section-title">Get In Touch</h2>
       <div className="contact-container">
         <div className="contact-info">
-          <h3>Mumbai HQ</h3>
-          <p>Achintya Interior and Floor Solutions</p>
-          <p>1101, Lotus Trade Centre, Andheri West, Mumbai 400058</p>
+          <h3>Kolkata HQ</h3>
+          <p>Baligori Rd, Uniworld City, Newtown, kolkata</p>
+          <p>Baligari, West Bengal 700160</p>
           <br />
           <p>
-            <strong>Email:</strong> queries@achintya.in
+            <strong>Email:</strong> support@achintyainterior.com
           </p>
           <p>
-            <strong>Phone:</strong> (+91) 22267 39000
+            <strong>Phone:</strong> +917439749267
           </p>
           <br />
           <div

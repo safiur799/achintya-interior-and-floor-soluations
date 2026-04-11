@@ -12,7 +12,7 @@ export default function Header({ isScrolled, toggleMenu }: HeaderProps) {
       <nav>
         <div className="logo">
           <Link href="/">
-            <img src={assets.achintya_logo} alt="Achintya Interior Logo" />
+            <img src={assets.logo} alt="Achintya Interior Logo" />
           </Link>
         </div>
         <div className="header-right">
