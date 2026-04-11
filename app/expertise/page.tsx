@@ -66,8 +66,16 @@ export const solutionCards: ExpertiseCardProps[] = [
 ];
 
 const Page = () => {
+  const trackRef = React.useRef<HTMLDivElement>(null);
+  const dotRef = React.useRef<HTMLDivElement>(null);
+
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
+
+    const track = trackRef.current;
+    const dot = dotRef.current;
+
+    if (!track || !dot) return;
 
     const tl = gsap.timeline({
       scrollTrigger: {
@@ -82,12 +90,9 @@ const Page = () => {
       scaleY: 1,
       ease: "none",
     }).to(
-      ".expertise-scroll-dot",
+      dot,
       {
-        y: (index, target) => {
-          const track = document.querySelector(".expertise-scroll-track");
-          return track ? track.clientHeight : 0;
-        },
+        y: () => track.offsetHeight - dot.offsetHeight,
         ease: "none",
       },
       0,
@@ -106,12 +111,13 @@ const Page = () => {
         bgImage={assets.hero}
       />
       <section className="expertise-section">
-        <div className="expertise-cards-container">
-          {/* <div className="expertise-scroll-track">
-            <div className="expertise-scroll-line"></div>
+        <div className="expertise-scroll-track" ref={trackRef}>
+          <div className="expertise-scroll-line">
             <div className="expertise-scroll-progress"></div>
-            <div className="expertise-scroll-dot"></div>
-          </div> */}
+          </div>
+          <div className="expertise-scroll-dot" ref={dotRef}></div>
+        </div>
+        <div className="expertise-cards-container">
           {solutionCards.map((card, idx) => (
             <ExpertiseCard key={idx} {...card} />
           ))}

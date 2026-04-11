@@ -12,4 +12,7 @@ export const assets = {
   industrial: "/assets/industrial.jpg",
   amazon: "/assets/amazon.png",
   office_team: "/assets/office_team.png",
+  map_image: "/assets/map.png",
+  founders: "/assets/founders.png",
+  team_wide: "/assets/team_wide.png",
 };

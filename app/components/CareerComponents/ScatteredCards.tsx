@@ -20,7 +20,11 @@ const ScatteredCards: React.FC<ScatteredCardsProps> = ({ cards }) => {
   const cardsRef = useRef<(HTMLDivElement | null)[]>([]);
 
   useEffect(() => {
-    const ctx = gsap.context(() => {
+    const mm = gsap.matchMedia();
+
+    const setupTimeline = (
+      finalPositions: { x: number; y: number; rotate: number }[],
+    ) => {
       const tl = gsap.timeline({
         scrollTrigger: {
           trigger: scatteredContainerRef.current,
@@ -32,18 +36,8 @@ const ScatteredCards: React.FC<ScatteredCardsProps> = ({ cards }) => {
         },
       });
 
-      // Arc positions (relative to center)
-      const finalPositions = [
-        { x: -600, y: 300, rotate: -35 }, // Far Left
-        { x: -360, y: 50, rotate: -20 }, // Mid Left
-        { x: -120, y: -200, rotate: -5 }, // Center Left (Peak)
-        { x: 120, y: -200, rotate: 5 }, // Center Right (Peak)
-        { x: 360, y: 50, rotate: 20 }, // Mid Right
-        { x: 600, y: 300, rotate: 35 }, // Far Right
-      ];
-
       cards.forEach((_, index) => {
-        const pos = finalPositions[index] || { x: 0, y: 0, rotate: 0 };
+        const pos = finalPositions[index] || { x: 0, y: 0 + index, rotate: 0 };
         tl.to(
           cardsRef.current[index],
           {
@@ -58,11 +52,36 @@ const ScatteredCards: React.FC<ScatteredCardsProps> = ({ cards }) => {
         );
       });
 
-      // Refresh ScrollTrigger after a slight delay to ensure other pins are handled
       setTimeout(() => ScrollTrigger.refresh(), 100);
+    };
+
+    mm.add("(min-width: 1025px)", () => {
+      // Arc positions for Desktop (relative to center)
+      const finalPositions = [
+        { x: -550, y: 300, rotate: -35 }, // Far Left
+        { x: -350, y: 60, rotate: -20 }, // Mid Left
+        { x: -130, y: -200, rotate: -10 }, // Center Left (Peak)
+        { x: 130, y: -200, rotate: 10 }, // Center Right (Peak)
+        { x: 350, y: 60, rotate: 20 }, // Mid Right
+        { x: 550, y: 300, rotate: 35 }, // Far Right
+      ];
+      setupTimeline(finalPositions);
     });
 
-    return () => ctx.revert();
+    mm.add("(min-width: 768px) and (max-width: 1024px)", () => {
+      // Scaled arc positions for Tablet (768px-1024px)
+      const finalPositions = [
+        { x: -300, y: 220, rotate: -35 }, // Far Left
+        { x: -240, y: 40, rotate: -20 }, // Mid Left
+        { x: -90, y: -150, rotate: -10 }, // Center Left (Peak)
+        { x: 90, y: -150, rotate: 10 }, // Center Right (Peak)
+        { x: 240, y: 40, rotate: 20 }, // Mid Right
+        { x: 300, y: 220, rotate: 35 }, // Far Right
+      ];
+      setupTimeline(finalPositions);
+    });
+
+    return () => mm.revert();
   }, [cards]);
 
   return (
