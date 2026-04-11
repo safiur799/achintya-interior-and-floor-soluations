@@ -1582,6 +1582,9 @@ section {
 
   .project-right {
     flex: 1;
+    @media (max-width: 768px) {
+      width: 100%;
+    }
 
     .bottom_navigation {
       display: flex;
