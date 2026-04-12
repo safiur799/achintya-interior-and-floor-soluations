@@ -47,32 +47,50 @@ const locations = [
 
 const projects: ProjectCardProps[] = [
   {
-    image: assets.bedroom,
-    title: "RELIANCE INDUSTRIES",
-    location: "Mumbai",
-    sector: "Conglomerate",
-    sqft: "300,000",
+    image: [
+      assets.office_conference_room,
+      assets.office_workspace_desks,
+      assets.modern_conference_room_view_2,
+    ],
+    title: "SWEVEX TECH SOLUTION / BT GLOBAL / NEXTRA",
+    location: "",
+    sector: "Corporate Office",
+    sqft: "",
+    description: "Workstation and conference room",
   },
   {
-    image: assets.kitchen,
-    title: "HDFC BANK",
-    location: "Delhi",
-    sector: "BFSI",
-    sqft: "150,000",
+    image: [
+      assets.biophilic_office_corridor,
+      assets.office_breakout_pods,
+      assets.open_office_with_cabins,
+    ],
+    title: "COGNIZANT",
+    location: "",
+    sector: "Technology / IT",
+    sqft: "",
+    description: "Workstation and conference area and breakout zone",
   },
   {
-    image: assets.bedroom,
-    title: "GOOGLE",
-    location: "Hyderabad",
-    sector: "Technology",
-    sqft: "250,000",
+    image: [
+      assets.vibrant_office_cafeteria,
+      assets.vibrant_office_cafeteria_view_2,
+    ],
+    title: "CAFETERIA PROJECTS",
+    location: "",
+    sector: "Hospitality / Corporate",
+    sqft: "",
+    description: "Cafeteria area",
   },
   {
-    image: assets.kitchen,
-    title: "AMAZON",
-    location: "Bengaluru",
-    sector: "E-commerce",
-    sqft: "400,000",
+    image: [
+      assets.large_open_office_floor,
+      assets.industrial_modern_office_wide,
+    ],
+    title: "EY (Ernst & Young)",
+    location: "",
+    sector: "Consulting / Audit",
+    sqft: "",
+    description: "Workstation and manager desk",
   },
 ];
 
@@ -82,8 +100,7 @@ const Page = () => {
       <CommonBanner
         title="Projects"
         description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis hic asperiores error, illo fuga facilis veniam nemo ullam esse excepturi eaque ea quibusdam. Praesentium possimus officiis dicta voluptates magnam velit."
-        bgImage={assets.dummy_video}
-        isVideo
+        bgImage={assets.vibrant_breakout_swing_area}
       />
 
       <section className="projects-section">

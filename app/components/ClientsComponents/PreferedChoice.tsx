@@ -7,17 +7,19 @@ gsap.registerPlugin(ScrollTrigger);
 
 const cardData = [
   {
-    title: "Trusted by 200+ Global Clients",
+    title: "Cost-Optimized Execution without compromising quality.",
   },
   {
-    title: "Serving Industry Leaders from Fortune 10 to Fortune 500",
+    title: "Strong Project Management ensuring timely delivery.",
   },
   {
-    title: "60% Client retention through Trusted Partnerships",
+    title: "Scalable Operations for large commercial projects.",
   },
   {
-    title:
-      "Diverse Industry Experience in BFSI, IT, Real Estate and 20+ sectors",
+    title: "Client-Centric Approach with customized solutions.",
+  },
+  {
+    title: "Deep understanding of compliance-driven environments (NBFC norms).",
   },
 ];
 

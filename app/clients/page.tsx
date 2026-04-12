@@ -13,7 +13,7 @@ const page = () => {
       <CommonBanner
         title="Our Clients"
         description="Lorem ipsum dolor sit amet consectetur adipisicing elit. A sint nulla iusto doloremque dignissimos! Consequuntur"
-        bgImage={assets.hero}
+        bgImage={assets.large_open_office_floor}
       />
 
       <section className="clients-section">
