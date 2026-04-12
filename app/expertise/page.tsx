@@ -10,57 +10,82 @@ import ExpertiseCard, {
 } from "../components/ExpertiseComponents/ExpertiseCard";
 
 export const solutionCards: ExpertiseCardProps[] = [
-  // ... existing cards ...
   {
     id: 1,
-    title: "Build Solutions",
-    image: assets.bedroom,
+    title: "Corporate Interiors",
+    image: assets.office_conference_room,
     description:
-      "For over 30 years, Padams has delivered world-class facilities across India with a core focus on comprehensive build solutions. Driven by a commitment to excellence and innovation, we bring global design standards to life, transforming spaces for international, multinational, and traditional business houses. Our hallmark is precision execution, with safety and quality at the forefront. Senior management’s dedicated attention to each client ensures an exceptional and seamless project experience.",
+      "We specialize in creating high-performance corporate environments that foster productivity, collaboration, and brand identity. From ergonomic workstations to executive suites, our designs are future-ready.",
     services: [
-      "Interior Fitout Execution",
-      "Turnkey Interior Solutions",
-      "Customized Joinery & Furniture",
-      "Landscaping & Hardscaping Works",
+      "Space Planning",
+      "Modular Workstations",
+      "Executive Cabins",
+      "Conference Room Integration",
     ],
   },
   {
     id: 2,
-    title: "Design Solutions",
-    image: assets.bedroom,
+    title: "NBFC Workspaces",
+    image: assets.executive_office_main_view,
     description:
-      "For over 30 years, Padams has delivered world-class facilities across India with a core focus on comprehensive build solutions. Driven by a commitment to excellence and innovation, we bring global design standards to life, transforming spaces for international, multinational, and traditional business houses. Our hallmark is precision execution, with safety and quality at the forefront. Senior management’s dedicated attention to each client ensures an exceptional and seamless project experience.",
+      "Tailored interior solutions for Non-Banking Financial Companies (NBFCs). We focus on creating secure, professional, and customer-centric spaces that reflect financial stability and trust.",
     services: [
-      "Interior Fitout Execution",
-      "Turnkey Interior Solutions",
-      "Customized Joinery & Furniture",
-      "Landscaping & Hardscaping Works",
+      "Secure Branch Layouts",
+      "Transaction Counters",
+      "Client Lounge Areas",
+      "Acoustic Solutions",
     ],
   },
   {
     id: 3,
-    title: "Workplace Strategy",
-    image: assets.bedroom,
+    title: "Turnkey Solutions",
+    image: assets.staircase_with_led_lighting,
     description:
-      "For over 30 years, Padams has delivered world-class facilities across India with a core focus on comprehensive build solutions. Driven by a commitment to excellence and innovation, we bring global design standards to life, transforming spaces for international, multinational, and traditional business houses. Our hallmark is precision execution, with safety and quality at the forefront. Senior management’s dedicated attention to each client ensures an exceptional and seamless project experience.",
+      "Our turnkey approach means we handle everything from site survey and conceptualization to material procurement and final site execution. You get a move-in-ready space with zero hassle.",
     services: [
-      "Interior Fitout Execution",
-      "Turnkey Interior Solutions",
-      "Customized Joinery & Furniture",
-      "Landscaping & Hardscaping Works",
+      "End-to-End Project Management",
+      "Budget Control",
+      "Quality Assurance",
+      "Timely Delivery",
     ],
   },
   {
     id: 4,
-    title: "Integrated Facility Management",
-    image: assets.bedroom,
+    title: "Flooring Systems",
+    image: assets.flooring,
     description:
-      "For over 30 years, Padams has delivered world-class facilities across India with a core focus on comprehensive build solutions. Driven by a commitment to excellence and innovation, we bring global design standards to life, transforming spaces for international, multinational, and traditional business houses. Our hallmark is precision execution, with safety and quality at the forefront. Senior management’s dedicated attention to each client ensures an exceptional and seamless project experience.",
+      "With a legacy in flooring excellence, we provide durable and aesthetically superior flooring solutions including carpets, vinyl, wooden, and industrial grade surfaces for every need.",
     services: [
-      "Interior Fitout Execution",
-      "Turnkey Interior Solutions",
-      "Customized Joinery & Furniture",
-      "Landscaping & Hardscaping Works",
+      "Carpet Tiles & Broadlooms",
+      "Luxury Vinyl Tiles (LVT)",
+      "Engineered Wood Flooring",
+      "Epoxy & Industrial Coatings",
+    ],
+  },
+  {
+    id: 5,
+    title: "Space Planning",
+    image: assets.open_layout_workspaces,
+    description:
+      "Maximizing the utility of every square foot. Our expert space planning ensures smooth traffic flow, optimal light distribution, and a layout that aligns with your operational requirements.",
+    services: [
+      "Occupancy Analysis",
+      "Zoning & Layout Design",
+      "Circulation Optimization",
+      "Future Expansion Planning",
+    ],
+  },
+  {
+    id: 6,
+    title: "Cost Engineering",
+    image: assets.building_reception_directory,
+    description:
+      "Achieving high-end results within budget through smart material selection and value engineering. We help you balance cost, quality, and time to maximize your project's ROI.",
+    services: [
+      "Value Engineering",
+      "Bill of Quantities (BOQ)",
+      "Material Lifecycle Analysis",
+      "Procurement Strategy",
     ],
   },
 ];

@@ -30,7 +30,7 @@ export default function Contact({
             style={{ borderRadius: "12px", height: "150px" }}
           >
             <img
-              src={assets.hero}
+              src={assets.graffiti_social_area}
               alt="Office Sample"
               style={{ height: "100%", width: "100%", objectFit: "cover" }}
             />

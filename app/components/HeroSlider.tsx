@@ -2,25 +2,29 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, EffectFade } from "swiper/modules";
 
 import { assets } from "../json/assets";
+import Image from "next/image";
 
 const slides = [
   {
-    bg: assets.hero,
+    bg: assets.large_open_office_floor,
     title: "Redefining Interiors",
     desc: "Tailored solutions for modern living spaces.",
     btn: "Discover More",
+    isVideo: false,
   },
   {
-    bg: assets.flooring,
+    bg: assets.bedroom_bed_detail,
     title: "Premium Flooring",
     desc: "Elegance under every step.",
     btn: "Explore Collections",
+    isVideo: false,
   },
   {
-    bg: assets.kitchen,
+    bg: assets.biophilic_office_corridor,
     title: "Functional Art",
     desc: "Kitchens that inspire culinary creativity.",
     btn: "Contact Us",
+    isVideo: false,
   },
 ];
 
@@ -38,14 +42,24 @@ export default function HeroSlider() {
       >
         {slides.map((slide, index) => (
           <SwiperSlide key={index}>
-            <video
-              src={assets.dummy_video}
-              autoPlay
-              loop
-              muted
-              playsInline
-              className="video-background"
-            />
+            {slide.isVideo ? (
+              <video
+                src={slide.bg}
+                autoPlay
+                loop
+                muted
+                playsInline
+                className="video-background"
+              />
+            ) : (
+              <Image
+                src={slide.bg}
+                alt={slide.title}
+                width={1920}
+                height={1080}
+                className="video-background"
+              />
+            )}
             <div className="hero-content">
               <h1 className="reveal-text">{slide.title}</h1>
               <p>{slide.desc}</p>

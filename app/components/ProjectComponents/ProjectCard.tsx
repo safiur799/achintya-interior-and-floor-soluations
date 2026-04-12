@@ -5,12 +5,13 @@ import Link from "next/link";
 import ImageCarouselDialog from "../ui/ImageCarouselDialog";
 
 export interface ProjectCardProps {
-  image: string | StaticImageData;
+  image: string[] | StaticImageData[];
   images?: (string | StaticImageData)[];
-  title: string;
-  location: string;
-  sector: string;
-  sqft: string;
+  title?: string;
+  location?: string;
+  sector?: string;
+  sqft?: string;
+  description?: string;
 }
 
 const ProjectCard = ({
@@ -20,17 +21,18 @@ const ProjectCard = ({
   location,
   sector,
   sqft,
+  description,
 }: ProjectCardProps) => {
   const [isDialogOpen, setIsDialogOpen] = useState(false);
 
   // If no multiple images provided, use the main image as a fallback
-  const carouselImages = images.length > 0 ? images : [image];
+  const carouselImages = images.length > 0 ? images : image;
 
   return (
     <>
       <div className="project-card">
         <div className="project-card-image">
-          <Image src={image} alt={title} fill />
+          <Image src={image[0]} alt={title!} fill />
           <div className="hover_effect">
             <button onClick={() => setIsDialogOpen(true)}>View</button>
           </div>
@@ -39,16 +41,23 @@ const ProjectCard = ({
           <div className="project-card-info">
             <div className="project-card-text">
               <h2 className="project-card-title">{title}</h2>
+              <p className="description">{description}</p>
               <div className="project-card-details">
-                <p>
-                  <strong>Location:</strong> {location}
-                </p>
-                <p>
-                  <strong>Sector:</strong> {sector}
-                </p>
-                <p>
-                  <strong>Sq.ft:</strong> {sqft}
-                </p>
+                {location && (
+                  <p>
+                    <strong>Location:</strong> {location}
+                  </p>
+                )}
+                {sector && (
+                  <p>
+                    <strong>Sector:</strong> {sector}
+                  </p>
+                )}
+                {sqft && (
+                  <p>
+                    <strong>Sq.ft:</strong> {sqft}
+                  </p>
+                )}
               </div>
             </div>
             <div className="project-card-action">
@@ -74,7 +83,7 @@ const ProjectCard = ({
         isOpen={isDialogOpen}
         onClose={() => setIsDialogOpen(false)}
         images={carouselImages}
-        title={title}
+        title={title!}
       />
     </>
   );

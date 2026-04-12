@@ -8,19 +8,19 @@ const cards = [
     title: "Commercial",
     description:
       "We provide comprehensive interior design and flooring solutions for commercial spaces, including offices, retail stores, restaurants, and hospitality venues. Our focus is on creating functional, aesthetically pleasing environments that enhance productivity and brand identity.",
-    image: assets.bedroom,
+    image: assets.curved_desk_workspace,
   },
   {
     title: "Residential",
     description:
       "Transform your home with our expert interior design and flooring services. From modern living rooms to cozy bedrooms, we specialize in creating personalized spaces that reflect your style and comfort.",
-    image: assets.flooring,
+    image: assets.high_ceiling_living_room_alt,
   },
   {
     title: "Industrial",
     description:
       "Durable, high-performance flooring solutions for industrial environments. We offer a range of materials designed to withstand heavy traffic, chemical exposure, and demanding conditions while maintaining safety and functionality.",
-    image: assets.kitchen,
+    image: assets.executive_office_wall_decor,
   },
 ];
 
