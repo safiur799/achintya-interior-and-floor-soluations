@@ -1,0 +1,145 @@
+{
+  "categories": [
+    {
+      "id": "tactile-indicators",
+      "title": "Tactile Indicators",
+      "description": "Premium Tactile Indicators and Directional Strips for safety and aesthetics.",
+      "image": "https://tactileindicators.in/wp-content/uploads/2022/04/category-tactile.jpg",
+      "subcategories": [
+        {
+          "id": "tactile-strips",
+          "title": "Tactile Strips",
+          "image": "https://tactileindicators.in/wp-content/uploads/2022/04/tactile-strips-category.jpg",
+          "products": [
+            {
+              "id": "et-dts001",
+              "title": "Stainless Steel Tactile Strip with Stem Linear Pattern On Top (Machine Finish)",
+              "sku": "ET-DTS001",
+              "image": "https://tactileindicators.in/wp-content/uploads/2021/02/DTS012-01.webp",
+              "material_grades": ["SS 316", "SS 304 (Marine Grade)"],
+              "colors": ["Grey", "Rose Gold", "Yellow Gold", "Blue", "Black"],
+              "quick_specs": {
+                "diameter": "35mm / 25mm",
+                "dimensions": "35 X 25 X 4.5mm",
+                "length": "280mm",
+                "sq_mtr_ratio": "44 Pcs"
+              },
+              "technical_specs": {
+                "Product Type": "Tactile Strip",
+                "Finish": "Machine Finish",
+                "Corrosion Resistance": "Yes",
+                "Anti-Slip": "Yes",
+                "Weather Resistant": "Yes (UV & Rain)"
+              },
+              "gallery_images": [
+                "https://tactileindicators.in/wp-content/uploads/2021/02/DTS012-01.webp",
+                "https://tactileindicators.in/wp-content/uploads/2021/02/DTS012-02.webp"
+              ],
+              "description": "Stainless steel tactile strips, also known as tactile directional indicators or TGSI strips, are designed to provide clear and continuous navigation guidance for visually impaired pedestrians in public and commercial environments."
+            }
+          ]
+        },
+        {
+          "id": "tactile-studs",
+          "title": "Tactile Studs",
+          "image": "https://tactileindicators.in/wp-content/uploads/2022/04/tactile-studs-category.jpg",
+          "products": [
+            {
+              "id": "et-wts001",
+              "title": "Stainless Steel Tactile Warning Stud With Concentric Rings Pattern on Top",
+              "sku": "ET-WTS001",
+              "image": "https://tactileindicators.in/wp-content/uploads/2021/02/WTS001-01.webp",
+              "material_grades": ["SS 316", "SS 304"],
+              "colors": ["Silver", "Rose Gold", "Yellow Gold"],
+              "quick_specs": {
+                "diameter": "35mm / 25mm",
+                "dimensions": "35 X 25 X 4.5mm",
+                "sq_mtr_ratio": "400 Studs per Sq.Mtr"
+              },
+              "technical_specs": {
+                "Product Type": "Tactile Stud",
+                "Top Design": "Concentric Rings",
+                "Anti-Slip": "Yes"
+              },
+              "gallery_images": [
+                "https://tactileindicators.in/wp-content/uploads/2021/02/WTS001-01.webp",
+                "https://tactileindicators.in/wp-content/uploads/2021/02/WTS001-02.webp"
+              ],
+              "description": "High-quality stainless steel tactile warning studs with a concentric ring pattern to ensure safety and guidance for the visually impaired."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bollards",
+      "title": "Bollards",
+      "description": "Durable and aesthetic bollards for traffic control and architectural styling.",
+      "image": "https://tactileindicators.in/wp-content/uploads/2022/04/category-bollards.jpg",
+      "subcategories": [
+        {
+          "id": "below-ground",
+          "title": "Below Ground Surface Bollard",
+          "image": "https://tactileindicators.in/wp-content/uploads/2022/04/category-bollards.jpg",
+          "products": [
+            {
+              "id": "ebgb001",
+              "title": "Below Ground Surface Bollard",
+              "sku": "EBGB001",
+              "image": "https://tactileindicators.in/wp-content/uploads/2022/04/category-bollards.jpg",
+              "material_grades": ["Galvanized Steel", "Powder Coated", "SS304", "SS316"],
+              "quick_specs": {
+                "Diameter": "90mm, 114mm, 140mm",
+                "Height": "900mm, 1000mm, 1200mm",
+                "Thickness": "3mm, 4mm, 5mm"
+              },
+              "technical_specs": {
+                "Material": "Robust Construction",
+                "Installation": "Below Ground"
+              },
+              "description": "Robust below-ground bollards designed for maximum security and durability in various environments."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "road-studs",
+      "title": "Road Studs",
+      "description": "Enhanced visibility and safety with premium road studs.",
+      "image": "https://tactileindicators.in/wp-content/uploads/2022/04/category-road-studs.jpg",
+      "subcategories": [
+        {
+          "id": "metal-road-studs",
+          "title": "Metal Road Studs",
+          "image": "https://tactileindicators.in/wp-content/uploads/2022/04/category-road-studs.jpg",
+          "products": [
+            {
+              "id": "et-ris001",
+              "title": "Stainless Steel Road Stud with Bulged Top",
+              "sku": "ET-RIS001",
+              "image": "https://tactileindicators.in/wp-content/uploads/2022/04/category-road-studs.jpg",
+              "material_grades": ["SS 316", "SS 304"],
+              "quick_specs": {
+                "dimensions": "90 X 15mm"
+              },
+              "technical_specs": {
+                "Product Type": "Road Stud",
+                "Material": "Stainless Steel"
+              },
+              "description": "High-visibility stainless steel road studs for effective traffic management."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "client_logos": [
+    "https://tactileindicators.in/wp-content/uploads/2022/05/steiner.png",
+    "https://tactileindicators.in/wp-content/uploads/2022/05/western-railway.png",
+    "https://tactileindicators.in/wp-content/uploads/2022/05/fifa.png",
+    "https://tactileindicators.in/wp-content/uploads/2022/05/aecom.png",
+    "https://tactileindicators.in/wp-content/uploads/2022/05/jll.png",
+    "https://tactileindicators.in/wp-content/uploads/2022/05/accenture.png"
+  ]
+}

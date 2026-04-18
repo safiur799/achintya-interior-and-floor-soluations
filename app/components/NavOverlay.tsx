@@ -12,6 +12,7 @@ interface NavOverlayProps {
 }
 
 const menuLinks = [
+  { href: "/products", text: "Products" },
   { href: "project", text: "Projects" },
   { href: "/expertise", text: "Our Expertise" },
   { href: "/about-us", text: "About Us" },
@@ -94,7 +95,7 @@ export default function NavOverlay({
                 <path d="m22 2-7 20-4-9-9-4Z" />
                 <path d="M22 2 11 13" />
               </svg>
-              queries@achintya.in
+              support@achintyainteriors.com
             </p>
           </div>
         </div>

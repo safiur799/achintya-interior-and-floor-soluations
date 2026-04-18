@@ -91,7 +91,7 @@ const ContactUs = () => {
             <h2 className="text-[#e31e24] text-4xl font-montserrat uppercase mb-2 font-medium">
               Head Office
             </h2>
-            <p className="text-xl font-medium text-gray-800">Mumbai</p>
+            <p className="text-xl font-medium text-gray-800">Kolkata</p>
           </div>
 
           <div className="fade-up">
