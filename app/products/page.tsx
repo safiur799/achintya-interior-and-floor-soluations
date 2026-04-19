@@ -44,7 +44,7 @@ const ProductsPage = () => {
       <CommonBanner
         title="Our Products"
         description="Premium solutions for interiors and flooring, designed for durability and aesthetics."
-        bgImage={assets.industrial}
+        bgImage={assets.elegant_corridor}
       />
       <section className="product-categories-section">
         <div className="product-categories-grid">
