@@ -71,15 +71,18 @@ export default function NavOverlay({
         </ul>
         <div className="overlay-footer" ref={overlayFooterRef}>
           <div className="overlay-socials">
-            <a href="#">
+            <a
+              href="https://www.facebook.com/people/Achintiya-Interiors/61588450906412/"
+              target="_blank"
+            >
               <Facebook />
             </a>{" "}
-            <a href="#">
+            <a
+              href="https://www.instagram.com/achintya.interiors"
+              target="_blank"
+            >
               <Instagram />
             </a>{" "}
-            <a href="#">
-              <LinkedIn />
-            </a>
           </div>
           <div className="overlay-contact">
             <p>
