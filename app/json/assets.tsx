@@ -107,4 +107,7 @@ export const assets = {
   logo_tata: "/assets/logo_tata.png",
   logo_jio: "/assets/logo_jio.png",
   logo_iss: "/assets/logo_iss.png",
+  tactile_studs: "/assets/tactile_studs.webp",
+  tactile_strips: "/assets/tactile-strips.webp",
+  tactile_tiles: "/assets/tactile-tiles.webp",
 };

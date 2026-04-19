@@ -5,25 +5,35 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Wrapper from "../layout/Wrapper";
 import CommonBanner from "../components/CommonBanner";
 import { assets } from "../json/assets";
-import { categories } from "../json/products.json";
+import { categories as categoriesData } from "../json/products.json";
+import { Category } from "../types/product";
 import Link from "next/link";
+
+const categories = categoriesData as unknown as Category[];
 
 const ProductsPage = () => {
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
 
-    const ctx = gsap.context(() => {
-      gsap.from(".product-cat-card", {
-        y: 50,
-        opacity: 0,
-        duration: 1,
-        stagger: 0.2,
-        ease: "power3.out",
-        scrollTrigger: {
-          trigger: ".product-categories-grid",
-          start: "top 80%",
+    let ctx = gsap.context(() => {
+      gsap.fromTo(
+        ".product-cat-card",
+        {
+          y: 50,
+          opacity: 0,
         },
-      });
+        {
+          y: 0,
+          opacity: 1,
+          duration: 1,
+          stagger: 0.2,
+          ease: "power3.out",
+          scrollTrigger: {
+            trigger: ".product-categories-grid",
+            start: "top 80%",
+          },
+        },
+      );
     });
 
     return () => ctx.revert();
@@ -50,7 +60,7 @@ const ProductsPage = () => {
               <div className="product-cat-overlay">
                 <h3>{category.title}</h3>
                 <p>{category.description}</p>
-                <div className="explore-btn">Explore Range</div>
+                {/* <div className="explore-btn">Explore Range</div> */}
               </div>
             </Link>
           ))}

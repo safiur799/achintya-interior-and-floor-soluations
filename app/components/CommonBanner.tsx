@@ -5,6 +5,7 @@ interface CommonBannerProps {
   bgImage: string;
   description?: string;
   isVideo?: boolean;
+  children?: React.ReactNode;
 }
 
 const CommonBanner = ({
@@ -12,10 +13,11 @@ const CommonBanner = ({
   bgImage,
   description,
   isVideo = false,
+  children,
 }: CommonBannerProps) => {
   return (
     <div
-      className="common-banner"
+      className={"common-banner" + (children ? " banner-with-children" : "")}
       style={!isVideo ? { backgroundImage: `url(${bgImage})` } : {}}
     >
       {isVideo && (
@@ -31,6 +33,7 @@ const CommonBanner = ({
       <div className="banner-overlay">
         <h1 className="reveal-text">{title}</h1>
         {description && <p>{description}</p>}
+        {children && <div className="banner-children">{children}</div>}
       </div>
     </div>
   );

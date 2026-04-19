@@ -5,16 +5,23 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Wrapper from "../../../layout/Wrapper";
 import CommonBanner from "../../../components/CommonBanner";
-import { categories } from "../../../json/products.json";
+import { categories as categoriesData } from "../../../json/products.json";
+import { Category } from "../../../types/product";
 import Link from "next/link";
+
+const categories = categoriesData as unknown as Category[];
 
 const ProductListingPage = () => {
   const params = useParams();
   const categoryId = params.category as string;
   const subcategoryId = params.subcategory as string;
 
-  const category = categories.find((c) => c.id.toLowerCase() === categoryId?.toLowerCase());
-  const subcategory = category?.subcategories?.find((s) => s.id.toLowerCase() === subcategoryId?.toLowerCase());
+  const category = categories.find(
+    (c) => c.id.toLowerCase() === categoryId?.toLowerCase(),
+  );
+  const subcategory = category?.subcategories?.find(
+    (s) => s.id.toLowerCase() === subcategoryId?.toLowerCase(),
+  );
 
   useEffect(() => {
     if (!subcategory) return;
@@ -41,10 +48,22 @@ const ProductListingPage = () => {
   return (
     <Wrapper hideAnnouncements={true}>
       {!subcategory || !category ? (
-         <div style={{padding: '200px 20px', textAlign: 'center', minHeight: '60vh'}}>
-            <h2 style={{color: '#fff'}}>Products not found</h2>
-            <Link href="/products" className="inquiry-btn" style={{marginTop: '20px', display: 'inline-block'}}>Back to Products</Link>
-         </div>
+        <div
+          style={{
+            padding: "200px 20px",
+            textAlign: "center",
+            minHeight: "60vh",
+          }}
+        >
+          <h2 style={{ color: "#fff" }}>Products not found</h2>
+          <Link
+            href="/products"
+            className="inquiry-btn"
+            style={{ marginTop: "20px", display: "inline-block" }}
+          >
+            Back to Products
+          </Link>
+        </div>
       ) : (
         <>
           <CommonBanner
@@ -52,12 +71,15 @@ const ProductListingPage = () => {
             description={`Explore our range of ${subcategory.title}`}
             bgImage={subcategory.image}
           />
-          
+
           <section className="free-sample-section">
             <div className="free-sample-container">
               <div className="free-sample-content">
                 <h3>How can we Help you?</h3>
-                <p>If you want to show our sample and Quality of our product then feel free to ask. We will send it to your Address.</p>
+                <p>
+                  If you want to show our sample and Quality of our product then
+                  feel free to ask. We will send it to your Address.
+                </p>
                 <Link href="/contact-us" className="free-sample-btn">
                   <span className="icon">📞</span> FREE SAMPLE
                 </Link>

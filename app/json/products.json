@@ -4,7 +4,7 @@
       "id": "tactile-indicators",
       "title": "Tactile Indicators",
       "description": "Premium Tactile Indicators and Directional Strips for safety and aesthetics.",
-      "image": "https://tactileindicators.in/wp-content/uploads/2022/04/category-tactile.jpg",
+      "image": "/assets/tactile_studs.webp",
       "subcategories": [
         {
           "id": "tactile-strips",
@@ -15,7 +15,7 @@
               "id": "et-dts001",
               "title": "Stainless Steel Tactile Strip with Stem Linear Pattern On Top (Machine Finish)",
               "sku": "ET-DTS001",
-              "image": "https://tactileindicators.in/wp-content/uploads/2021/02/DTS012-01.webp",
+              "image": "/assets/products/tactile-strip-1.webp",
               "material_grades": ["SS 316", "SS 304 (Marine Grade)"],
               "colors": ["Grey", "Rose Gold", "Yellow Gold", "Blue", "Black"],
               "quick_specs": {
@@ -32,82 +32,220 @@
                 "Weather Resistant": "Yes (UV & Rain)"
               },
               "gallery_images": [
-                "https://tactileindicators.in/wp-content/uploads/2021/02/DTS012-01.webp",
-                "https://tactileindicators.in/wp-content/uploads/2021/02/DTS012-02.webp"
+                "/assets/products/tactile-strip-1.webp",
+                "https://placehold.co/600x400?text=Tactile+Strip+Gallery+1",
+                "https://placehold.co/600x400?text=Tactile+Strip+Gallery+2"
               ],
               "description": "Stainless steel tactile strips, also known as tactile directional indicators or TGSI strips, are designed to provide clear and continuous navigation guidance for visually impaired pedestrians in public and commercial environments."
-            }
-          ]
-        },
-        {
-          "id": "tactile-studs",
-          "title": "Tactile Studs",
-          "image": "https://tactileindicators.in/wp-content/uploads/2022/04/tactile-studs-category.jpg",
-          "products": [
+            },
             {
-              "id": "et-wts001",
-              "title": "Stainless Steel Tactile Warning Stud With Concentric Rings Pattern on Top",
-              "sku": "ET-WTS001",
-              "image": "https://tactileindicators.in/wp-content/uploads/2021/02/WTS001-01.webp",
+              "id": "et-dts002",
+              "title": "Stainless Steel Hollow Back Tactile Directional Strip with Linear Pattern on Top (Machine Finish)",
+              "sku": "ET-DTS002",
+              "image": "/assets/products/tactile-strip-2.webp",
               "material_grades": ["SS 316", "SS 304"],
-              "colors": ["Silver", "Rose Gold", "Yellow Gold"],
-              "quick_specs": {
-                "diameter": "35mm / 25mm",
-                "dimensions": "35 X 25 X 4.5mm",
-                "sq_mtr_ratio": "400 Studs per Sq.Mtr"
-              },
               "technical_specs": {
-                "Product Type": "Tactile Stud",
-                "Top Design": "Concentric Rings",
-                "Anti-Slip": "Yes"
+                "Product Type": "Tactile Strip",
+                "Design": "Hollow Back",
+                "Finish": "Machine Finish"
               },
               "gallery_images": [
-                "https://tactileindicators.in/wp-content/uploads/2021/02/WTS001-01.webp",
-                "https://tactileindicators.in/wp-content/uploads/2021/02/WTS001-02.webp"
+                "/assets/products/tactile-strip-2.webp",
+                "https://placehold.co/600x400?text=Hollow+Back+Strip+Gallery+1",
+                "https://placehold.co/600x400?text=Hollow+Back+Strip+Gallery+2"
               ],
-              "description": "High-quality stainless steel tactile warning studs with a concentric ring pattern to ensure safety and guidance for the visually impaired."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "bollards",
-      "title": "Bollards",
-      "description": "Durable and aesthetic bollards for traffic control and architectural styling.",
-      "image": "https://tactileindicators.in/wp-content/uploads/2022/04/category-bollards.jpg",
-      "subcategories": [
-        {
-          "id": "below-ground",
-          "title": "Below Ground Surface Bollard",
-          "image": "https://tactileindicators.in/wp-content/uploads/2022/04/category-bollards.jpg",
-          "products": [
+              "description": "Stainless Steel Hollow Back Tactile Directional Strip with Linear Pattern on Top (Machine Finish) for enhanced safety and accessibility."
+            },
             {
-              "id": "ebgb001",
-              "title": "Below Ground Surface Bollard",
-              "sku": "EBGB001",
-              "image": "https://tactileindicators.in/wp-content/uploads/2022/04/category-bollards.jpg",
-              "material_grades": ["Galvanized Steel", "Powder Coated", "SS304", "SS316"],
-              "quick_specs": {
-                "Diameter": "90mm, 114mm, 140mm",
-                "Height": "900mm, 1000mm, 1200mm",
-                "Thickness": "3mm, 4mm, 5mm"
-              },
+              "id": "et-dts003",
+              "title": "Stainless Steel Casting Tactile Strip: Directional Strip with Linear Pattern (Casting Finish)",
+              "sku": "ET-DTS003",
+              "image": "/assets/products/tactile-strip-3.webp",
+              "material_grades": ["SS 316", "SS 304"],
               "technical_specs": {
-                "Material": "Robust Construction",
-                "Installation": "Below Ground"
+                "Product Type": "Tactile Strip",
+                "Finish": "Casting Finish"
               },
-              "description": "Robust below-ground bollards designed for maximum security and durability in various environments."
+              "gallery_images": [
+                "/assets/products/tactile-strip-3.webp",
+                "https://placehold.co/600x400?text=Casting+Strip+Gallery+1",
+                "https://placehold.co/600x400?text=Casting+Strip+Gallery+2"
+              ],
+              "description": "Stainless Steel Casting Tactile Strip: Directional Strip with Linear Pattern (Casting Finish) designed for durability."
+            },
+            {
+              "id": "et-dts004",
+              "title": "Stainless Steel Tactile Strip with Poly Sleeve Directional Strip with Linear Pattern on Top (Machine Finish)",
+              "sku": "ET-DTS004",
+              "image": "/assets/products/tactile-strip-4.webp",
+              "material_grades": ["SS 316", "SS 304"],
+              "technical_specs": {
+                "Product Type": "Tactile Strip",
+                "Finish": "Machine Finish",
+                "Feature": "Poly Sleeve"
+              },
+              "gallery_images": [
+                "/assets/products/tactile-strip-4.webp",
+                "https://placehold.co/600x400?text=Poly+Sleeve+Strip+Gallery+1",
+                "https://placehold.co/600x400?text=Poly+Sleeve+Strip+Gallery+2"
+              ],
+              "description": "Stainless Steel Tactile Strip with Poly Sleeve Directional Strip with Linear Pattern on Top (Machine Finish)."
+            },
+            {
+              "id": "et-dts005",
+              "title": "Stainless Steel Tactile Strip with Diamond Pattern (Casting Finish) & Poly Sleeve: Directional Guidance Strip",
+              "sku": "ET-DTS005",
+              "image": "/assets/products/tactile-strip-5.webp",
+              "material_grades": ["SS 316", "SS 304"],
+              "technical_specs": {
+                "Product Type": "Tactile Strip",
+                "Finish": "Casting Finish",
+                "Pattern": "Diamond"
+              },
+              "gallery_images": [
+                "/assets/products/tactile-strip-5.webp",
+                "https://placehold.co/600x400?text=Diamond+Pattern+Strip+Gallery+1",
+                "https://placehold.co/600x400?text=Diamond+Pattern+Strip+Gallery+2"
+              ],
+              "description": "Stainless Steel Tactile Strip with Diamond Pattern (Casting Finish) & Poly Sleeve: Directional Guidance Strip."
+            },
+            {
+              "id": "et-dts006",
+              "title": "Stainless Steel Self Adhesive Tactile Strip with Linear Pattern on Top (Machine Finish)",
+              "sku": "ET-DTS006",
+              "image": "/assets/products/tactile-strip-6.webp",
+              "material_grades": ["SS 316", "SS 304"],
+              "technical_specs": {
+                "Product Type": "Tactile Strip",
+                "Finish": "Machine Finish",
+                "Feature": "Self Adhesive"
+              },
+              "gallery_images": [
+                "/assets/products/tactile-strip-6.webp",
+                "https://placehold.co/600x400?text=Self+Adhesive+Strip+Gallery+1",
+                "https://placehold.co/600x400?text=Self+Adhesive+Strip+Gallery+2"
+              ],
+              "description": "Stainless Steel Self Adhesive Tactile Strip with Linear Pattern on Top (Machine Finish)."
+            },
+            {
+              "id": "et-dts007",
+              "title": "Stainless Steel Tactile Strip for Carpet: Directional Pattern with Linear Top Texture and Screw Fixation",
+              "sku": "ET-DTS007",
+              "image": "/assets/products/tactile-strip-7.webp",
+              "material_grades": ["SS 316", "SS 304"],
+              "technical_specs": {
+                "Product Type": "Tactile Strip",
+                "Feature": "Screw Fixation for Carpets"
+              },
+              "gallery_images": [
+                "/assets/products/tactile-strip-7.webp",
+                "https://placehold.co/600x400?text=Carpet+Strip+Gallery+1",
+                "https://placehold.co/600x400?text=Carpet+Strip+Gallery+2"
+              ],
+              "description": "Stainless Steel Tactile Strip for Carpet: Directional Pattern with Linear Top Texture and Screw Fixation."
+            },
+            {
+              "id": "et-dts008",
+              "title": "Stainless Steel Tactile Strip with Diamond Pattern on Top (Machine Finish)",
+              "sku": "ET-DTS008",
+              "image": "/assets/products/tactile-strip-8.webp",
+              "material_grades": ["SS 316", "SS 304"],
+              "technical_specs": {
+                "Product Type": "Tactile Strip",
+                "Finish": "Machine Finish",
+                "Pattern": "Diamond"
+              },
+              "gallery_images": [
+                "/assets/products/tactile-strip-8.webp",
+                "https://placehold.co/600x400?text=Diamond+Machine+Strip+Gallery+1",
+                "https://placehold.co/600x400?text=Diamond+Machine+Strip+Gallery+2"
+              ],
+              "description": "Stainless Steel Tactile Strip with Diamond Pattern on Top (Machine Finish)."
+            },
+            {
+              "id": "et-dts009",
+              "title": "Stainless Steel Casting Tactile Strip with Diamond Pattern and Directional Top Finish",
+              "sku": "ET-DTS009",
+              "image": "/assets/products/tactile-strip-9.webp",
+              "material_grades": ["SS 316", "SS 304"],
+              "technical_specs": {
+                "Product Type": "Tactile Strip",
+                "Finish": "Casting Finish",
+                "Pattern": "Diamond"
+              },
+              "gallery_images": [
+                "/assets/products/tactile-strip-9.webp",
+                "https://placehold.co/600x400?text=Casting+Diamond+Strip+Gallery+1",
+                "https://placehold.co/600x400?text=Casting+Diamond+Strip+Gallery+2"
+              ],
+              "description": "Stainless Steel Casting Tactile Strip with Diamond Pattern and Directional Top Finish."
+            },
+            {
+              "id": "et-dts010",
+              "title": "Stainless Steel Tactile Strip with Diamond Pattern on Top and Poly Sleeve: Directional Strip with Machine Finish",
+              "sku": "ET-DTS010",
+              "image": "/assets/products/tactile-strip-10.webp",
+              "material_grades": ["SS 316", "SS 304"],
+              "technical_specs": {
+                "Product Type": "Tactile Strip",
+                "Finish": "Machine Finish",
+                "Pattern": "Diamond",
+                "Feature": "Poly Sleeve"
+              },
+              "gallery_images": [
+                "/assets/products/tactile-strip-10.webp",
+                "https://placehold.co/600x400?text=Diamond+Poly+Strip+Gallery+1",
+                "https://placehold.co/600x400?text=Diamond+Poly+Strip+Gallery+2"
+              ],
+              "description": "Stainless Steel Tactile Strip with Diamond Pattern on Top and Poly Sleeve: Directional Strip with Machine Finish."
+            },
+            {
+              "id": "et-dts011",
+              "title": "Stainless Steel Casting Finish Tactile Strip with Diamond Pattern on Top and Poly Sleeve",
+              "sku": "ET-DTS011",
+              "image": "/assets/products/tactile-strip-11.webp",
+              "material_grades": ["SS 316", "SS 304"],
+              "technical_specs": {
+                "Product Type": "Tactile Strip",
+                "Finish": "Casting Finish",
+                "Pattern": "Diamond",
+                "Feature": "Poly Sleeve"
+              },
+              "gallery_images": [
+                "/assets/products/tactile-strip-11.webp",
+                "https://placehold.co/600x400?text=Casting+Poly+Strip+Gallery+1",
+                "https://placehold.co/600x400?text=Casting+Poly+Strip+Gallery+2"
+              ],
+              "description": "Stainless Steel Casting Finish Tactile Strip with Diamond Pattern on Top and Poly Sleeve."
+            },
+            {
+              "id": "et-dts012",
+              "title": "Stainless Steel Self Adhesive Tactile Strip with Diamond Pattern and Directional Top in Machine Finish",
+              "sku": "ET-DTS012",
+              "image": "/assets/products/tactile-strip-12.webp",
+              "material_grades": ["SS 316", "SS 304"],
+              "technical_specs": {
+                "Product Type": "Tactile Strip",
+                "Finish": "Machine Finish",
+                "Pattern": "Diamond",
+                "Feature": "Self Adhesive"
+              },
+              "gallery_images": [
+                "/assets/products/tactile-strip-12.webp",
+                "https://placehold.co/600x400?text=Adhesive+Diamond+Strip+Gallery+1",
+                "https://placehold.co/600x400?text=Adhesive+Diamond+Strip+Gallery+2"
+              ],
+              "description": "Stainless Steel Self Adhesive Tactile Strip with Diamond Pattern and Directional Top in Machine Finish."
             }
           ]
         }
       ]
     },
     {
-      "id": "road-studs",
-      "title": "Road Studs",
+      "id": "modular-skirting",
+      "title": "Moduler Skirting",
       "description": "Enhanced visibility and safety with premium road studs.",
-      "image": "https://tactileindicators.in/wp-content/uploads/2022/04/category-road-studs.jpg",
+      "image": "/assets/tactile-strips.webp",
       "subcategories": [
         {
           "id": "metal-road-studs",
@@ -115,19 +253,451 @@
           "image": "https://tactileindicators.in/wp-content/uploads/2022/04/category-road-studs.jpg",
           "products": [
             {
-              "id": "et-ris001",
-              "title": "Stainless Steel Road Stud with Bulged Top",
-              "sku": "ET-RIS001",
-              "image": "https://tactileindicators.in/wp-content/uploads/2022/04/category-road-studs.jpg",
+              "id": "et-wts001",
+              "title": "Stainless Steel Tactile Warning Stud With Concentric Rings Pattern on Top",
+              "sku": "ET-WTS001",
+              "image": "/assets/products/tactile-stud-1.webp",
               "material_grades": ["SS 316", "SS 304"],
-              "quick_specs": {
-                "dimensions": "90 X 15mm"
-              },
               "technical_specs": {
-                "Product Type": "Road Stud",
-                "Material": "Stainless Steel"
+                "Product Type": "Tactile Stud",
+                "Pattern": "Concentric Rings"
               },
-              "description": "High-visibility stainless steel road studs for effective traffic management."
+              "gallery_images": [
+                "/assets/products/tactile-stud-1.webp",
+                "https://placehold.co/600x400?text=Warning+Stud+Gallery+1",
+                "https://placehold.co/600x400?text=Warning+Stud+Gallery+2"
+              ],
+              "description": "Stainless steel tactile stud designed for visually impaired individuals, enhancing safety with tactile warning studs."
+            },
+            {
+              "id": "et-wts002",
+              "title": "Stainless Steel Tactile Stud with Poly Sleeve – Concentric Rings Pattern",
+              "sku": "ET-WTS002",
+              "image": "/assets/products/tactile-stud-2.webp",
+              "material_grades": ["SS 316", "SS 304"],
+              "technical_specs": {
+                "Product Type": "Tactile Stud",
+                "Pattern": "Concentric Rings",
+                "Feature": "Poly Sleeve"
+              },
+              "gallery_images": [
+                "/assets/products/tactile-stud-2.webp",
+                "https://placehold.co/600x400?text=Poly+Sleeve+Stud+Gallery+1",
+                "https://placehold.co/600x400?text=Poly+Sleeve+Stud+Gallery+2"
+              ],
+              "description": "Stainless steel tactile stud designed for visually impaired, featuring pressure fit for durability and PWD approved tactile warning studs."
+            },
+            {
+              "id": "et-wts003",
+              "title": "Stainless Steel Hollow Back Tactile Stud with a Concentric Rings Pattern on Top",
+              "sku": "ET-WTS003",
+              "image": "/assets/products/tactile-stud-3.webp",
+              "material_grades": ["SS 316", "SS 304"],
+              "technical_specs": {
+                "Product Type": "Tactile Stud",
+                "Design": "Hollow Back",
+                "Pattern": "Concentric Rings"
+              },
+              "gallery_images": [
+                "/assets/products/tactile-stud-3.webp",
+                "https://placehold.co/600x400?text=Hollow+Back+Stud+Gallery+1",
+                "https://placehold.co/600x400?text=Hollow+Back+Stud+Gallery+2"
+              ],
+              "description": "Close-up of a hollow back tactile stud showcasing its unique design and functionality for enhanced tactile feedback."
+            },
+            {
+              "id": "et-wts004",
+              "title": "Hollow Back SS Tactile Stud with Poly Sleeve, Featuring a Concentric Rings Pattern on Top",
+              "sku": "ET-WTS004",
+              "image": "/assets/products/tactile-stud-4.webp",
+              "material_grades": ["SS 316", "SS 304"],
+              "technical_specs": {
+                "Product Type": "Tactile Stud",
+                "Design": "Hollow Back",
+                "Pattern": "Concentric Rings",
+                "Feature": "Poly Sleeve"
+              },
+              "gallery_images": [
+                "/assets/products/tactile-stud-4.webp",
+                "https://placehold.co/600x400?text=Hollow+Poly+Stud+Gallery+1",
+                "https://placehold.co/600x400?text=Hollow+Poly+Stud+Gallery+2"
+              ],
+              "description": "Hollow Back SS Tactile Stud and SS Tactile Stud displayed, showcasing their unique design and functionality for various applications."
+            },
+            {
+              "id": "et-wts005",
+              "title": "Stainless Steel Tactile warning Stud with Concentric Rings Pattern on Top and a Circular Center",
+              "sku": "ET-WTS005",
+              "image": "/assets/products/tactile-stud-5.webp",
+              "material_grades": ["SS 316", "SS 304"],
+              "technical_specs": {
+                "Product Type": "Tactile Stud",
+                "Pattern": "Concentric Rings",
+                "Feature": "Circular Center"
+              },
+              "gallery_images": [
+                "/assets/products/tactile-stud-5.webp",
+                "https://placehold.co/600x400?text=Circular+Center+Stud+Gallery+1",
+                "https://placehold.co/600x400?text=Circular+Center+Stud+Gallery+2"
+              ],
+              "description": "High-quality stainless steel tactile stud designed for enhanced grip and safety in various applications."
+            },
+            {
+              "id": "et-wts006",
+              "title": "Stainless Steel Carpet Tactile Stud With Concentric Rings Pattern on Top with Screw Fix",
+              "sku": "ET-WTS006",
+              "image": "/assets/products/tactile-stud-6.webp",
+              "material_grades": ["SS 316", "SS 304"],
+              "technical_specs": {
+                "Product Type": "Tactile Stud",
+                "Pattern": "Concentric Rings",
+                "Feature": "Screw Fix for Carpet"
+              },
+              "gallery_images": [
+                "/assets/products/tactile-stud-6.webp",
+                "https://placehold.co/600x400?text=Carpet+Stud+Gallery+1",
+                "https://placehold.co/600x400?text=Carpet+Stud+Gallery+2"
+              ],
+              "description": "Close-up of a Carpet Tactile Stud and Screw Fix stud, showcasing their design for secure flooring installation."
+            },
+            {
+              "id": "et-wts007",
+              "title": "SS Flat Tactile Warning Stud with Concentric Rings Top Design",
+              "sku": "ET-WTS007",
+              "image": "/assets/products/tactile-stud-7.webp",
+              "material_grades": ["SS 316", "SS 304"],
+              "technical_specs": {
+                "Product Type": "Tactile Stud",
+                "Design": "Flat",
+                "Pattern": "Concentric Rings"
+              },
+              "gallery_images": [
+                "/assets/products/tactile-stud-7.webp",
+                "https://placehold.co/600x400?text=Flat+Stud+Gallery+1",
+                "https://placehold.co/600x400?text=Flat+Stud+Gallery+2"
+              ],
+              "description": "Stainless steel flat tactile warning stud designed for safety, featuring a textured surface for enhanced grip and visibility."
+            },
+            {
+              "id": "et-wts008",
+              "title": "Stainless Steel Self Adhesive Tactile Stud With Concentric Rings Pattern on Top",
+              "sku": "ET-WTS008",
+              "image": "/assets/products/tactile-stud-8.webp",
+              "material_grades": ["SS 316", "SS 304"],
+              "technical_specs": {
+                "Product Type": "Tactile Stud",
+                "Pattern": "Concentric Rings",
+                "Feature": "Self Adhesive"
+              },
+              "gallery_images": [
+                "/assets/products/tactile-stud-8.webp",
+                "https://placehold.co/600x400?text=Adhesive+Stud+Gallery+1",
+                "https://placehold.co/600x400?text=Adhesive+Stud+Gallery+2"
+              ],
+              "description": "Stainless steel tactile stud designed for enhanced grip and safety in various applications, featuring a durable and sleek finish."
+            },
+            {
+              "id": "et-wts009",
+              "title": "Stainless Steel Tactile Stud with Crosshatch Pattern on Top",
+              "sku": "ET-WTS009",
+              "image": "/assets/products/tactile-stud-9.webp",
+              "material_grades": ["SS 316", "SS 304"],
+              "technical_specs": {
+                "Product Type": "Tactile Stud",
+                "Pattern": "Crosshatch"
+              },
+              "gallery_images": [
+                "/assets/products/tactile-stud-9.webp",
+                "https://placehold.co/600x400?text=Crosshatch+Stud+Gallery+1",
+                "https://placehold.co/600x400?text=Crosshatch+Stud+Gallery+2"
+              ],
+              "description": "Stainless Steel Tactile Warning Stud designed for safety and accessibility in public spaces, ensuring clear guidance for visually impaired individuals."
+            },
+            {
+              "id": "et-wts010",
+              "title": "Stainless Steel Flat Tactile Stud with Crosshatch Pattern on Top Featuring Crosshatch Pattern",
+              "sku": "ET-WTS010",
+              "image": "/assets/products/tactile-stud-10.webp",
+              "material_grades": ["SS 316", "SS 304"],
+              "technical_specs": {
+                "Product Type": "Tactile Stud",
+                "Design": "Flat",
+                "Pattern": "Crosshatch"
+              },
+              "gallery_images": [
+                "/assets/products/tactile-stud-10.webp",
+                "https://placehold.co/600x400?text=Flat+Crosshatch+Stud+Gallery+1",
+                "https://placehold.co/600x400?text=Flat+Crosshatch+Stud+Gallery+2"
+              ],
+              "description": "Two flat tactile studs displayed, one with a textured surface and the other smooth, ideal for enhancing tactile experiences."
+            },
+            {
+              "id": "et-wts011",
+              "title": "Stainless Steel Tactile Warning Stud with Crosshatch Pattern on Top and Self-Adhesive",
+              "sku": "ET-WTS011",
+              "image": "/assets/products/tactile-stud-11.webp",
+              "material_grades": ["SS 316", "SS 304"],
+              "technical_specs": {
+                "Product Type": "Tactile Stud",
+                "Pattern": "Crosshatch",
+                "Feature": "Self Adhesive"
+              },
+              "gallery_images": [
+                "/assets/products/tactile-stud-11.webp",
+                "https://placehold.co/600x400?text=Adhesive+Crosshatch+Stud+Gallery+1",
+                "https://placehold.co/600x400?text=Adhesive+Crosshatch+Stud+Gallery+2"
+              ],
+              "description": "Self Adhesive Tactile Stud designed for enhanced grip and safety in various environments, featuring a textured surface."
+            },
+            {
+              "id": "et-wts012",
+              "title": "Stainless Steel Tactile Studs With Plain Top For Safety Warning",
+              "sku": "ET-WTS012",
+              "image": "/assets/products/tactile-stud-12.webp",
+              "material_grades": ["SS 316", "SS 304"],
+              "technical_specs": {
+                "Product Type": "Tactile Stud",
+                "Pattern": "Plain Top"
+              },
+              "gallery_images": [
+                "/assets/products/tactile-stud-12.webp",
+                "https://placehold.co/600x400?text=Plain+Top+Stud+Gallery+1",
+                "https://placehold.co/600x400?text=Plain+Top+Stud+Gallery+2"
+              ],
+              "description": "Tactile studs with plain top designed for enhanced grip and safety in various environments, ideal for flooring and signage applications."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "profile-floors",
+      "title": "Profile Floors",
+      "description": "Durable and aesthetic bollards for traffic control and architectural styling.",
+      "image": "/assets/tactile-tiles.webp",
+      "subcategories": [
+        {
+          "id": "transition-profiles",
+          "title": "Transition Profiles",
+          "image": "/assets/profile-floors/pf-flexi.jpg",
+          "products": [
+            {
+              "id": "pf-flexi",
+              "title": "Flexi Series",
+              "sku": "PF-FLEXI",
+              "image": "/assets/profile-floors/pf-flexi.jpg",
+              "material_grades": ["SS 316", "SS 304"],
+              "technical_specs": {
+                "Product Type": "Profile",
+                "Finish": "Standard"
+              },
+              "gallery_images": [
+                "/assets/profile-floors/pf-flexi.jpg",
+                "https://placehold.co/600x400?text=Flexi+Series+Gallery+1",
+                "https://placehold.co/600x400?text=Flexi+Series+Gallery+2"
+              ],
+              "description": "Flexible transition profiles designed for curved floorings and versatile installations."
+            },
+            {
+              "id": "pf-reflex-adaptor",
+              "title": "Reflex Series - Adaptor Base",
+              "sku": "PF-REFLEX-AB",
+              "image": "/assets/profile-floors/pf-adaptorbase.jpg",
+              "material_grades": ["SS 316", "SS 304"],
+              "technical_specs": {
+                "Product Type": "Profile Base",
+                "Pattern": "Plain Top"
+              },
+              "gallery_images": [
+                "/assets/profile-floors/pf-adaptorbase.jpg",
+                "https://placehold.co/600x400?text=Reflex+Adaptor+Gallery+1",
+                "https://placehold.co/600x400?text=Reflex+Adaptor+Gallery+2"
+              ],
+              "description": "Adaptor base for Reflex series, providing a secure foundation for transition profiles."
+            },
+            {
+              "id": "pf-reflex-aluminium",
+              "title": "Reflex Series - Aluminium Base",
+              "sku": "PF-REFLEX-AL",
+              "image": "/assets/profile-floors/pf-ab.jpg",
+              "material_grades": ["SS 316", "SS 304"],
+              "technical_specs": {
+                "Product Type": "Profile Base",
+                "Pattern": "Plain Top"
+              },
+              "gallery_images": [
+                "/assets/profile-floors/pf-ab.jpg",
+                "https://placehold.co/600x400?text=Reflex+Aluminium+Gallery+1",
+                "https://placehold.co/600x400?text=Reflex+Aluminium+Gallery+2"
+              ],
+              "description": "Durable aluminium base for Reflex series transition profiles."
+            },
+            {
+              "id": "pf-zpro",
+              "title": "Z Pro",
+              "sku": "PF-ZPRO",
+              "image": "/assets/profile-floors/pf-zpro.jpg",
+              "material_grades": ["SS 316", "SS 304"],
+              "technical_specs": {
+                "Product Type": "Profile",
+                "Pattern": "Plain Top"
+              },
+              "gallery_images": [
+                "/assets/profile-floors/pf-zpro.jpg",
+                "https://placehold.co/600x400?text=Z+Pro+Gallery+1",
+                "https://placehold.co/600x400?text=Z+Pro+Gallery+2"
+              ],
+              "description": "High-performance Z-shaped transition profiles for professional flooring applications."
+            },
+            {
+              "id": "pf-pvc-edge",
+              "title": "PVC Edge Profile",
+              "sku": "PF-PVC-EP",
+              "image": "/assets/profile-floors/pf-ep.jpg",
+              "material_grades": ["SS 316", "SS 304"],
+              "technical_specs": {
+                "Product Type": "Profile",
+                "Pattern": "Plain Top"
+              },
+              "gallery_images": [
+                "/assets/profile-floors/pf-ep.jpg",
+                "https://placehold.co/600x400?text=PVC+Edge+Gallery+1",
+                "https://placehold.co/600x400?text=PVC+Edge+Gallery+2"
+              ],
+              "description": "Protective PVC edge profiles for clean and durable flooring transitions."
+            },
+            {
+              "id": "pf-pvc-junction",
+              "title": "PVC Junction Profile",
+              "sku": "PF-PVC-JP",
+              "image": "/assets/profile-floors/pf-jp.jpg",
+              "material_grades": ["SS 316", "SS 304"],
+              "technical_specs": {
+                "Product Type": "Profile",
+                "Pattern": "Plain Top"
+              },
+              "gallery_images": [
+                "/assets/profile-floors/pf-jp.jpg",
+                "https://placehold.co/600x400?text=PVC+Junction+Gallery+1",
+                "https://placehold.co/600x400?text=PVC+Junction+Gallery+2"
+              ],
+              "description": "PVC junction profiles for seamless connections between different flooring surfaces."
+            },
+            {
+              "id": "pr-incline",
+              "title": "Protect - Incline Series",
+              "sku": "PR-IN",
+              "image": "/assets/profile-floors/pr-in.jpg",
+              "material_grades": ["SS 316", "SS 304"],
+              "technical_specs": {
+                "Product Type": "Profile",
+                "Pattern": "Plain Top"
+              },
+              "gallery_images": [
+                "/assets/profile-floors/pr-in.jpg",
+                "https://placehold.co/600x400?text=Incline+Series+Gallery+1",
+                "https://placehold.co/600x400?text=Incline+Series+Gallery+2"
+              ],
+              "description": "Incline series from the Protect range, designed for safe and aesthetic height transitions."
+            }
+          ]
+        },
+        {
+          "id": "same-height-profiles",
+          "title": "Profiles for same height",
+          "image": "/assets/profile-floors/pr-fl.jpg",
+          "products": [
+            {
+              "id": "pr-fineline",
+              "title": "Protect - Fine line Series",
+              "sku": "PR-FL",
+              "image": "/assets/profile-floors/pr-fl.jpg",
+              "material_grades": ["SS 316", "SS 304"],
+              "technical_specs": {
+                "Product Type": "Profile",
+                "Pattern": "Plain Top"
+              },
+              "gallery_images": [
+                "/assets/profile-floors/pr-fl.jpg",
+                "https://placehold.co/600x400?text=Fine+Line+Gallery+1",
+                "https://placehold.co/600x400?text=Fine+Line+Gallery+2"
+              ],
+              "description": "Sleek and minimalist fine line profiles for matching height flooring transitions."
+            },
+            {
+              "id": "pr-broadline",
+              "title": "Protect - Broad line Series",
+              "sku": "PR-BLS",
+              "image": "/assets/profile-floors/pr-bls.jpg",
+              "material_grades": ["SS 316", "SS 304"],
+              "technical_specs": {
+                "Product Type": "Profile",
+                "Pattern": "Plain Top"
+              },
+              "gallery_images": [
+                "/assets/profile-floors/pr-bls.jpg",
+                "https://placehold.co/600x400?text=Broad+Line+Gallery+1",
+                "https://placehold.co/600x400?text=Broad+Line+Gallery+2"
+              ],
+              "description": "Broad line profiles for a more prominent and decorative matching height transition."
+            },
+            {
+              "id": "pr-classic",
+              "title": "Protect - Classic",
+              "sku": "PR-CL",
+              "image": "/assets/profile-floors/pr-cl.jpg",
+              "material_grades": ["SS 316", "SS 304"],
+              "technical_specs": {
+                "Product Type": "Profile",
+                "Pattern": "Plain Top"
+              },
+              "gallery_images": [
+                "/assets/profile-floors/pr-cl.jpg",
+                "https://placehold.co/600x400?text=Classic+Profile+Gallery+1",
+                "https://placehold.co/600x400?text=Classic+Profile+Gallery+2"
+              ],
+              "description": "Classic profile series for standard same-height flooring applications."
+            }
+          ]
+        },
+        {
+          "id": "stair-noising",
+          "title": "Stair Noising",
+          "image": "/assets/profile-floors/pf-sn.jpg",
+          "products": [
+            {
+              "id": "pf-stairnosing",
+              "title": "Stair Noising",
+              "sku": "PF-SN",
+              "image": "/assets/profile-floors/pf-sn.jpg",
+              "material_grades": ["SS 316", "SS 304"],
+              "technical_specs": {
+                "Product Type": "Profile",
+                "Pattern": "Plain Top"
+              },
+              "gallery_images": [
+                "/assets/profile-floors/pf-sn.jpg",
+                "https://placehold.co/600x400?text=Stair+Noising+Gallery+1",
+                "https://placehold.co/600x400?text=Stair+Noising+Gallery+2"
+              ],
+              "description": "Essential stair noising profiles for enhanced safety and durability on staircases."
+            },
+            {
+              "id": "pr-topedge",
+              "title": "Protect - Top Edge",
+              "sku": "PR-TE",
+              "image": "/assets/profile-floors/pf-te.jpg",
+              "material_grades": ["SS 316", "SS 304"],
+              "technical_specs": {
+                "Product Type": "Profile",
+                "Pattern": "Plain Top"
+              },
+              "gallery_images": [
+                "/assets/profile-floors/pf-te.jpg",
+                "https://placehold.co/600x400?text=Top+Edge+Gallery+1",
+                "https://placehold.co/600x400?text=Top+Edge+Gallery+2"
+              ],
+              "description": "Top edge protection profiles for stairs and elevated flooring platforms."
             }
           ]
         }
