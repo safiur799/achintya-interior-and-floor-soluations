@@ -90,8 +90,8 @@ export default function Footer({
               </a>
             </div>
             <div className="email">
-              <a href="mailto:queries@achintya.in">
-                <MailIcon /> queries@achintya.in
+              <a href="mailto:support@achintyainteriors.com">
+                <MailIcon /> support@achintyainteriors.com
               </a>
             </div>
           </div>
