@@ -1,7 +1,9 @@
 export const assets = {
   achintya_logo: "/assets/achintya_logo.png",
   bedroom: "/assets/bedroom.png",
-  certificate1: "/assets/certificate1.png",
+  certificate1: "/assets/certificate1.jpeg",
+  certificate2: "/assets/certificate2.jpeg",
+  certificate3: "/assets/certificate3.jpeg",
   dummy_video: "/assets/dummy_video.mp4",
   flooring: "/assets/flooring.png",
   hero: "/assets/hero.png",
@@ -110,4 +112,6 @@ export const assets = {
   tactile_studs: "/assets/tactile_studs.webp",
   tactile_strips: "/assets/tactile-strips.webp",
   tactile_tiles: "/assets/tactile-tiles.webp",
+  contact_image: "/assets/contact_image.jpeg",
+  premium_floring_banner: "/assets/premium_floring.jpeg",
 };

@@ -55,12 +55,20 @@ export default function Contact() {
           <br />
           <div
             className="card"
-            style={{ borderRadius: "12px", height: "150px" }}
+            style={{
+              borderRadius: "12px",
+              height: "280px",
+            }}
           >
             <img
-              src={assets.graffiti_social_area}
+              src={assets.contact_image}
               alt="Office Sample"
-              style={{ height: "100%", width: "100%", objectFit: "cover" }}
+              style={{
+                height: "100%",
+                width: "100%",
+                objectFit: "cover",
+                objectPosition: "bottom",
+              }}
             />
           </div>
         </div>

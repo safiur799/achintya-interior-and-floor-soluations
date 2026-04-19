@@ -1,13 +1,18 @@
 import { assets } from "../json/assets";
 
 const Certificates = () => {
+  const certificateList = [
+    assets.certificate1,
+    assets.certificate2,
+    assets.certificate3,
+  ];
   return (
     <section className="container">
       <div className="certificates-section ">
-        {Array.from({ length: 4 }).map((_, i) => {
+        {certificateList.map((certificate, i) => {
           return (
             <div key={i}>
-              <img src={assets.certificate1} alt="certificate" />
+              <img src={certificate} alt="certificate" />
             </div>
           );
         })}
