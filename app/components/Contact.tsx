@@ -47,7 +47,7 @@ export default function Contact() {
           <p>Baligari, West Bengal 700160</p>
           <br />
           <p>
-            <strong>Email:</strong> support@achintyainteriors.com
+            <strong>Email:</strong> Shashiprakash@achintyainteriors.com
           </p>
           <p>
             <strong>Phone:</strong> +917439749267

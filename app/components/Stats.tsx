@@ -5,11 +5,11 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 const statsData = [
-  { label: "No. of Projects Delivered", value: "900+" },
-  { label: "Sq. Ft. Spaces Executed", value: "70+ Million" },
-  { label: "Team Members", value: "5000+" },
-  { label: "Pan India Office", value: "9+" },
-  { label: "Years of Experience", value: "30+" },
+  { label: "No. of Projects Delivered", value: "450+" },
+  { label: "Sq. Ft. Spaces Executed", value: "20+ Million" },
+  { label: "Team Members", value: "1000+" },
+  { label: "Pan India Office", value: "5+" },
+  { label: "Years of Experience", value: "8+" },
 ];
 
 const StatItem = ({ stat }: { stat: { label: string; value: string } }) => {
