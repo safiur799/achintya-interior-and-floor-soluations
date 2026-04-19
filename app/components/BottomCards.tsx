@@ -20,7 +20,7 @@ const cards = [
     title: "Industrial",
     description:
       "Durable, high-performance flooring solutions for industrial environments. We offer a range of materials designed to withstand heavy traffic, chemical exposure, and demanding conditions while maintaining safety and functionality.",
-    image: assets.executive_office_wall_decor,
+    image: assets.contact_image,
   },
 ];
 
