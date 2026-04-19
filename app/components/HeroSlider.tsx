@@ -21,7 +21,7 @@ const slides = [
   },
   {
     bg: assets.biophilic_office_corridor,
-    title: "Functional Art",
+    title: "Commercial Space",
     desc: "Kitchens that inspire culinary creativity.",
     btn: "Contact Us",
     isVideo: false,

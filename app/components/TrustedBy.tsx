@@ -2,16 +2,23 @@ import React from "react";
 import Marquee from "react-fast-marquee";
 
 const brands = [
-  "Bloomberg",
-  "BNY Mellon",
-  "BP",
-  "Cisco",
-  "Citi",
-  "KPMG",
-  "Legato",
-  "Microsoft",
-  "Morgan Stanley",
-  "Netlink",
+"HYLAND",
+"CBRE",
+"JLL",
+"LT",
+"ISS",
+"TATA",
+"AMBUJANEOTIA",
+"RELIANCE",
+"MAHINDRA LOGISTIC",
+"COGNIZANT",
+"EY",
+"MANIPALHOSPITALS",
+"BT",
+"DBS",
+"NEXTRA",
+"AIRTEL",
+"INTERIO GODREJ",
 ];
 
 const TrustedBy = () => {
