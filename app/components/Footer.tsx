@@ -36,7 +36,7 @@ export default function Footer({
   return (
     <footer className="site-footer">
       {/* Top Banner */}
-      {!hideAnnouncements && (
+      {/* {!hideAnnouncements && (
         <div className="footer-banner">
           <div className="container">
             <div className="banner-grid">
@@ -69,29 +69,29 @@ export default function Footer({
             </div>
           </div>
         </div>
-      )}
+      )} */}
 
       {/* Middle Social Section */}
       <div className="footer-socials">
         <div className="container">
           <div className="social-row">
             <div className="icons">
-              <a href="#">
+              <a href="https://www.facebook.com/people/Achintiya-Interiors/61588450906412/" target="_blank">
                 <FbIcon />
               </a>
-              <a href="#">
+              {/* <a href="#">
                 <XIcon />
-              </a>
-              <a href="#">
+              </a> */}
+              <a href="https://www.instagram.com/achintya.interiors" target="_blank">
                 <InstaIcon />
               </a>
-              <a href="#">
+              {/* <a href="#">
                 <LinkedInIcon />
-              </a>
+              </a> */}
             </div>
             <div className="email">
-              <a href="mailto:support@achintyainteriors.com">
-                <MailIcon /> support@achintyainteriors.com
+              <a href="mailto:Shashiprakash@achintyainteriors.com">
+                <MailIcon /> Shashiprakash@achintyainteriors.com
               </a>
             </div>
           </div>
