@@ -126,8 +126,24 @@ nav {
 
 .logo {
   img {
-    height: 45px;
+    height: 40px;
     transition: var(--transition);
+    object-fit: contain;
+  }
+}
+.banner_logo {
+  padding-left: 12px;
+  img {
+    padding: 4px;
+    width: 120px;
+    height: auto;
+    background: var(--bg-color);
+    border-radius: 4px;
+  }
+  h4 {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: var(--font-montserrat), sans-serif;
   }
 }
 
