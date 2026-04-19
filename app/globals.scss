@@ -3308,7 +3308,11 @@ section {
 }
 
 .product-detail-standard {
-  padding: 80px 20px;
+  padding: 120px 80px 20px;
+
+  @media (max-width: 768px) {
+    padding: 80px 20px 10px !important;
+  }
 
   .product-detail-flex {
     display: grid;
@@ -3541,33 +3545,77 @@ section {
     }
   }
 
-  .specs-table {
-    width: 60%;
-    @media (max-width: 768px) {
-      width: 100%;
+  /* Metadata Specification Sections */
+  .specs-group {
+    margin-bottom: 40px;
+    &:last-child {
+      margin-bottom: 0;
     }
+  }
+
+  .specs-section-title {
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    border-bottom: 1px solid #efefef;
+    padding-bottom: 8px;
+    font-family: var(--font-montserrat), sans-serif;
+  }
+
+  .specs-table {
+    width: 100%;
     border-collapse: collapse;
     tr {
       border-bottom: 1px solid #efefef;
     }
     th {
       text-align: left;
-      padding: 15px 0;
-      width: 40%;
+      padding: 12px 0;
+      width: 30%;
       color: var(--text-color);
       font-weight: 500;
+      font-size: 0.95rem;
+      text-transform: capitalize;
       @media (max-width: 768px) {
-        font-size: 0.9rem;
-        padding: 10px 0;
+        font-size: 0.85rem;
+        padding: 8px 0;
       }
     }
     td {
-      padding: 15px 0;
+      padding: 12px 0;
       font-weight: 600;
       color: var(--secondary-color);
+      font-size: 0.95rem;
       @media (max-width: 768px) {
-        font-size: 0.9rem;
-        padding: 10px 0;
+        font-size: 0.85rem;
+        padding: 8px 0;
+      }
+    }
+  }
+
+  .specs-bullet-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 12px 40px;
+    padding: 10px 0;
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr;
+    }
+    li {
+      position: relative;
+      padding-left: 20px;
+      font-size: 0.95rem;
+      font-weight: 500;
+      color: var(--secondary-color);
+      &::before {
+        content: "→";
+        position: absolute;
+        left: 0;
+        color: var(--primary-color);
+        font-weight: 800;
       }
     }
   }
@@ -3575,7 +3623,7 @@ section {
   .about-text-wrap {
     line-height: 1.8;
     color: var(--text-color);
-    max-width: 800px;
+    max-width: 1000px;
   }
 }
 

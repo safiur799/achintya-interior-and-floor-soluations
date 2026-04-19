@@ -1,4 +1,5 @@
 "use client";
+/** Product Detail Page with enhanced metadata and robust lookup */
 import React, { useState, useEffect } from "react";
 import { useParams } from "next/navigation";
 import { gsap } from "gsap";
@@ -24,12 +25,40 @@ const ProductDetailPage = () => {
   const category = categories.find(
     (c) => c.id.toLowerCase() === categoryId?.toLowerCase(),
   );
-  const subcategory = category?.subcategories?.find(
+
+  // Initialize with specific lookup
+  let subcategory = category?.subcategories?.find(
     (s) => s.id.toLowerCase() === subcategoryId?.toLowerCase(),
   );
-  const product = subcategory?.products.find(
+
+  let product = subcategory?.products.find(
     (p) => p.id.toLowerCase() === productId?.toLowerCase(),
   ) as Product | undefined;
+
+  // Robust lookup: if not found, search all subcategories OR category.products
+  if (!product && category) {
+    // 1. Search directly in category.products (if flattened)
+    const catProducts = (category as any).products;
+    if (Array.isArray(catProducts)) {
+      product = catProducts.find(
+        (p: Product) => p.id.toLowerCase() === productId?.toLowerCase(),
+      );
+    }
+
+    // 2. Search all subcategories if still not found
+    if (!product && category.subcategories) {
+      for (const sub of category.subcategories) {
+        const found = sub.products?.find(
+          (p) => p.id.toLowerCase() === productId?.toLowerCase(),
+        );
+        if (found) {
+          product = found;
+          subcategory = sub;
+          break;
+        }
+      }
+    }
+  }
 
   const [mainImage, setMainImage] = useState(product?.image);
   const [activeTab, setActiveTab] = useState("specs");
@@ -61,7 +90,7 @@ const ProductDetailPage = () => {
 
   return (
     <Wrapper hideAnnouncements={true}>
-      {!product || !subcategory || !category ? (
+      {!product ? (
         <div
           style={{
             padding: "200px 20px",
@@ -80,7 +109,7 @@ const ProductDetailPage = () => {
         </div>
       ) : (
         <>
-          <div className="product-breadcrumb-wrap">
+          {/* <div className="product-breadcrumb-wrap">
             <div className="container">
               <ul className="breadcrumbs">
                 <li>
@@ -102,7 +131,7 @@ const ProductDetailPage = () => {
                 <li className="active">{product.title}</li>
               </ul>
             </div>
-          </div>
+          </div> */}
 
           <section className="product-detail-standard">
             <div className="container">
@@ -212,19 +241,142 @@ const ProductDetailPage = () => {
                 <div className="tabs-content">
                   {activeTab === "specs" ? (
                     <div className="specs-table-wrap">
-                      <table className="specs-table">
-                        <tbody>
-                          {product.technical_specs &&
-                            Object.entries(product.technical_specs).map(
-                              ([key, val]) => (
-                                <tr key={key}>
-                                  <th>{key}</th>
-                                  <td>{val}</td>
-                                </tr>
-                              ),
+                      <div className="specs-group">
+                        <h4 className="specs-section-title">
+                          Basic Information
+                        </h4>
+                        <table className="specs-table">
+                          <tbody>
+                            <tr>
+                              <th>Brand</th>
+                              <td>{product.brand || "Eminent Tactiles"}</td>
+                            </tr>
+                            <tr>
+                              <th>Origin</th>
+                              <td>{product.origin || "Made in India"}</td>
+                            </tr>
+                            {product.customization && (
+                              <tr>
+                                <th>Customization</th>
+                                <td>{product.customization}</td>
+                              </tr>
                             )}
-                        </tbody>
-                      </table>
+                            {product.warranty && (
+                              <tr>
+                                <th>Warranty</th>
+                                <td>{product.warranty}</td>
+                              </tr>
+                            )}
+                          </tbody>
+                        </table>
+                      </div>
+
+                      {product.performance_features && (
+                        <div className="specs-group">
+                          <h4 className="specs-section-title">
+                            Performance Features
+                          </h4>
+                          <table className="specs-table">
+                            <tbody>
+                              {Object.entries(product.performance_features).map(
+                                ([key, val]) => (
+                                  <tr key={key}>
+                                    <th className="text-capitalize">
+                                      {key.replace(/_/g, " ")}
+                                    </th>
+                                    <td>{val}</td>
+                                  </tr>
+                                ),
+                              )}
+                            </tbody>
+                          </table>
+                        </div>
+                      )}
+
+                      {product.installation_details && (
+                        <div className="specs-group">
+                          <h4 className="specs-section-title">
+                            Installation Details
+                          </h4>
+                          <table className="specs-table">
+                            <tbody>
+                              {Object.entries(product.installation_details).map(
+                                ([key, val]) => (
+                                  <tr key={key}>
+                                    <th className="text-capitalize">
+                                      {key.replace(/_/g, " ")}
+                                    </th>
+                                    <td>{val}</td>
+                                  </tr>
+                                ),
+                              )}
+                            </tbody>
+                          </table>
+                        </div>
+                      )}
+
+                      {(product.technical_specs ||
+                        product.dimensions_detailed) && (
+                        <div className="specs-group">
+                          <h4 className="specs-section-title">
+                            Technical Specifications
+                          </h4>
+                          <table className="specs-table">
+                            <tbody>
+                              {product.dimensions_detailed &&
+                                Object.entries(product.dimensions_detailed).map(
+                                  ([key, val]) => (
+                                    <tr key={key}>
+                                      <th className="text-capitalize">
+                                        {key.replace(/_/g, " ")}
+                                      </th>
+                                      <td>{val}</td>
+                                    </tr>
+                                  ),
+                                )}
+                              {product.technical_specs &&
+                                Object.entries(product.technical_specs).map(
+                                  ([key, val]) => (
+                                    <tr key={key}>
+                                      <th>{key}</th>
+                                      <td>{val}</td>
+                                    </tr>
+                                  ),
+                                )}
+                            </tbody>
+                          </table>
+                        </div>
+                      )}
+
+                      {product.usage_applications && (
+                        <div className="specs-group">
+                          <h4 className="specs-section-title">
+                            Usage & Applications
+                          </h4>
+                          <div className="specs-list-wrap">
+                            <ul className="specs-bullet-list">
+                              {product.usage_applications.map((app, idx) => (
+                                <li key={idx}>{app}</li>
+                              ))}
+                            </ul>
+                          </div>
+                        </div>
+                      )}
+
+                      {product.standards && (
+                        <div className="specs-group">
+                          <h4 className="specs-section-title">
+                            Standards & Compliance
+                          </h4>
+                          <div className="specs-list-wrap">
+                            <ul className="specs-bullet-list">
+                              {product.standards.map((std, idx) => (
+                                <li key={idx}>{std}</li>
+                              ))}
+                            </ul>
+                          </div>
+                        </div>
+                      )}
                     </div>
                   ) : (
                     <div className="about-text-wrap">

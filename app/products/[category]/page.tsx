@@ -3,13 +3,14 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import Wrapper from "../../layout/Wrapper";
-import CommonBanner from "../../components/CommonBanner";
-import Pagination from "../../components/Pagination";
-import { categories as categoriesData } from "../../json/products.json";
-import { Category, Product } from "../../types/product";
+import Wrapper from "@/app/layout/Wrapper";
 import Link from "next/link";
-import FreeSampleCard from "../../components/FreeSampleCard";
+import CommonBanner from "@/app/components/CommonBanner";
+import FreeSampleCard from "@/app/components/FreeSampleCard";
+import { Product } from "@/app/types/product";
+import Pagination from "@/app/components/Pagination";
+import { categories as categoriesData } from "@/app/json/products.json";
+import { Category } from "@/app/types/product";
 
 const categories = categoriesData as unknown as Category[];
 
@@ -22,15 +23,22 @@ const CategoryPage = () => {
   const category = categories.find(
     (c) => c.id.toLowerCase() === categoryId?.toLowerCase(),
   );
+  const hasSubcategories = !!category?.subcategories?.length;
 
   const allProducts =
     category?.subcategories?.flatMap((sub) => sub.products || []) || [];
 
-  const totalPages = Math.ceil(allProducts.length / itemsPerPage);
-  const currentProducts = allProducts.slice(
-    (currentPage - 1) * itemsPerPage,
-    currentPage * itemsPerPage,
-  );
+  const totalPages = hasSubcategories
+    ? 1 // no pagination for subcategories
+    : Math.ceil((category?.products?.length || 0) / itemsPerPage);
+  const currentProducts = hasSubcategories
+    ? []
+    : category?.products?.slice(
+        (currentPage - 1) * itemsPerPage,
+        currentPage * itemsPerPage,
+      ) || [];
+
+  console.log(hasSubcategories);
 
   useEffect(() => {
     if (!category) return;
@@ -93,36 +101,53 @@ const CategoryPage = () => {
             <div className="section-title">
               <h3>{category.title}</h3>
               <p>
-                {category.subcategories.reduce(
+                {/* {category.subcategories.flatMap(
                   (acc, sub) => acc + (sub.products?.length || 0),
                   0,
-                )}{" "}
+                )}{" "} */}
                 products
               </p>
             </div>
             <div className="product-categories-grid">
-              {currentProducts.map((product: Product) => {
-                const subId = category.subcategories.find((s) =>
-                  s.products.some((p) => p.id === product.id),
-                )?.id;
-                return (
-                  <Link
-                    href={`/products/${category.id}/${subId}/${product.id}`}
-                    key={product.id}
-                    className="product-card"
-                  >
-                    <div className="product-image">
-                      <img src={product.image} alt={product.title} />
-                    </div>
-                    <div className="product-name">
-                      <h3>{product.title}</h3>
-                    </div>
-                  </Link>
-                );
-              })}
+              {hasSubcategories
+                ? category.subcategories.map((sub) => (
+                    <Link
+                      href={`/products/${category.id}/${sub.id}`}
+                      key={sub.id}
+                      className="product-cat-card"
+                    >
+                      <div className="product-cat-image">
+                        <img src={sub.image} alt={sub.title} />
+                      </div>
+                      <div className="product-cat-overlay">
+                        <h3>{sub.title}</h3>
+                        {/* <p>{sub.description}</p> */}
+                        {/* <div className="explore-btn">Explore Range</div> */}
+                      </div>
+                    </Link>
+                  ))
+                : category.products
+                    ?.slice(
+                      (currentPage - 1) * itemsPerPage,
+                      currentPage * itemsPerPage,
+                    )
+                    .map((product: Product) => (
+                      <Link
+                        href={`/products/${category.id}/sub/${product.id}`}
+                        key={product.id}
+                        className="product-card"
+                      >
+                        <div className="product-image">
+                          <img src={product.image} alt={product.title} />
+                        </div>
+                        <div className="product-name">
+                          <h3>{product.title}</h3>
+                        </div>
+                      </Link>
+                    ))}
             </div>
 
-            {totalPages > 1 && (
+            {!hasSubcategories && totalPages > 1 && (
               <Pagination
                 currentPage={currentPage}
                 totalPages={totalPages}

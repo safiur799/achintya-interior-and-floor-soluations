@@ -1,15 +1,16 @@
 {
+  "version": "1.1",
   "categories": [
     {
       "id": "tactile-indicators",
       "title": "Tactile Indicators",
       "description": "Premium Tactile Indicators and Directional Strips for safety and aesthetics.",
-      "image": "/assets/tactile_studs.webp",
+      "image": "/assets/tactile-strips.webp",
       "subcategories": [
         {
           "id": "tactile-strips",
           "title": "Tactile Strips",
-          "image": "https://tactileindicators.in/wp-content/uploads/2022/04/tactile-strips-category.jpg",
+          "image": "/assets/tactile-strips.webp",
           "products": [
             {
               "id": "et-dts001",
@@ -36,7 +37,50 @@
                 "https://placehold.co/600x400?text=Tactile+Strip+Gallery+1",
                 "https://placehold.co/600x400?text=Tactile+Strip+Gallery+2"
               ],
-              "description": "Stainless steel tactile strips, also known as tactile directional indicators or TGSI strips, are designed to provide clear and continuous navigation guidance for visually impaired pedestrians in public and commercial environments."
+              "description": "Stainless steel tactile strips, also known as tactile directional indicators or TGSI strips, are designed to provide clear and continuous navigation guidance for visually impaired pedestrians in public and commercial environments.",
+              "brand": "Eminent Tactiles",
+              "customization": "Yes (Color Options, Size Customization, Design Options)",
+              "origin": "Made in India",
+              "warranty": "5-Year Warranty",
+              "standards": [
+                "Australian Standard AS/NZS 1428.4.1:2009",
+                "National Building Code (India) 2016",
+                "Americans with Disabilities Act Amendments Act (ADAAA)"
+              ],
+              "installation_details": {
+                "method": "Drill & Fix",
+                "surface": "Suitable for indoor & outdoor",
+                "substrates": "Stone, masonry, timber, vinyl, vitrified porcelain, ceramics, glass, metals",
+                "time": "Quick & easy installation"
+              },
+              "usage_applications": [
+                "Corporate buildings",
+                "Corporate Parks",
+                "Bus Stations",
+                "Railway Stations",
+                "Metro Stations",
+                "Airports",
+                "Shopping Malls",
+                "Footpaths & Sidewalks",
+                "Hospitals",
+                "Public Buildings",
+                "Pedestrian Crossings",
+                "Schools & Colleges"
+              ],
+              "performance_features": {
+                "anti_slip": "Yes",
+                "weather_resistant": "Yes (UV & Rain Resistant)",
+                "load_bearing_capacity": "High (Pedestrian + Light Vehicle)",
+                "wear_resistance": "Long-lasting durability",
+                "fire_resistance": "Yes",
+                "bulk_supply": "Yes"
+              },
+              "dimensions_detailed": {
+                "diameter": "35mm / 25 mm",
+                "shape": "Square",
+                "thickness": "4.5mm",
+                "top_design": "Linear"
+              }
             },
             {
               "id": "et-dts002",
@@ -54,7 +98,36 @@
                 "https://placehold.co/600x400?text=Hollow+Back+Strip+Gallery+1",
                 "https://placehold.co/600x400?text=Hollow+Back+Strip+Gallery+2"
               ],
-              "description": "Stainless Steel Hollow Back Tactile Directional Strip with Linear Pattern on Top (Machine Finish) for enhanced safety and accessibility."
+              "description": "Stainless Steel Hollow Back Tactile Directional Strip with Linear Pattern on Top (Machine Finish) for enhanced safety and accessibility.",
+              "brand": "Eminent Tactiles",
+              "customization": "Yes (Color Options, Size Customization, Design Options)",
+              "origin": "Made in India",
+              "warranty": "5-Year Warranty",
+              "standards": [
+                "Australian Standard AS/NZS 1428.4.1:2009",
+                "National Building Code (India) 2016",
+                "Americans with Disabilities Act Amendments Act (ADAAA)"
+              ],
+              "installation_details": {
+                "method": "Drill & Fix",
+                "surface": "Suitable for indoor & outdoor",
+                "substrates": "Stone, masonry, timber, vinyl, vitrified porcelain, ceramics, glass, metals",
+                "time": "Quick & easy installation"
+              },
+              "usage_applications": [
+                "Corporate buildings",
+                "Corporate Parks",
+                "Bus Stations",
+                "Railway Stations",
+                "Metro Stations",
+                "Airports",
+                "Shopping Malls",
+                "Footpaths & Sidewalks",
+                "Hospitals",
+                "Public Buildings",
+                "Pedestrian Crossings",
+                "Schools & Colleges"
+              ]
             },
             {
               "id": "et-dts003",
@@ -71,7 +144,36 @@
                 "https://placehold.co/600x400?text=Casting+Strip+Gallery+1",
                 "https://placehold.co/600x400?text=Casting+Strip+Gallery+2"
               ],
-              "description": "Stainless Steel Casting Tactile Strip: Directional Strip with Linear Pattern (Casting Finish) designed for durability."
+              "description": "Stainless Steel Casting Tactile Strip: Directional Strip with Linear Pattern (Casting Finish) designed for durability.",
+              "brand": "Eminent Tactiles",
+              "customization": "Yes (Color Options, Size Customization, Design Options)",
+              "origin": "Made in India",
+              "warranty": "5-Year Warranty",
+              "standards": [
+                "Australian Standard AS/NZS 1428.4.1:2009",
+                "National Building Code (India) 2016",
+                "Americans with Disabilities Act Amendments Act (ADAAA)"
+              ],
+              "installation_details": {
+                "method": "Drill & Fix",
+                "surface": "Suitable for indoor & outdoor",
+                "substrates": "Stone, masonry, timber, vinyl, vitrified porcelain, ceramics, glass, metals",
+                "time": "Quick & easy installation"
+              },
+              "usage_applications": [
+                "Corporate buildings",
+                "Corporate Parks",
+                "Bus Stations",
+                "Railway Stations",
+                "Metro Stations",
+                "Airports",
+                "Shopping Malls",
+                "Footpaths & Sidewalks",
+                "Hospitals",
+                "Public Buildings",
+                "Pedestrian Crossings",
+                "Schools & Colleges"
+              ]
             },
             {
               "id": "et-dts004",
@@ -89,7 +191,36 @@
                 "https://placehold.co/600x400?text=Poly+Sleeve+Strip+Gallery+1",
                 "https://placehold.co/600x400?text=Poly+Sleeve+Strip+Gallery+2"
               ],
-              "description": "Stainless Steel Tactile Strip with Poly Sleeve Directional Strip with Linear Pattern on Top (Machine Finish)."
+              "description": "Stainless Steel Tactile Strip with Poly Sleeve Directional Strip with Linear Pattern on Top (Machine Finish).",
+              "brand": "Eminent Tactiles",
+              "customization": "Yes (Color Options, Size Customization, Design Options)",
+              "origin": "Made in India",
+              "warranty": "5-Year Warranty",
+              "standards": [
+                "Australian Standard AS/NZS 1428.4.1:2009",
+                "National Building Code (India) 2016",
+                "Americans with Disabilities Act Amendments Act (ADAAA)"
+              ],
+              "installation_details": {
+                "method": "Drill & Fix",
+                "surface": "Suitable for indoor & outdoor",
+                "substrates": "Stone, masonry, timber, vinyl, vitrified porcelain, ceramics, glass, metals",
+                "time": "Quick & easy installation"
+              },
+              "usage_applications": [
+                "Corporate buildings",
+                "Corporate Parks",
+                "Bus Stations",
+                "Railway Stations",
+                "Metro Stations",
+                "Airports",
+                "Shopping Malls",
+                "Footpaths & Sidewalks",
+                "Hospitals",
+                "Public Buildings",
+                "Pedestrian Crossings",
+                "Schools & Colleges"
+              ]
             },
             {
               "id": "et-dts005",
@@ -107,7 +238,36 @@
                 "https://placehold.co/600x400?text=Diamond+Pattern+Strip+Gallery+1",
                 "https://placehold.co/600x400?text=Diamond+Pattern+Strip+Gallery+2"
               ],
-              "description": "Stainless Steel Tactile Strip with Diamond Pattern (Casting Finish) & Poly Sleeve: Directional Guidance Strip."
+              "description": "Stainless Steel Tactile Strip with Diamond Pattern (Casting Finish) & Poly Sleeve: Directional Guidance Strip.",
+              "brand": "Eminent Tactiles",
+              "customization": "Yes (Color Options, Size Customization, Design Options)",
+              "origin": "Made in India",
+              "warranty": "5-Year Warranty",
+              "standards": [
+                "Australian Standard AS/NZS 1428.4.1:2009",
+                "National Building Code (India) 2016",
+                "Americans with Disabilities Act Amendments Act (ADAAA)"
+              ],
+              "installation_details": {
+                "method": "Drill & Fix",
+                "surface": "Suitable for indoor & outdoor",
+                "substrates": "Stone, masonry, timber, vinyl, vitrified porcelain, ceramics, glass, metals",
+                "time": "Quick & easy installation"
+              },
+              "usage_applications": [
+                "Corporate buildings",
+                "Corporate Parks",
+                "Bus Stations",
+                "Railway Stations",
+                "Metro Stations",
+                "Airports",
+                "Shopping Malls",
+                "Footpaths & Sidewalks",
+                "Hospitals",
+                "Public Buildings",
+                "Pedestrian Crossings",
+                "Schools & Colleges"
+              ]
             },
             {
               "id": "et-dts006",
@@ -125,7 +285,36 @@
                 "https://placehold.co/600x400?text=Self+Adhesive+Strip+Gallery+1",
                 "https://placehold.co/600x400?text=Self+Adhesive+Strip+Gallery+2"
               ],
-              "description": "Stainless Steel Self Adhesive Tactile Strip with Linear Pattern on Top (Machine Finish)."
+              "description": "Stainless Steel Self Adhesive Tactile Strip with Linear Pattern on Top (Machine Finish).",
+              "brand": "Eminent Tactiles",
+              "customization": "Yes (Color Options, Size Customization, Design Options)",
+              "origin": "Made in India",
+              "warranty": "5-Year Warranty",
+              "standards": [
+                "Australian Standard AS/NZS 1428.4.1:2009",
+                "National Building Code (India) 2016",
+                "Americans with Disabilities Act Amendments Act (ADAAA)"
+              ],
+              "installation_details": {
+                "method": "Drill & Fix",
+                "surface": "Suitable for indoor & outdoor",
+                "substrates": "Stone, masonry, timber, vinyl, vitrified porcelain, ceramics, glass, metals",
+                "time": "Quick & easy installation"
+              },
+              "usage_applications": [
+                "Corporate buildings",
+                "Corporate Parks",
+                "Bus Stations",
+                "Railway Stations",
+                "Metro Stations",
+                "Airports",
+                "Shopping Malls",
+                "Footpaths & Sidewalks",
+                "Hospitals",
+                "Public Buildings",
+                "Pedestrian Crossings",
+                "Schools & Colleges"
+              ]
             },
             {
               "id": "et-dts007",
@@ -142,7 +331,36 @@
                 "https://placehold.co/600x400?text=Carpet+Strip+Gallery+1",
                 "https://placehold.co/600x400?text=Carpet+Strip+Gallery+2"
               ],
-              "description": "Stainless Steel Tactile Strip for Carpet: Directional Pattern with Linear Top Texture and Screw Fixation."
+              "description": "Stainless Steel Tactile Strip for Carpet: Directional Pattern with Linear Top Texture and Screw Fixation.",
+              "brand": "Eminent Tactiles",
+              "customization": "Yes (Color Options, Size Customization, Design Options)",
+              "origin": "Made in India",
+              "warranty": "5-Year Warranty",
+              "standards": [
+                "Australian Standard AS/NZS 1428.4.1:2009",
+                "National Building Code (India) 2016",
+                "Americans with Disabilities Act Amendments Act (ADAAA)"
+              ],
+              "installation_details": {
+                "method": "Drill & Fix",
+                "surface": "Suitable for indoor & outdoor",
+                "substrates": "Stone, masonry, timber, vinyl, vitrified porcelain, ceramics, glass, metals",
+                "time": "Quick & easy installation"
+              },
+              "usage_applications": [
+                "Corporate buildings",
+                "Corporate Parks",
+                "Bus Stations",
+                "Railway Stations",
+                "Metro Stations",
+                "Airports",
+                "Shopping Malls",
+                "Footpaths & Sidewalks",
+                "Hospitals",
+                "Public Buildings",
+                "Pedestrian Crossings",
+                "Schools & Colleges"
+              ]
             },
             {
               "id": "et-dts008",
@@ -160,7 +378,36 @@
                 "https://placehold.co/600x400?text=Diamond+Machine+Strip+Gallery+1",
                 "https://placehold.co/600x400?text=Diamond+Machine+Strip+Gallery+2"
               ],
-              "description": "Stainless Steel Tactile Strip with Diamond Pattern on Top (Machine Finish)."
+              "description": "Stainless Steel Tactile Strip with Diamond Pattern on Top (Machine Finish).",
+              "brand": "Eminent Tactiles",
+              "customization": "Yes (Color Options, Size Customization, Design Options)",
+              "origin": "Made in India",
+              "warranty": "5-Year Warranty",
+              "standards": [
+                "Australian Standard AS/NZS 1428.4.1:2009",
+                "National Building Code (India) 2016",
+                "Americans with Disabilities Act Amendments Act (ADAAA)"
+              ],
+              "installation_details": {
+                "method": "Drill & Fix",
+                "surface": "Suitable for indoor & outdoor",
+                "substrates": "Stone, masonry, timber, vinyl, vitrified porcelain, ceramics, glass, metals",
+                "time": "Quick & easy installation"
+              },
+              "usage_applications": [
+                "Corporate buildings",
+                "Corporate Parks",
+                "Bus Stations",
+                "Railway Stations",
+                "Metro Stations",
+                "Airports",
+                "Shopping Malls",
+                "Footpaths & Sidewalks",
+                "Hospitals",
+                "Public Buildings",
+                "Pedestrian Crossings",
+                "Schools & Colleges"
+              ]
             },
             {
               "id": "et-dts009",
@@ -178,7 +425,36 @@
                 "https://placehold.co/600x400?text=Casting+Diamond+Strip+Gallery+1",
                 "https://placehold.co/600x400?text=Casting+Diamond+Strip+Gallery+2"
               ],
-              "description": "Stainless Steel Casting Tactile Strip with Diamond Pattern and Directional Top Finish."
+              "description": "Stainless Steel Casting Tactile Strip with Diamond Pattern and Directional Top Finish.",
+              "brand": "Eminent Tactiles",
+              "customization": "Yes (Color Options, Size Customization, Design Options)",
+              "origin": "Made in India",
+              "warranty": "5-Year Warranty",
+              "standards": [
+                "Australian Standard AS/NZS 1428.4.1:2009",
+                "National Building Code (India) 2016",
+                "Americans with Disabilities Act Amendments Act (ADAAA)"
+              ],
+              "installation_details": {
+                "method": "Drill & Fix",
+                "surface": "Suitable for indoor & outdoor",
+                "substrates": "Stone, masonry, timber, vinyl, vitrified porcelain, ceramics, glass, metals",
+                "time": "Quick & easy installation"
+              },
+              "usage_applications": [
+                "Corporate buildings",
+                "Corporate Parks",
+                "Bus Stations",
+                "Railway Stations",
+                "Metro Stations",
+                "Airports",
+                "Shopping Malls",
+                "Footpaths & Sidewalks",
+                "Hospitals",
+                "Public Buildings",
+                "Pedestrian Crossings",
+                "Schools & Colleges"
+              ]
             },
             {
               "id": "et-dts010",
@@ -197,7 +473,36 @@
                 "https://placehold.co/600x400?text=Diamond+Poly+Strip+Gallery+1",
                 "https://placehold.co/600x400?text=Diamond+Poly+Strip+Gallery+2"
               ],
-              "description": "Stainless Steel Tactile Strip with Diamond Pattern on Top and Poly Sleeve: Directional Strip with Machine Finish."
+              "description": "Stainless Steel Tactile Strip with Diamond Pattern on Top and Poly Sleeve: Directional Strip with Machine Finish.",
+              "brand": "Eminent Tactiles",
+              "customization": "Yes (Color Options, Size Customization, Design Options)",
+              "origin": "Made in India",
+              "warranty": "5-Year Warranty",
+              "standards": [
+                "Australian Standard AS/NZS 1428.4.1:2009",
+                "National Building Code (India) 2016",
+                "Americans with Disabilities Act Amendments Act (ADAAA)"
+              ],
+              "installation_details": {
+                "method": "Drill & Fix",
+                "surface": "Suitable for indoor & outdoor",
+                "substrates": "Stone, masonry, timber, vinyl, vitrified porcelain, ceramics, glass, metals",
+                "time": "Quick & easy installation"
+              },
+              "usage_applications": [
+                "Corporate buildings",
+                "Corporate Parks",
+                "Bus Stations",
+                "Railway Stations",
+                "Metro Stations",
+                "Airports",
+                "Shopping Malls",
+                "Footpaths & Sidewalks",
+                "Hospitals",
+                "Public Buildings",
+                "Pedestrian Crossings",
+                "Schools & Colleges"
+              ]
             },
             {
               "id": "et-dts011",
@@ -216,7 +521,36 @@
                 "https://placehold.co/600x400?text=Casting+Poly+Strip+Gallery+1",
                 "https://placehold.co/600x400?text=Casting+Poly+Strip+Gallery+2"
               ],
-              "description": "Stainless Steel Casting Finish Tactile Strip with Diamond Pattern on Top and Poly Sleeve."
+              "description": "Stainless Steel Casting Finish Tactile Strip with Diamond Pattern on Top and Poly Sleeve.",
+              "brand": "Eminent Tactiles",
+              "customization": "Yes (Color Options, Size Customization, Design Options)",
+              "origin": "Made in India",
+              "warranty": "5-Year Warranty",
+              "standards": [
+                "Australian Standard AS/NZS 1428.4.1:2009",
+                "National Building Code (India) 2016",
+                "Americans with Disabilities Act Amendments Act (ADAAA)"
+              ],
+              "installation_details": {
+                "method": "Drill & Fix",
+                "surface": "Suitable for indoor & outdoor",
+                "substrates": "Stone, masonry, timber, vinyl, vitrified porcelain, ceramics, glass, metals",
+                "time": "Quick & easy installation"
+              },
+              "usage_applications": [
+                "Corporate buildings",
+                "Corporate Parks",
+                "Bus Stations",
+                "Railway Stations",
+                "Metro Stations",
+                "Airports",
+                "Shopping Malls",
+                "Footpaths & Sidewalks",
+                "Hospitals",
+                "Public Buildings",
+                "Pedestrian Crossings",
+                "Schools & Colleges"
+              ]
             },
             {
               "id": "et-dts012",
@@ -235,22 +569,43 @@
                 "https://placehold.co/600x400?text=Adhesive+Diamond+Strip+Gallery+1",
                 "https://placehold.co/600x400?text=Adhesive+Diamond+Strip+Gallery+2"
               ],
-              "description": "Stainless Steel Self Adhesive Tactile Strip with Diamond Pattern and Directional Top in Machine Finish."
+              "description": "Stainless Steel Self Adhesive Tactile Strip with Diamond Pattern and Directional Top in Machine Finish.",
+              "brand": "Eminent Tactiles",
+              "customization": "Yes (Color Options, Size Customization, Design Options)",
+              "origin": "Made in India",
+              "warranty": "5-Year Warranty",
+              "standards": [
+                "Australian Standard AS/NZS 1428.4.1:2009",
+                "National Building Code (India) 2016",
+                "Americans with Disabilities Act Amendments Act (ADAAA)"
+              ],
+              "installation_details": {
+                "method": "Drill & Fix",
+                "surface": "Suitable for indoor & outdoor",
+                "substrates": "Stone, masonry, timber, vinyl, vitrified porcelain, ceramics, glass, metals",
+                "time": "Quick & easy installation"
+              },
+              "usage_applications": [
+                "Corporate buildings",
+                "Corporate Parks",
+                "Bus Stations",
+                "Railway Stations",
+                "Metro Stations",
+                "Airports",
+                "Shopping Malls",
+                "Footpaths & Sidewalks",
+                "Hospitals",
+                "Public Buildings",
+                "Pedestrian Crossings",
+                "Schools & Colleges"
+              ]
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "modular-skirting",
-      "title": "Moduler Skirting",
-      "description": "Enhanced visibility and safety with premium road studs.",
-      "image": "/assets/tactile-strips.webp",
-      "subcategories": [
+        },
         {
-          "id": "metal-road-studs",
-          "title": "Metal Road Studs",
-          "image": "https://tactileindicators.in/wp-content/uploads/2022/04/category-road-studs.jpg",
+          "id": "tactile-studs",
+          "title": "Tactile Studs",
+          "image": "/assets/tactile_studs.webp",
           "products": [
             {
               "id": "et-wts001",
@@ -267,11 +622,40 @@
                 "https://placehold.co/600x400?text=Warning+Stud+Gallery+1",
                 "https://placehold.co/600x400?text=Warning+Stud+Gallery+2"
               ],
-              "description": "Stainless steel tactile stud designed for visually impaired individuals, enhancing safety with tactile warning studs."
+              "description": "Stainless steel tactile stud designed for visually impaired individuals, enhancing safety with tactile warning studs.",
+              "brand": "Eminent Tactiles",
+              "customization": "Yes (Color Options, Size Customization, Design Options)",
+              "origin": "Made in India",
+              "warranty": "5-Year Warranty",
+              "standards": [
+                "Australian Standard AS/NZS 1428.4.1:2009",
+                "National Building Code (India) 2016",
+                "Americans with Disabilities Act Amendments Act (ADAAA)"
+              ],
+              "installation_details": {
+                "method": "Drill & Fix",
+                "surface": "Suitable for indoor & outdoor",
+                "substrates": "Stone, masonry, timber, vinyl, vitrified porcelain, ceramics, glass, metals",
+                "time": "Quick & easy installation"
+              },
+              "usage_applications": [
+                "Corporate buildings",
+                "Corporate Parks",
+                "Bus Stations",
+                "Railway Stations",
+                "Metro Stations",
+                "Airports",
+                "Shopping Malls",
+                "Footpaths & Sidewalks",
+                "Hospitals",
+                "Public Buildings",
+                "Pedestrian Crossings",
+                "Schools & Colleges"
+              ]
             },
             {
               "id": "et-wts002",
-              "title": "Stainless Steel Tactile Stud with Poly Sleeve – Concentric Rings Pattern",
+              "title": "Stainless Steel Tactile Stud with Poly Sleeve \u2013 Concentric Rings Pattern",
               "sku": "ET-WTS002",
               "image": "/assets/products/tactile-stud-2.webp",
               "material_grades": ["SS 316", "SS 304"],
@@ -285,7 +669,36 @@
                 "https://placehold.co/600x400?text=Poly+Sleeve+Stud+Gallery+1",
                 "https://placehold.co/600x400?text=Poly+Sleeve+Stud+Gallery+2"
               ],
-              "description": "Stainless steel tactile stud designed for visually impaired, featuring pressure fit for durability and PWD approved tactile warning studs."
+              "description": "Stainless steel tactile stud designed for visually impaired, featuring pressure fit for durability and PWD approved tactile warning studs.",
+              "brand": "Eminent Tactiles",
+              "customization": "Yes (Color Options, Size Customization, Design Options)",
+              "origin": "Made in India",
+              "warranty": "5-Year Warranty",
+              "standards": [
+                "Australian Standard AS/NZS 1428.4.1:2009",
+                "National Building Code (India) 2016",
+                "Americans with Disabilities Act Amendments Act (ADAAA)"
+              ],
+              "installation_details": {
+                "method": "Drill & Fix",
+                "surface": "Suitable for indoor & outdoor",
+                "substrates": "Stone, masonry, timber, vinyl, vitrified porcelain, ceramics, glass, metals",
+                "time": "Quick & easy installation"
+              },
+              "usage_applications": [
+                "Corporate buildings",
+                "Corporate Parks",
+                "Bus Stations",
+                "Railway Stations",
+                "Metro Stations",
+                "Airports",
+                "Shopping Malls",
+                "Footpaths & Sidewalks",
+                "Hospitals",
+                "Public Buildings",
+                "Pedestrian Crossings",
+                "Schools & Colleges"
+              ]
             },
             {
               "id": "et-wts003",
@@ -303,7 +716,36 @@
                 "https://placehold.co/600x400?text=Hollow+Back+Stud+Gallery+1",
                 "https://placehold.co/600x400?text=Hollow+Back+Stud+Gallery+2"
               ],
-              "description": "Close-up of a hollow back tactile stud showcasing its unique design and functionality for enhanced tactile feedback."
+              "description": "Close-up of a hollow back tactile stud showcasing its unique design and functionality for enhanced tactile feedback.",
+              "brand": "Eminent Tactiles",
+              "customization": "Yes (Color Options, Size Customization, Design Options)",
+              "origin": "Made in India",
+              "warranty": "5-Year Warranty",
+              "standards": [
+                "Australian Standard AS/NZS 1428.4.1:2009",
+                "National Building Code (India) 2016",
+                "Americans with Disabilities Act Amendments Act (ADAAA)"
+              ],
+              "installation_details": {
+                "method": "Drill & Fix",
+                "surface": "Suitable for indoor & outdoor",
+                "substrates": "Stone, masonry, timber, vinyl, vitrified porcelain, ceramics, glass, metals",
+                "time": "Quick & easy installation"
+              },
+              "usage_applications": [
+                "Corporate buildings",
+                "Corporate Parks",
+                "Bus Stations",
+                "Railway Stations",
+                "Metro Stations",
+                "Airports",
+                "Shopping Malls",
+                "Footpaths & Sidewalks",
+                "Hospitals",
+                "Public Buildings",
+                "Pedestrian Crossings",
+                "Schools & Colleges"
+              ]
             },
             {
               "id": "et-wts004",
@@ -322,7 +764,36 @@
                 "https://placehold.co/600x400?text=Hollow+Poly+Stud+Gallery+1",
                 "https://placehold.co/600x400?text=Hollow+Poly+Stud+Gallery+2"
               ],
-              "description": "Hollow Back SS Tactile Stud and SS Tactile Stud displayed, showcasing their unique design and functionality for various applications."
+              "description": "Hollow Back SS Tactile Stud and SS Tactile Stud displayed, showcasing their unique design and functionality for various applications.",
+              "brand": "Eminent Tactiles",
+              "customization": "Yes (Color Options, Size Customization, Design Options)",
+              "origin": "Made in India",
+              "warranty": "5-Year Warranty",
+              "standards": [
+                "Australian Standard AS/NZS 1428.4.1:2009",
+                "National Building Code (India) 2016",
+                "Americans with Disabilities Act Amendments Act (ADAAA)"
+              ],
+              "installation_details": {
+                "method": "Drill & Fix",
+                "surface": "Suitable for indoor & outdoor",
+                "substrates": "Stone, masonry, timber, vinyl, vitrified porcelain, ceramics, glass, metals",
+                "time": "Quick & easy installation"
+              },
+              "usage_applications": [
+                "Corporate buildings",
+                "Corporate Parks",
+                "Bus Stations",
+                "Railway Stations",
+                "Metro Stations",
+                "Airports",
+                "Shopping Malls",
+                "Footpaths & Sidewalks",
+                "Hospitals",
+                "Public Buildings",
+                "Pedestrian Crossings",
+                "Schools & Colleges"
+              ]
             },
             {
               "id": "et-wts005",
@@ -340,7 +811,36 @@
                 "https://placehold.co/600x400?text=Circular+Center+Stud+Gallery+1",
                 "https://placehold.co/600x400?text=Circular+Center+Stud+Gallery+2"
               ],
-              "description": "High-quality stainless steel tactile stud designed for enhanced grip and safety in various applications."
+              "description": "High-quality stainless steel tactile stud designed for enhanced grip and safety in various applications.",
+              "brand": "Eminent Tactiles",
+              "customization": "Yes (Color Options, Size Customization, Design Options)",
+              "origin": "Made in India",
+              "warranty": "5-Year Warranty",
+              "standards": [
+                "Australian Standard AS/NZS 1428.4.1:2009",
+                "National Building Code (India) 2016",
+                "Americans with Disabilities Act Amendments Act (ADAAA)"
+              ],
+              "installation_details": {
+                "method": "Drill & Fix",
+                "surface": "Suitable for indoor & outdoor",
+                "substrates": "Stone, masonry, timber, vinyl, vitrified porcelain, ceramics, glass, metals",
+                "time": "Quick & easy installation"
+              },
+              "usage_applications": [
+                "Corporate buildings",
+                "Corporate Parks",
+                "Bus Stations",
+                "Railway Stations",
+                "Metro Stations",
+                "Airports",
+                "Shopping Malls",
+                "Footpaths & Sidewalks",
+                "Hospitals",
+                "Public Buildings",
+                "Pedestrian Crossings",
+                "Schools & Colleges"
+              ]
             },
             {
               "id": "et-wts006",
@@ -358,7 +858,36 @@
                 "https://placehold.co/600x400?text=Carpet+Stud+Gallery+1",
                 "https://placehold.co/600x400?text=Carpet+Stud+Gallery+2"
               ],
-              "description": "Close-up of a Carpet Tactile Stud and Screw Fix stud, showcasing their design for secure flooring installation."
+              "description": "Close-up of a Carpet Tactile Stud and Screw Fix stud, showcasing their design for secure flooring installation.",
+              "brand": "Eminent Tactiles",
+              "customization": "Yes (Color Options, Size Customization, Design Options)",
+              "origin": "Made in India",
+              "warranty": "5-Year Warranty",
+              "standards": [
+                "Australian Standard AS/NZS 1428.4.1:2009",
+                "National Building Code (India) 2016",
+                "Americans with Disabilities Act Amendments Act (ADAAA)"
+              ],
+              "installation_details": {
+                "method": "Drill & Fix",
+                "surface": "Suitable for indoor & outdoor",
+                "substrates": "Stone, masonry, timber, vinyl, vitrified porcelain, ceramics, glass, metals",
+                "time": "Quick & easy installation"
+              },
+              "usage_applications": [
+                "Corporate buildings",
+                "Corporate Parks",
+                "Bus Stations",
+                "Railway Stations",
+                "Metro Stations",
+                "Airports",
+                "Shopping Malls",
+                "Footpaths & Sidewalks",
+                "Hospitals",
+                "Public Buildings",
+                "Pedestrian Crossings",
+                "Schools & Colleges"
+              ]
             },
             {
               "id": "et-wts007",
@@ -376,7 +905,36 @@
                 "https://placehold.co/600x400?text=Flat+Stud+Gallery+1",
                 "https://placehold.co/600x400?text=Flat+Stud+Gallery+2"
               ],
-              "description": "Stainless steel flat tactile warning stud designed for safety, featuring a textured surface for enhanced grip and visibility."
+              "description": "Stainless steel flat tactile warning stud designed for safety, featuring a textured surface for enhanced grip and visibility.",
+              "brand": "Eminent Tactiles",
+              "customization": "Yes (Color Options, Size Customization, Design Options)",
+              "origin": "Made in India",
+              "warranty": "5-Year Warranty",
+              "standards": [
+                "Australian Standard AS/NZS 1428.4.1:2009",
+                "National Building Code (India) 2016",
+                "Americans with Disabilities Act Amendments Act (ADAAA)"
+              ],
+              "installation_details": {
+                "method": "Drill & Fix",
+                "surface": "Suitable for indoor & outdoor",
+                "substrates": "Stone, masonry, timber, vinyl, vitrified porcelain, ceramics, glass, metals",
+                "time": "Quick & easy installation"
+              },
+              "usage_applications": [
+                "Corporate buildings",
+                "Corporate Parks",
+                "Bus Stations",
+                "Railway Stations",
+                "Metro Stations",
+                "Airports",
+                "Shopping Malls",
+                "Footpaths & Sidewalks",
+                "Hospitals",
+                "Public Buildings",
+                "Pedestrian Crossings",
+                "Schools & Colleges"
+              ]
             },
             {
               "id": "et-wts008",
@@ -394,7 +952,36 @@
                 "https://placehold.co/600x400?text=Adhesive+Stud+Gallery+1",
                 "https://placehold.co/600x400?text=Adhesive+Stud+Gallery+2"
               ],
-              "description": "Stainless steel tactile stud designed for enhanced grip and safety in various applications, featuring a durable and sleek finish."
+              "description": "Stainless steel tactile stud designed for enhanced grip and safety in various applications, featuring a durable and sleek finish.",
+              "brand": "Eminent Tactiles",
+              "customization": "Yes (Color Options, Size Customization, Design Options)",
+              "origin": "Made in India",
+              "warranty": "5-Year Warranty",
+              "standards": [
+                "Australian Standard AS/NZS 1428.4.1:2009",
+                "National Building Code (India) 2016",
+                "Americans with Disabilities Act Amendments Act (ADAAA)"
+              ],
+              "installation_details": {
+                "method": "Drill & Fix",
+                "surface": "Suitable for indoor & outdoor",
+                "substrates": "Stone, masonry, timber, vinyl, vitrified porcelain, ceramics, glass, metals",
+                "time": "Quick & easy installation"
+              },
+              "usage_applications": [
+                "Corporate buildings",
+                "Corporate Parks",
+                "Bus Stations",
+                "Railway Stations",
+                "Metro Stations",
+                "Airports",
+                "Shopping Malls",
+                "Footpaths & Sidewalks",
+                "Hospitals",
+                "Public Buildings",
+                "Pedestrian Crossings",
+                "Schools & Colleges"
+              ]
             },
             {
               "id": "et-wts009",
@@ -411,7 +998,36 @@
                 "https://placehold.co/600x400?text=Crosshatch+Stud+Gallery+1",
                 "https://placehold.co/600x400?text=Crosshatch+Stud+Gallery+2"
               ],
-              "description": "Stainless Steel Tactile Warning Stud designed for safety and accessibility in public spaces, ensuring clear guidance for visually impaired individuals."
+              "description": "Stainless Steel Tactile Warning Stud designed for safety and accessibility in public spaces, ensuring clear guidance for visually impaired individuals.",
+              "brand": "Eminent Tactiles",
+              "customization": "Yes (Color Options, Size Customization, Design Options)",
+              "origin": "Made in India",
+              "warranty": "5-Year Warranty",
+              "standards": [
+                "Australian Standard AS/NZS 1428.4.1:2009",
+                "National Building Code (India) 2016",
+                "Americans with Disabilities Act Amendments Act (ADAAA)"
+              ],
+              "installation_details": {
+                "method": "Drill & Fix",
+                "surface": "Suitable for indoor & outdoor",
+                "substrates": "Stone, masonry, timber, vinyl, vitrified porcelain, ceramics, glass, metals",
+                "time": "Quick & easy installation"
+              },
+              "usage_applications": [
+                "Corporate buildings",
+                "Corporate Parks",
+                "Bus Stations",
+                "Railway Stations",
+                "Metro Stations",
+                "Airports",
+                "Shopping Malls",
+                "Footpaths & Sidewalks",
+                "Hospitals",
+                "Public Buildings",
+                "Pedestrian Crossings",
+                "Schools & Colleges"
+              ]
             },
             {
               "id": "et-wts010",
@@ -429,7 +1045,36 @@
                 "https://placehold.co/600x400?text=Flat+Crosshatch+Stud+Gallery+1",
                 "https://placehold.co/600x400?text=Flat+Crosshatch+Stud+Gallery+2"
               ],
-              "description": "Two flat tactile studs displayed, one with a textured surface and the other smooth, ideal for enhancing tactile experiences."
+              "description": "Two flat tactile studs displayed, one with a textured surface and the other smooth, ideal for enhancing tactile experiences.",
+              "brand": "Eminent Tactiles",
+              "customization": "Yes (Color Options, Size Customization, Design Options)",
+              "origin": "Made in India",
+              "warranty": "5-Year Warranty",
+              "standards": [
+                "Australian Standard AS/NZS 1428.4.1:2009",
+                "National Building Code (India) 2016",
+                "Americans with Disabilities Act Amendments Act (ADAAA)"
+              ],
+              "installation_details": {
+                "method": "Drill & Fix",
+                "surface": "Suitable for indoor & outdoor",
+                "substrates": "Stone, masonry, timber, vinyl, vitrified porcelain, ceramics, glass, metals",
+                "time": "Quick & easy installation"
+              },
+              "usage_applications": [
+                "Corporate buildings",
+                "Corporate Parks",
+                "Bus Stations",
+                "Railway Stations",
+                "Metro Stations",
+                "Airports",
+                "Shopping Malls",
+                "Footpaths & Sidewalks",
+                "Hospitals",
+                "Public Buildings",
+                "Pedestrian Crossings",
+                "Schools & Colleges"
+              ]
             },
             {
               "id": "et-wts011",
@@ -447,7 +1092,36 @@
                 "https://placehold.co/600x400?text=Adhesive+Crosshatch+Stud+Gallery+1",
                 "https://placehold.co/600x400?text=Adhesive+Crosshatch+Stud+Gallery+2"
               ],
-              "description": "Self Adhesive Tactile Stud designed for enhanced grip and safety in various environments, featuring a textured surface."
+              "description": "Self Adhesive Tactile Stud designed for enhanced grip and safety in various environments, featuring a textured surface.",
+              "brand": "Eminent Tactiles",
+              "customization": "Yes (Color Options, Size Customization, Design Options)",
+              "origin": "Made in India",
+              "warranty": "5-Year Warranty",
+              "standards": [
+                "Australian Standard AS/NZS 1428.4.1:2009",
+                "National Building Code (India) 2016",
+                "Americans with Disabilities Act Amendments Act (ADAAA)"
+              ],
+              "installation_details": {
+                "method": "Drill & Fix",
+                "surface": "Suitable for indoor & outdoor",
+                "substrates": "Stone, masonry, timber, vinyl, vitrified porcelain, ceramics, glass, metals",
+                "time": "Quick & easy installation"
+              },
+              "usage_applications": [
+                "Corporate buildings",
+                "Corporate Parks",
+                "Bus Stations",
+                "Railway Stations",
+                "Metro Stations",
+                "Airports",
+                "Shopping Malls",
+                "Footpaths & Sidewalks",
+                "Hospitals",
+                "Public Buildings",
+                "Pedestrian Crossings",
+                "Schools & Colleges"
+              ]
             },
             {
               "id": "et-wts012",
@@ -464,9 +1138,332 @@
                 "https://placehold.co/600x400?text=Plain+Top+Stud+Gallery+1",
                 "https://placehold.co/600x400?text=Plain+Top+Stud+Gallery+2"
               ],
-              "description": "Tactile studs with plain top designed for enhanced grip and safety in various environments, ideal for flooring and signage applications."
+              "description": "Tactile studs with plain top designed for enhanced grip and safety in various environments, ideal for flooring and signage applications.",
+              "brand": "Eminent Tactiles",
+              "customization": "Yes (Color Options, Size Customization, Design Options)",
+              "origin": "Made in India",
+              "warranty": "5-Year Warranty",
+              "standards": [
+                "Australian Standard AS/NZS 1428.4.1:2009",
+                "National Building Code (India) 2016",
+                "Americans with Disabilities Act Amendments Act (ADAAA)"
+              ],
+              "installation_details": {
+                "method": "Drill & Fix",
+                "surface": "Suitable for indoor & outdoor",
+                "substrates": "Stone, masonry, timber, vinyl, vitrified porcelain, ceramics, glass, metals",
+                "time": "Quick & easy installation"
+              },
+              "usage_applications": [
+                "Corporate buildings",
+                "Corporate Parks",
+                "Bus Stations",
+                "Railway Stations",
+                "Metro Stations",
+                "Airports",
+                "Shopping Malls",
+                "Footpaths & Sidewalks",
+                "Hospitals",
+                "Public Buildings",
+                "Pedestrian Crossings",
+                "Schools & Colleges"
+              ]
             }
           ]
+        },
+        {
+          "id": "tactile-tiles",
+          "title": "Tactile Tiles",
+          "image": "/assets/tactile-tiles.webp",
+          "products": []
+        },
+        {
+          "id": "pu-tactile-indicators",
+          "title": "PU Tactile Indicators",
+          "image": "/assets/Pu-stud1.webp",
+          "products": []
+        },
+        {
+          "id": "pu-tactile-tiles",
+          "title": "PU Tactile Tiles",
+          "image": "/assets/pu-tactile-styles.webp",
+          "products": []
+        }
+      ]
+    },
+    {
+      "id": "modular-skirting",
+      "title": "Modular Skirting",
+      "description": "Premium modular skirting solutions for seamless wall-to-floor integration, featuring easy installation and high durability.",
+      "image": "/assets/products/ms-ef.jpg",
+      "products": [
+        {
+          "id": "easy-fix",
+          "title": "Easy Fix",
+          "sku": "SKP001",
+          "image": "/assets/products/ms-ef.jpg",
+          "material_grades": ["PVC / Aluminium Capping"],
+          "technical_specs": {
+            "Product Type": "Modular Skirting",
+            "Base Material": "High-Density PVC / Aluminium",
+            "Length": "3048mm",
+            "Standard Codes": "SKP001, SKP002, SKP003, SKP004"
+          },
+          "gallery_images": [
+            "/assets/products/ms-ef.jpg",
+            "https://placehold.co/600x400?text=Easy+Fix+Installation+1",
+            "https://placehold.co/600x400?text=Easy+Fix+Detail+View"
+          ],
+          "description": "Easy Fix is designed to be installed on wall, gypsum, and plywood partitions and on top of all kinds of flooring. It features a capping strip to camouflage rivet points.",
+          "brand": "Bottom Line Profiles",
+          "customization": "Yes (PVC or Aluminum capping color options)",
+          "origin": "Made in India",
+          "warranty": "5-Year Warranty",
+          "standards": [
+            "ISO 9001:2015 Certified",
+            "REACH Compliant",
+            "Fire Retardant Grade"
+          ],
+          "installation_details": {
+            "method": "Screw Fix",
+            "surface": "Suitable for wall, gypsum & plywood partitions",
+            "features": "Pre-drilled holes, camouflage capping strip",
+            "protection": "Supplied with protection tape"
+          },
+          "usage_applications": [
+            "Corporate Offices",
+            "Hospitals",
+            "Schools & Institutions",
+            "Shopping Malls"
+          ],
+          "performance_features": {
+            "Durability": "High-impact resistance",
+            "Maintenance": "Easy to clean",
+            "Aesthetics": "Hidden fasteners with capping",
+            "Cornering": "Matching corner guards provided"
+          },
+          "dimensions_detailed": {
+            "Height Options": "50mm, 75mm, 100mm, 150mm",
+            "Standard Length": "3048mm"
+          }
+        },
+        {
+          "id": "easy-stick",
+          "title": "Easy Stick",
+          "sku": "MS-ES",
+          "image": "/assets/products/ms-es.jpg",
+          "material_grades": ["Self-Adhesive PVC"],
+          "technical_specs": {
+            "Product Type": "Modular Skirting",
+            "Base Material": "Flexible PVC",
+            "Length": "Custom Rolls"
+          },
+          "gallery_images": [
+            "/assets/products/ms-es.jpg",
+            "https://placehold.co/600x400?text=Easy+Stick+Application"
+          ],
+          "description": "Easy Stick offers a quick and clean installation with self-adhesive backing, ideal for smooth surfaces and curved walls.",
+          "brand": "Bottom Line Profiles",
+          "customization": "Color Match Available",
+          "origin": "Made in India",
+          "warranty": "3-Year Warranty",
+          "standards": ["RoHS Compliant"],
+          "installation_details": {
+            "method": "Peel & Stick",
+            "surface": "Smooth non-porous walls",
+            "time": "Ultra-fast installation"
+          },
+          "usage_applications": [
+            "Residential",
+            "Temporary dividers",
+            "Retail kiosks"
+          ],
+          "performance_features": {
+            "Flexibility": "Wraps around columns",
+            "Adhesion": "Industrial grade adhesive"
+          },
+          "dimensions_detailed": {
+            "Height": "60mm / 75mm",
+            "Roll Length": "15m / 25m"
+          }
+        },
+        {
+          "id": "illusion-recessed",
+          "title": "Illusion - Recessed",
+          "sku": "MS-IR",
+          "image": "/assets/products/ms-illusion-recessed.jpg",
+          "material_grades": ["Grade 6063-T5 Aluminium"],
+          "technical_specs": {
+            "Product Type": "Recessed Skirting",
+            "Base Material": "Anodized Aluminium"
+          },
+          "gallery_images": ["/assets/products/ms-illusion-recessed.jpg"],
+          "description": "A minimalist architectural solution that creates a 'floating wall' effect by recessing into the drywall.",
+          "brand": "Bottom Line Profiles",
+          "customization": "LED Channel Integration",
+          "origin": "Made in India",
+          "warranty": "10-Year Warranty",
+          "standards": ["ASTM Specification B221"],
+          "installation_details": {
+            "method": "Integrated Drywall Fix",
+            "surface": "Pre-plastered walls",
+            "requirement": "Install before floor finishing"
+          },
+          "usage_applications": [
+            "High-end Residential",
+            "Art Galleries",
+            "Modern Offices"
+          ],
+          "performance_features": {
+            "Design": "Seamless minimalist look",
+            "Protection": "Protects wall base from floor cleaning"
+          },
+          "dimensions_detailed": {
+            "Recess Height": "15mm",
+            "Overall Height": "50mm / 100mm"
+          }
+        },
+        {
+          "id": "illusion-fineline",
+          "title": "Illusion - Fineline",
+          "sku": "MS-IF",
+          "image": "/assets/products/ms-illusion-fineline.jpg",
+          "material_grades": ["Aluminium Alloy"],
+          "technical_specs": {
+            "Product Type": "Fineline Skirting",
+            "Finish": "Brushed / Matt"
+          },
+          "gallery_images": ["/assets/products/ms-illusion-fineline.jpg"],
+          "description": "Ultra-thin profile skirting for a sleek and modern interior finish without the bulk of traditional skirting.",
+          "brand": "Bottom Line Profiles",
+          "customization": "Powder Coating Options",
+          "origin": "Made in India",
+          "warranty": "10-Year Warranty",
+          "standards": ["Green Building Certified"],
+          "installation_details": {
+            "method": "Adhesive / Clip system",
+            "surface": "Finished walls"
+          },
+          "usage_applications": ["Luxury Apartments", "Executive Suites"],
+          "performance_features": {
+            "Profile": "Low footprint",
+            "Durability": "Corrosion resistant"
+          },
+          "dimensions_detailed": {
+            "Thickness": "2mm - 5mm",
+            "Height": "60mm"
+          }
+        },
+        {
+          "id": "expression",
+          "title": "Expression",
+          "sku": "MS-EXP",
+          "image": "/assets/products/ms-expression.jpg",
+          "material_grades": ["Polystyrene / Composite"],
+          "technical_specs": {
+            "Product Type": "Decorative Skirting",
+            "Density": "High"
+          },
+          "gallery_images": ["/assets/products/ms-expression.jpg"],
+          "description": "Decorative skirting with intricate profiles that add character and elegance to any room.",
+          "brand": "Bottom Line Profiles",
+          "customization": "Paintable Surface",
+          "origin": "Made in India",
+          "warranty": "5-Year Warranty",
+          "standards": ["Formaldehyde Free"],
+          "installation_details": {
+            "method": "Glue & Pin",
+            "finish": "Can be painted to match walls"
+          },
+          "usage_applications": ["Hotels", "Luxury Homes", "Theatres"],
+          "performance_features": {
+            "Aesthetics": "Classic architectural design",
+            "Resistance": "Termite and water resistant"
+          },
+          "dimensions_detailed": {
+            "Height": "100mm / 120mm"
+          }
+        },
+        {
+          "id": "easy-click-40",
+          "title": "Easy Click 40",
+          "sku": "MS-EC40",
+          "image": "/assets/products/ms-easyclick.jpg",
+          "material_grades": ["Dual-Wall PVC"],
+          "technical_specs": {
+            "Product Type": "Modular Click Skirting",
+            "System": "Two-Piece Click"
+          },
+          "gallery_images": ["/assets/products/ms-easyclick.jpg"],
+          "description": "Features a hidden clip-on system for easy removal and cable management behind the skirting.",
+          "brand": "Bottom Line Profiles",
+          "customization": "Internal/External Corner Connectors",
+          "origin": "Made in India",
+          "warranty": "5-Year Warranty",
+          "standards": ["CE Marked"],
+          "installation_details": {
+            "method": "Click system with base track",
+            "cable_management": "Integrated space for wiring"
+          },
+          "usage_applications": ["IT Parks", "Renovations", "Data Centers"],
+          "performance_features": {
+            "Function": "Easy access to cables",
+            "Speed": "Rapid snap-on installation"
+          },
+          "dimensions_detailed": {
+            "Height": "40mm",
+            "Internal Gap": "10mm"
+          }
+        },
+        {
+          "id": "bello-pvc-skirting",
+          "title": "Bello-PVC Skirting",
+          "sku": "MS-BPVC",
+          "image": "/assets/products/ms-belloe-pvc.jpg",
+          "material_grades": ["Semi-Rigid PVC"],
+          "technical_specs": {
+            "Product Type": "Standard PVC Skirting"
+          },
+          "gallery_images": ["/assets/products/ms-belloe-pvc.jpg"],
+          "description": "Standard high-durability PVC skirting for general purpose commercial and residential use.",
+          "brand": "Bottom Line Profiles",
+          "customization": "Vast Color Range",
+          "origin": "Made in India",
+          "warranty": "5-Year Warranty",
+          "standards": ["VOC Compliant"],
+          "installation_details": {
+            "method": "Contact Adhesive"
+          },
+          "usage_applications": ["Commercial Projects", "Housing Boards"],
+          "performance_features": {
+            "Cost": "Economic solution",
+            "Durability": "Long-life cycle"
+          }
+        },
+        {
+          "id": "bello-pvc-skirting-for-resilient-floors",
+          "title": "Bello-PVC Skirting for Resilient Floors",
+          "sku": "MS-BPVCR",
+          "image": "/assets/products/ms-bello-pvc.jpg",
+          "material_grades": ["Flexible PVC with Lip"],
+          "technical_specs": {
+            "Product Type": "Skirting for Resilient Flooring"
+          },
+          "gallery_images": ["/assets/products/ms-bello-pvc.jpg"],
+          "description": "Specifically designed with a flexible bottom lip to sit flush on resilient floors like vinyl or rubber.",
+          "brand": "Bottom Line Profiles",
+          "customization": "Anti-Microbial Coating Optional",
+          "origin": "Made in India",
+          "warranty": "5-Year Warranty",
+          "standards": ["Hygienic Grade"],
+          "installation_details": {
+            "method": "Welded / Adhesive"
+          },
+          "usage_applications": ["Hospitals", "Laboratories", "Wet areas"],
+          "performance_features": {
+            "Hygienic": "Prevents dust accumulation in gaps",
+            "Flexibility": "Compensates for uneven subfloors"
+          }
         }
       ]
     },
@@ -475,230 +1472,695 @@
       "title": "Profile Floors",
       "description": "Durable and aesthetic bollards for traffic control and architectural styling.",
       "image": "/assets/tactile-tiles.webp",
-      "subcategories": [
+      "products": [
         {
-          "id": "transition-profiles",
-          "title": "Transition Profiles",
+          "id": "pf-flexi",
+          "title": "Flexi Series",
+          "sku": "PF-FLEXI",
           "image": "/assets/profile-floors/pf-flexi.jpg",
-          "products": [
-            {
-              "id": "pf-flexi",
-              "title": "Flexi Series",
-              "sku": "PF-FLEXI",
-              "image": "/assets/profile-floors/pf-flexi.jpg",
-              "material_grades": ["SS 316", "SS 304"],
-              "technical_specs": {
-                "Product Type": "Profile",
-                "Finish": "Standard"
-              },
-              "gallery_images": [
-                "/assets/profile-floors/pf-flexi.jpg",
-                "https://placehold.co/600x400?text=Flexi+Series+Gallery+1",
-                "https://placehold.co/600x400?text=Flexi+Series+Gallery+2"
-              ],
-              "description": "Flexible transition profiles designed for curved floorings and versatile installations."
-            },
-            {
-              "id": "pf-reflex-adaptor",
-              "title": "Reflex Series - Adaptor Base",
-              "sku": "PF-REFLEX-AB",
-              "image": "/assets/profile-floors/pf-adaptorbase.jpg",
-              "material_grades": ["SS 316", "SS 304"],
-              "technical_specs": {
-                "Product Type": "Profile Base",
-                "Pattern": "Plain Top"
-              },
-              "gallery_images": [
-                "/assets/profile-floors/pf-adaptorbase.jpg",
-                "https://placehold.co/600x400?text=Reflex+Adaptor+Gallery+1",
-                "https://placehold.co/600x400?text=Reflex+Adaptor+Gallery+2"
-              ],
-              "description": "Adaptor base for Reflex series, providing a secure foundation for transition profiles."
-            },
-            {
-              "id": "pf-reflex-aluminium",
-              "title": "Reflex Series - Aluminium Base",
-              "sku": "PF-REFLEX-AL",
-              "image": "/assets/profile-floors/pf-ab.jpg",
-              "material_grades": ["SS 316", "SS 304"],
-              "technical_specs": {
-                "Product Type": "Profile Base",
-                "Pattern": "Plain Top"
-              },
-              "gallery_images": [
-                "/assets/profile-floors/pf-ab.jpg",
-                "https://placehold.co/600x400?text=Reflex+Aluminium+Gallery+1",
-                "https://placehold.co/600x400?text=Reflex+Aluminium+Gallery+2"
-              ],
-              "description": "Durable aluminium base for Reflex series transition profiles."
-            },
-            {
-              "id": "pf-zpro",
-              "title": "Z Pro",
-              "sku": "PF-ZPRO",
-              "image": "/assets/profile-floors/pf-zpro.jpg",
-              "material_grades": ["SS 316", "SS 304"],
-              "technical_specs": {
-                "Product Type": "Profile",
-                "Pattern": "Plain Top"
-              },
-              "gallery_images": [
-                "/assets/profile-floors/pf-zpro.jpg",
-                "https://placehold.co/600x400?text=Z+Pro+Gallery+1",
-                "https://placehold.co/600x400?text=Z+Pro+Gallery+2"
-              ],
-              "description": "High-performance Z-shaped transition profiles for professional flooring applications."
-            },
-            {
-              "id": "pf-pvc-edge",
-              "title": "PVC Edge Profile",
-              "sku": "PF-PVC-EP",
-              "image": "/assets/profile-floors/pf-ep.jpg",
-              "material_grades": ["SS 316", "SS 304"],
-              "technical_specs": {
-                "Product Type": "Profile",
-                "Pattern": "Plain Top"
-              },
-              "gallery_images": [
-                "/assets/profile-floors/pf-ep.jpg",
-                "https://placehold.co/600x400?text=PVC+Edge+Gallery+1",
-                "https://placehold.co/600x400?text=PVC+Edge+Gallery+2"
-              ],
-              "description": "Protective PVC edge profiles for clean and durable flooring transitions."
-            },
-            {
-              "id": "pf-pvc-junction",
-              "title": "PVC Junction Profile",
-              "sku": "PF-PVC-JP",
-              "image": "/assets/profile-floors/pf-jp.jpg",
-              "material_grades": ["SS 316", "SS 304"],
-              "technical_specs": {
-                "Product Type": "Profile",
-                "Pattern": "Plain Top"
-              },
-              "gallery_images": [
-                "/assets/profile-floors/pf-jp.jpg",
-                "https://placehold.co/600x400?text=PVC+Junction+Gallery+1",
-                "https://placehold.co/600x400?text=PVC+Junction+Gallery+2"
-              ],
-              "description": "PVC junction profiles for seamless connections between different flooring surfaces."
-            },
-            {
-              "id": "pr-incline",
-              "title": "Protect - Incline Series",
-              "sku": "PR-IN",
-              "image": "/assets/profile-floors/pr-in.jpg",
-              "material_grades": ["SS 316", "SS 304"],
-              "technical_specs": {
-                "Product Type": "Profile",
-                "Pattern": "Plain Top"
-              },
-              "gallery_images": [
-                "/assets/profile-floors/pr-in.jpg",
-                "https://placehold.co/600x400?text=Incline+Series+Gallery+1",
-                "https://placehold.co/600x400?text=Incline+Series+Gallery+2"
-              ],
-              "description": "Incline series from the Protect range, designed for safe and aesthetic height transitions."
-            }
+          "material_grades": ["SS 316", "SS 304"],
+          "technical_specs": {
+            "Product Type": "Profile",
+            "Finish": "Standard"
+          },
+          "gallery_images": [
+            "/assets/profile-floors/pf-flexi.jpg",
+            "https://placehold.co/600x400?text=Flexi+Series+Gallery+1",
+            "https://placehold.co/600x400?text=Flexi+Series+Gallery+2"
+          ],
+          "description": "Flexible transition profiles designed for curved floorings and versatile installations.",
+          "brand": "Eminent Tactiles",
+          "customization": "Yes (Color Options, Size Customization, Design Options)",
+          "origin": "Made in India",
+          "warranty": "5-Year Warranty",
+          "standards": [
+            "Australian Standard AS/NZS 1428.4.1:2009",
+            "National Building Code (India) 2016",
+            "Americans with Disabilities Act Amendments Act (ADAAA)"
+          ],
+          "installation_details": {
+            "method": "Drill & Fix",
+            "surface": "Suitable for indoor & outdoor",
+            "substrates": "Stone, masonry, timber, vinyl, vitrified porcelain, ceramics, glass, metals",
+            "time": "Quick & easy installation"
+          },
+          "usage_applications": [
+            "Corporate buildings",
+            "Corporate Parks",
+            "Bus Stations",
+            "Railway Stations",
+            "Metro Stations",
+            "Airports",
+            "Shopping Malls",
+            "Footpaths & Sidewalks",
+            "Hospitals",
+            "Public Buildings",
+            "Pedestrian Crossings",
+            "Schools & Colleges"
           ]
         },
         {
-          "id": "same-height-profiles",
-          "title": "Profiles for same height",
+          "id": "pf-reflex-adaptor",
+          "title": "Reflex Series - Adaptor Base",
+          "sku": "PF-REFLEX-AB",
+          "image": "/assets/profile-floors/pf-adaptorbase.jpg",
+          "material_grades": ["SS 316", "SS 304"],
+          "technical_specs": {
+            "Product Type": "Profile Base",
+            "Pattern": "Plain Top"
+          },
+          "gallery_images": [
+            "/assets/profile-floors/pf-adaptorbase.jpg",
+            "https://placehold.co/600x400?text=Reflex+Adaptor+Gallery+1",
+            "https://placehold.co/600x400?text=Reflex+Adaptor+Gallery+2"
+          ],
+          "description": "Adaptor base for Reflex series, providing a secure foundation for transition profiles.",
+          "brand": "Eminent Tactiles",
+          "customization": "Yes (Color Options, Size Customization, Design Options)",
+          "origin": "Made in India",
+          "warranty": "5-Year Warranty",
+          "standards": [
+            "Australian Standard AS/NZS 1428.4.1:2009",
+            "National Building Code (India) 2016",
+            "Americans with Disabilities Act Amendments Act (ADAAA)"
+          ],
+          "installation_details": {
+            "method": "Drill & Fix",
+            "surface": "Suitable for indoor & outdoor",
+            "substrates": "Stone, masonry, timber, vinyl, vitrified porcelain, ceramics, glass, metals",
+            "time": "Quick & easy installation"
+          },
+          "usage_applications": [
+            "Corporate buildings",
+            "Corporate Parks",
+            "Bus Stations",
+            "Railway Stations",
+            "Metro Stations",
+            "Airports",
+            "Shopping Malls",
+            "Footpaths & Sidewalks",
+            "Hospitals",
+            "Public Buildings",
+            "Pedestrian Crossings",
+            "Schools & Colleges"
+          ]
+        },
+        {
+          "id": "pf-reflex-aluminium",
+          "title": "Reflex Series - Aluminium Base",
+          "sku": "PF-REFLEX-AL",
+          "image": "/assets/profile-floors/pf-ab.jpg",
+          "material_grades": ["SS 316", "SS 304"],
+          "technical_specs": {
+            "Product Type": "Profile Base",
+            "Pattern": "Plain Top"
+          },
+          "gallery_images": [
+            "/assets/profile-floors/pf-ab.jpg",
+            "https://placehold.co/600x400?text=Reflex+Aluminium+Gallery+1",
+            "https://placehold.co/600x400?text=Reflex+Aluminium+Gallery+2"
+          ],
+          "description": "Durable aluminium base for Reflex series transition profiles.",
+          "brand": "Eminent Tactiles",
+          "customization": "Yes (Color Options, Size Customization, Design Options)",
+          "origin": "Made in India",
+          "warranty": "5-Year Warranty",
+          "standards": [
+            "Australian Standard AS/NZS 1428.4.1:2009",
+            "National Building Code (India) 2016",
+            "Americans with Disabilities Act Amendments Act (ADAAA)"
+          ],
+          "installation_details": {
+            "method": "Drill & Fix",
+            "surface": "Suitable for indoor & outdoor",
+            "substrates": "Stone, masonry, timber, vinyl, vitrified porcelain, ceramics, glass, metals",
+            "time": "Quick & easy installation"
+          },
+          "usage_applications": [
+            "Corporate buildings",
+            "Corporate Parks",
+            "Bus Stations",
+            "Railway Stations",
+            "Metro Stations",
+            "Airports",
+            "Shopping Malls",
+            "Footpaths & Sidewalks",
+            "Hospitals",
+            "Public Buildings",
+            "Pedestrian Crossings",
+            "Schools & Colleges"
+          ]
+        },
+        {
+          "id": "pf-zpro",
+          "title": "Z Pro",
+          "sku": "PF-ZPRO",
+          "image": "/assets/profile-floors/pf-zpro.jpg",
+          "material_grades": ["SS 316", "SS 304"],
+          "technical_specs": {
+            "Product Type": "Profile",
+            "Pattern": "Plain Top"
+          },
+          "gallery_images": [
+            "/assets/profile-floors/pf-zpro.jpg",
+            "https://placehold.co/600x400?text=Z+Pro+Gallery+1",
+            "https://placehold.co/600x400?text=Z+Pro+Gallery+2"
+          ],
+          "description": "High-performance Z-shaped transition profiles for professional flooring applications.",
+          "brand": "Eminent Tactiles",
+          "customization": "Yes (Color Options, Size Customization, Design Options)",
+          "origin": "Made in India",
+          "warranty": "5-Year Warranty",
+          "standards": [
+            "Australian Standard AS/NZS 1428.4.1:2009",
+            "National Building Code (India) 2016",
+            "Americans with Disabilities Act Amendments Act (ADAAA)"
+          ],
+          "installation_details": {
+            "method": "Drill & Fix",
+            "surface": "Suitable for indoor & outdoor",
+            "substrates": "Stone, masonry, timber, vinyl, vitrified porcelain, ceramics, glass, metals",
+            "time": "Quick & easy installation"
+          },
+          "usage_applications": [
+            "Corporate buildings",
+            "Corporate Parks",
+            "Bus Stations",
+            "Railway Stations",
+            "Metro Stations",
+            "Airports",
+            "Shopping Malls",
+            "Footpaths & Sidewalks",
+            "Hospitals",
+            "Public Buildings",
+            "Pedestrian Crossings",
+            "Schools & Colleges"
+          ]
+        },
+        {
+          "id": "pf-pvc-edge",
+          "title": "PVC Edge Profile",
+          "sku": "PF-PVC-EP",
+          "image": "/assets/profile-floors/pf-ep.jpg",
+          "material_grades": ["SS 316", "SS 304"],
+          "technical_specs": {
+            "Product Type": "Profile",
+            "Pattern": "Plain Top"
+          },
+          "gallery_images": [
+            "/assets/profile-floors/pf-ep.jpg",
+            "https://placehold.co/600x400?text=PVC+Edge+Gallery+1",
+            "https://placehold.co/600x400?text=PVC+Edge+Gallery+2"
+          ],
+          "description": "Protective PVC edge profiles for clean and durable flooring transitions.",
+          "brand": "Eminent Tactiles",
+          "customization": "Yes (Color Options, Size Customization, Design Options)",
+          "origin": "Made in India",
+          "warranty": "5-Year Warranty",
+          "standards": [
+            "Australian Standard AS/NZS 1428.4.1:2009",
+            "National Building Code (India) 2016",
+            "Americans with Disabilities Act Amendments Act (ADAAA)"
+          ],
+          "installation_details": {
+            "method": "Drill & Fix",
+            "surface": "Suitable for indoor & outdoor",
+            "substrates": "Stone, masonry, timber, vinyl, vitrified porcelain, ceramics, glass, metals",
+            "time": "Quick & easy installation"
+          },
+          "usage_applications": [
+            "Corporate buildings",
+            "Corporate Parks",
+            "Bus Stations",
+            "Railway Stations",
+            "Metro Stations",
+            "Airports",
+            "Shopping Malls",
+            "Footpaths & Sidewalks",
+            "Hospitals",
+            "Public Buildings",
+            "Pedestrian Crossings",
+            "Schools & Colleges"
+          ]
+        },
+        {
+          "id": "pf-pvc-junction",
+          "title": "PVC Junction Profile",
+          "sku": "PF-PVC-JP",
+          "image": "/assets/profile-floors/pf-jp.jpg",
+          "material_grades": ["SS 316", "SS 304"],
+          "technical_specs": {
+            "Product Type": "Profile",
+            "Pattern": "Plain Top"
+          },
+          "gallery_images": [
+            "/assets/profile-floors/pf-jp.jpg",
+            "https://placehold.co/600x400?text=PVC+Junction+Gallery+1",
+            "https://placehold.co/600x400?text=PVC+Junction+Gallery+2"
+          ],
+          "description": "PVC junction profiles for seamless connections between different flooring surfaces.",
+          "brand": "Eminent Tactiles",
+          "customization": "Yes (Color Options, Size Customization, Design Options)",
+          "origin": "Made in India",
+          "warranty": "5-Year Warranty",
+          "standards": [
+            "Australian Standard AS/NZS 1428.4.1:2009",
+            "National Building Code (India) 2016",
+            "Americans with Disabilities Act Amendments Act (ADAAA)"
+          ],
+          "installation_details": {
+            "method": "Drill & Fix",
+            "surface": "Suitable for indoor & outdoor",
+            "substrates": "Stone, masonry, timber, vinyl, vitrified porcelain, ceramics, glass, metals",
+            "time": "Quick & easy installation"
+          },
+          "usage_applications": [
+            "Corporate buildings",
+            "Corporate Parks",
+            "Bus Stations",
+            "Railway Stations",
+            "Metro Stations",
+            "Airports",
+            "Shopping Malls",
+            "Footpaths & Sidewalks",
+            "Hospitals",
+            "Public Buildings",
+            "Pedestrian Crossings",
+            "Schools & Colleges"
+          ]
+        },
+        {
+          "id": "pr-incline",
+          "title": "Protect - Incline Series",
+          "sku": "PR-IN",
+          "image": "/assets/profile-floors/pr-in.jpg",
+          "material_grades": ["SS 316", "SS 304"],
+          "technical_specs": {
+            "Product Type": "Profile",
+            "Pattern": "Plain Top"
+          },
+          "gallery_images": [
+            "/assets/profile-floors/pr-in.jpg",
+            "https://placehold.co/600x400?text=Incline+Series+Gallery+1",
+            "https://placehold.co/600x400?text=Incline+Series+Gallery+2"
+          ],
+          "description": "Incline series from the Protect range, designed for safe and aesthetic height transitions.",
+          "brand": "Eminent Tactiles",
+          "customization": "Yes (Color Options, Size Customization, Design Options)",
+          "origin": "Made in India",
+          "warranty": "5-Year Warranty",
+          "standards": [
+            "Australian Standard AS/NZS 1428.4.1:2009",
+            "National Building Code (India) 2016",
+            "Americans with Disabilities Act Amendments Act (ADAAA)"
+          ],
+          "installation_details": {
+            "method": "Drill & Fix",
+            "surface": "Suitable for indoor & outdoor",
+            "substrates": "Stone, masonry, timber, vinyl, vitrified porcelain, ceramics, glass, metals",
+            "time": "Quick & easy installation"
+          },
+          "usage_applications": [
+            "Corporate buildings",
+            "Corporate Parks",
+            "Bus Stations",
+            "Railway Stations",
+            "Metro Stations",
+            "Airports",
+            "Shopping Malls",
+            "Footpaths & Sidewalks",
+            "Hospitals",
+            "Public Buildings",
+            "Pedestrian Crossings",
+            "Schools & Colleges"
+          ]
+        },
+        {
+          "id": "pr-fineline",
+          "title": "Protect - Fine line Series",
+          "sku": "PR-FL",
           "image": "/assets/profile-floors/pr-fl.jpg",
-          "products": [
-            {
-              "id": "pr-fineline",
-              "title": "Protect - Fine line Series",
-              "sku": "PR-FL",
-              "image": "/assets/profile-floors/pr-fl.jpg",
-              "material_grades": ["SS 316", "SS 304"],
-              "technical_specs": {
-                "Product Type": "Profile",
-                "Pattern": "Plain Top"
-              },
-              "gallery_images": [
-                "/assets/profile-floors/pr-fl.jpg",
-                "https://placehold.co/600x400?text=Fine+Line+Gallery+1",
-                "https://placehold.co/600x400?text=Fine+Line+Gallery+2"
-              ],
-              "description": "Sleek and minimalist fine line profiles for matching height flooring transitions."
-            },
-            {
-              "id": "pr-broadline",
-              "title": "Protect - Broad line Series",
-              "sku": "PR-BLS",
-              "image": "/assets/profile-floors/pr-bls.jpg",
-              "material_grades": ["SS 316", "SS 304"],
-              "technical_specs": {
-                "Product Type": "Profile",
-                "Pattern": "Plain Top"
-              },
-              "gallery_images": [
-                "/assets/profile-floors/pr-bls.jpg",
-                "https://placehold.co/600x400?text=Broad+Line+Gallery+1",
-                "https://placehold.co/600x400?text=Broad+Line+Gallery+2"
-              ],
-              "description": "Broad line profiles for a more prominent and decorative matching height transition."
-            },
-            {
-              "id": "pr-classic",
-              "title": "Protect - Classic",
-              "sku": "PR-CL",
-              "image": "/assets/profile-floors/pr-cl.jpg",
-              "material_grades": ["SS 316", "SS 304"],
-              "technical_specs": {
-                "Product Type": "Profile",
-                "Pattern": "Plain Top"
-              },
-              "gallery_images": [
-                "/assets/profile-floors/pr-cl.jpg",
-                "https://placehold.co/600x400?text=Classic+Profile+Gallery+1",
-                "https://placehold.co/600x400?text=Classic+Profile+Gallery+2"
-              ],
-              "description": "Classic profile series for standard same-height flooring applications."
-            }
+          "material_grades": ["SS 316", "SS 304"],
+          "technical_specs": {
+            "Product Type": "Profile",
+            "Pattern": "Plain Top"
+          },
+          "gallery_images": [
+            "/assets/profile-floors/pr-fl.jpg",
+            "https://placehold.co/600x400?text=Fine+Line+Gallery+1",
+            "https://placehold.co/600x400?text=Fine+Line+Gallery+2"
+          ],
+          "description": "Sleek and minimalist fine line profiles for matching height flooring transitions.",
+          "brand": "Eminent Tactiles",
+          "customization": "Yes (Color Options, Size Customization, Design Options)",
+          "origin": "Made in India",
+          "warranty": "5-Year Warranty",
+          "standards": [
+            "Australian Standard AS/NZS 1428.4.1:2009",
+            "National Building Code (India) 2016",
+            "Americans with Disabilities Act Amendments Act (ADAAA)"
+          ],
+          "installation_details": {
+            "method": "Drill & Fix",
+            "surface": "Suitable for indoor & outdoor",
+            "substrates": "Stone, masonry, timber, vinyl, vitrified porcelain, ceramics, glass, metals",
+            "time": "Quick & easy installation"
+          },
+          "usage_applications": [
+            "Corporate buildings",
+            "Corporate Parks",
+            "Bus Stations",
+            "Railway Stations",
+            "Metro Stations",
+            "Airports",
+            "Shopping Malls",
+            "Footpaths & Sidewalks",
+            "Hospitals",
+            "Public Buildings",
+            "Pedestrian Crossings",
+            "Schools & Colleges"
           ]
         },
         {
-          "id": "stair-noising",
+          "id": "pr-broadline",
+          "title": "Protect - Broad line Series",
+          "sku": "PR-BLS",
+          "image": "/assets/profile-floors/pr-bls.jpg",
+          "material_grades": ["SS 316", "SS 304"],
+          "technical_specs": {
+            "Product Type": "Profile",
+            "Pattern": "Plain Top"
+          },
+          "gallery_images": [
+            "/assets/profile-floors/pr-bls.jpg",
+            "https://placehold.co/600x400?text=Broad+Line+Gallery+1",
+            "https://placehold.co/600x400?text=Broad+Line+Gallery+2"
+          ],
+          "description": "Broad line profiles for a more prominent and decorative matching height transition.",
+          "brand": "Eminent Tactiles",
+          "customization": "Yes (Color Options, Size Customization, Design Options)",
+          "origin": "Made in India",
+          "warranty": "5-Year Warranty",
+          "standards": [
+            "Australian Standard AS/NZS 1428.4.1:2009",
+            "National Building Code (India) 2016",
+            "Americans with Disabilities Act Amendments Act (ADAAA)"
+          ],
+          "installation_details": {
+            "method": "Drill & Fix",
+            "surface": "Suitable for indoor & outdoor",
+            "substrates": "Stone, masonry, timber, vinyl, vitrified porcelain, ceramics, glass, metals",
+            "time": "Quick & easy installation"
+          },
+          "usage_applications": [
+            "Corporate buildings",
+            "Corporate Parks",
+            "Bus Stations",
+            "Railway Stations",
+            "Metro Stations",
+            "Airports",
+            "Shopping Malls",
+            "Footpaths & Sidewalks",
+            "Hospitals",
+            "Public Buildings",
+            "Pedestrian Crossings",
+            "Schools & Colleges"
+          ]
+        },
+        {
+          "id": "pr-classic",
+          "title": "Protect - Classic",
+          "sku": "PR-CL",
+          "image": "/assets/profile-floors/pr-cl.jpg",
+          "material_grades": ["SS 316", "SS 304"],
+          "technical_specs": {
+            "Product Type": "Profile",
+            "Pattern": "Plain Top"
+          },
+          "gallery_images": [
+            "/assets/profile-floors/pr-cl.jpg",
+            "https://placehold.co/600x400?text=Classic+Profile+Gallery+1",
+            "https://placehold.co/600x400?text=Classic+Profile+Gallery+2"
+          ],
+          "description": "Classic profile series for standard same-height flooring applications.",
+          "brand": "Eminent Tactiles",
+          "customization": "Yes (Color Options, Size Customization, Design Options)",
+          "origin": "Made in India",
+          "warranty": "5-Year Warranty",
+          "standards": [
+            "Australian Standard AS/NZS 1428.4.1:2009",
+            "National Building Code (India) 2016",
+            "Americans with Disabilities Act Amendments Act (ADAAA)"
+          ],
+          "installation_details": {
+            "method": "Drill & Fix",
+            "surface": "Suitable for indoor & outdoor",
+            "substrates": "Stone, masonry, timber, vinyl, vitrified porcelain, ceramics, glass, metals",
+            "time": "Quick & easy installation"
+          },
+          "usage_applications": [
+            "Corporate buildings",
+            "Corporate Parks",
+            "Bus Stations",
+            "Railway Stations",
+            "Metro Stations",
+            "Airports",
+            "Shopping Malls",
+            "Footpaths & Sidewalks",
+            "Hospitals",
+            "Public Buildings",
+            "Pedestrian Crossings",
+            "Schools & Colleges"
+          ]
+        },
+        {
+          "id": "pf-stairnosing",
           "title": "Stair Noising",
+          "sku": "PF-SN",
           "image": "/assets/profile-floors/pf-sn.jpg",
-          "products": [
-            {
-              "id": "pf-stairnosing",
-              "title": "Stair Noising",
-              "sku": "PF-SN",
-              "image": "/assets/profile-floors/pf-sn.jpg",
-              "material_grades": ["SS 316", "SS 304"],
-              "technical_specs": {
-                "Product Type": "Profile",
-                "Pattern": "Plain Top"
-              },
-              "gallery_images": [
-                "/assets/profile-floors/pf-sn.jpg",
-                "https://placehold.co/600x400?text=Stair+Noising+Gallery+1",
-                "https://placehold.co/600x400?text=Stair+Noising+Gallery+2"
-              ],
-              "description": "Essential stair noising profiles for enhanced safety and durability on staircases."
-            },
-            {
-              "id": "pr-topedge",
-              "title": "Protect - Top Edge",
-              "sku": "PR-TE",
-              "image": "/assets/profile-floors/pf-te.jpg",
-              "material_grades": ["SS 316", "SS 304"],
-              "technical_specs": {
-                "Product Type": "Profile",
-                "Pattern": "Plain Top"
-              },
-              "gallery_images": [
-                "/assets/profile-floors/pf-te.jpg",
-                "https://placehold.co/600x400?text=Top+Edge+Gallery+1",
-                "https://placehold.co/600x400?text=Top+Edge+Gallery+2"
-              ],
-              "description": "Top edge protection profiles for stairs and elevated flooring platforms."
-            }
+          "material_grades": ["SS 316", "SS 304"],
+          "technical_specs": {
+            "Product Type": "Profile",
+            "Pattern": "Plain Top"
+          },
+          "gallery_images": [
+            "/assets/profile-floors/pf-sn.jpg",
+            "https://placehold.co/600x400?text=Stair+Noising+Gallery+1",
+            "https://placehold.co/600x400?text=Stair+Noising+Gallery+2"
+          ],
+          "description": "Essential stair noising profiles for enhanced safety and durability on staircases.",
+          "brand": "Eminent Tactiles",
+          "customization": "Yes (Color Options, Size Customization, Design Options)",
+          "origin": "Made in India",
+          "warranty": "5-Year Warranty",
+          "standards": [
+            "Australian Standard AS/NZS 1428.4.1:2009",
+            "National Building Code (India) 2016",
+            "Americans with Disabilities Act Amendments Act (ADAAA)"
+          ],
+          "installation_details": {
+            "method": "Drill & Fix",
+            "surface": "Suitable for indoor & outdoor",
+            "substrates": "Stone, masonry, timber, vinyl, vitrified porcelain, ceramics, glass, metals",
+            "time": "Quick & easy installation"
+          },
+          "usage_applications": [
+            "Corporate buildings",
+            "Corporate Parks",
+            "Bus Stations",
+            "Railway Stations",
+            "Metro Stations",
+            "Airports",
+            "Shopping Malls",
+            "Footpaths & Sidewalks",
+            "Hospitals",
+            "Public Buildings",
+            "Pedestrian Crossings",
+            "Schools & Colleges"
+          ]
+        },
+        {
+          "id": "pr-topedge",
+          "title": "Protect - Top Edge",
+          "sku": "PR-TE",
+          "image": "/assets/profile-floors/pf-te.jpg",
+          "material_grades": ["SS 316", "SS 304"],
+          "technical_specs": {
+            "Product Type": "Profile",
+            "Pattern": "Plain Top"
+          },
+          "gallery_images": [
+            "/assets/profile-floors/pf-te.jpg",
+            "https://placehold.co/600x400?text=Top+Edge+Gallery+1",
+            "https://placehold.co/600x400?text=Top+Edge+Gallery+2"
+          ],
+          "description": "Top edge protection profiles for stairs and elevated flooring platforms.",
+          "brand": "Eminent Tactiles",
+          "customization": "Yes (Color Options, Size Customization, Design Options)",
+          "origin": "Made in India",
+          "warranty": "5-Year Warranty",
+          "standards": [
+            "Australian Standard AS/NZS 1428.4.1:2009",
+            "National Building Code (India) 2016",
+            "Americans with Disabilities Act Amendments Act (ADAAA)"
+          ],
+          "installation_details": {
+            "method": "Drill & Fix",
+            "surface": "Suitable for indoor & outdoor",
+            "substrates": "Stone, masonry, timber, vinyl, vitrified porcelain, ceramics, glass, metals",
+            "time": "Quick & easy installation"
+          },
+          "usage_applications": [
+            "Corporate buildings",
+            "Corporate Parks",
+            "Bus Stations",
+            "Railway Stations",
+            "Metro Stations",
+            "Airports",
+            "Shopping Malls",
+            "Footpaths & Sidewalks",
+            "Hospitals",
+            "Public Buildings",
+            "Pedestrian Crossings",
+            "Schools & Colleges"
+          ]
+        },
+        {
+          "id": "pr-topedge",
+          "title": "Protect - Top Edge",
+          "sku": "PR-TE",
+          "image": "/assets/profile-floors/pf-te.jpg",
+          "material_grades": ["SS 316", "SS 304"],
+          "technical_specs": {
+            "Product Type": "Profile",
+            "Pattern": "Plain Top"
+          },
+          "gallery_images": [
+            "/assets/profile-floors/pf-te.jpg",
+            "https://placehold.co/600x400?text=Top+Edge+Gallery+1",
+            "https://placehold.co/600x400?text=Top+Edge+Gallery+2"
+          ],
+          "description": "Top edge protection profiles for stairs and elevated flooring platforms.",
+          "brand": "Eminent Tactiles",
+          "customization": "Yes (Color Options, Size Customization, Design Options)",
+          "origin": "Made in India",
+          "warranty": "5-Year Warranty",
+          "standards": [
+            "Australian Standard AS/NZS 1428.4.1:2009",
+            "National Building Code (India) 2016",
+            "Americans with Disabilities Act Amendments Act (ADAAA)"
+          ],
+          "installation_details": {
+            "method": "Drill & Fix",
+            "surface": "Suitable for indoor & outdoor",
+            "substrates": "Stone, masonry, timber, vinyl, vitrified porcelain, ceramics, glass, metals",
+            "time": "Quick & easy installation"
+          },
+          "usage_applications": [
+            "Corporate buildings",
+            "Corporate Parks",
+            "Bus Stations",
+            "Railway Stations",
+            "Metro Stations",
+            "Airports",
+            "Shopping Malls",
+            "Footpaths & Sidewalks",
+            "Hospitals",
+            "Public Buildings",
+            "Pedestrian Crossings",
+            "Schools & Colleges"
+          ]
+        },
+        {
+          "id": "pr-topedge",
+          "title": "Protect - Top Edge",
+          "sku": "PR-TE",
+          "image": "/assets/profile-floors/pf-te.jpg",
+          "material_grades": ["SS 316", "SS 304"],
+          "technical_specs": {
+            "Product Type": "Profile",
+            "Pattern": "Plain Top"
+          },
+          "gallery_images": [
+            "/assets/profile-floors/pf-te.jpg",
+            "https://placehold.co/600x400?text=Top+Edge+Gallery+1",
+            "https://placehold.co/600x400?text=Top+Edge+Gallery+2"
+          ],
+          "description": "Top edge protection profiles for stairs and elevated flooring platforms.",
+          "brand": "Eminent Tactiles",
+          "customization": "Yes (Color Options, Size Customization, Design Options)",
+          "origin": "Made in India",
+          "warranty": "5-Year Warranty",
+          "standards": [
+            "Australian Standard AS/NZS 1428.4.1:2009",
+            "National Building Code (India) 2016",
+            "Americans with Disabilities Act Amendments Act (ADAAA)"
+          ],
+          "installation_details": {
+            "method": "Drill & Fix",
+            "surface": "Suitable for indoor & outdoor",
+            "substrates": "Stone, masonry, timber, vinyl, vitrified porcelain, ceramics, glass, metals",
+            "time": "Quick & easy installation"
+          },
+          "usage_applications": [
+            "Corporate buildings",
+            "Corporate Parks",
+            "Bus Stations",
+            "Railway Stations",
+            "Metro Stations",
+            "Airports",
+            "Shopping Malls",
+            "Footpaths & Sidewalks",
+            "Hospitals",
+            "Public Buildings",
+            "Pedestrian Crossings",
+            "Schools & Colleges"
+          ]
+        },
+        {
+          "id": "pr-topedge",
+          "title": "Protect - Top Edge",
+          "sku": "PR-TE",
+          "image": "/assets/profile-floors/pf-te.jpg",
+          "material_grades": ["SS 316", "SS 304"],
+          "technical_specs": {
+            "Product Type": "Profile",
+            "Pattern": "Plain Top"
+          },
+          "gallery_images": [
+            "/assets/profile-floors/pf-te.jpg",
+            "https://placehold.co/600x400?text=Top+Edge+Gallery+1",
+            "https://placehold.co/600x400?text=Top+Edge+Gallery+2"
+          ],
+          "description": "Top edge protection profiles for stairs and elevated flooring platforms.",
+          "brand": "Eminent Tactiles",
+          "customization": "Yes (Color Options, Size Customization, Design Options)",
+          "origin": "Made in India",
+          "warranty": "5-Year Warranty",
+          "standards": [
+            "Australian Standard AS/NZS 1428.4.1:2009",
+            "National Building Code (India) 2016",
+            "Americans with Disabilities Act Amendments Act (ADAAA)"
+          ],
+          "installation_details": {
+            "method": "Drill & Fix",
+            "surface": "Suitable for indoor & outdoor",
+            "substrates": "Stone, masonry, timber, vinyl, vitrified porcelain, ceramics, glass, metals",
+            "time": "Quick & easy installation"
+          },
+          "usage_applications": [
+            "Corporate buildings",
+            "Corporate Parks",
+            "Bus Stations",
+            "Railway Stations",
+            "Metro Stations",
+            "Airports",
+            "Shopping Malls",
+            "Footpaths & Sidewalks",
+            "Hospitals",
+            "Public Buildings",
+            "Pedestrian Crossings",
+            "Schools & Colleges"
           ]
         }
       ]
