@@ -108,12 +108,11 @@ export default function Footer({
               ))}
             </div>
             <div className="copyright">
-              Achintya @ 2026. All Rights Reserved.
+              Achintya Interior & Floor Solutions Pvt.Ltd @ 2026. all rights
+              reserved
             </div>
             <div className="links">
-              <a href="#">CSR</a>
               <a href="#">Careers</a>
-              <a href="#">Privacy Policy</a>
               <a href="#">Contact</a>
             </div>
           </div>

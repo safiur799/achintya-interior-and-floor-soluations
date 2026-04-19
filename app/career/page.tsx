@@ -31,7 +31,7 @@ const cardData = [
   {
     title: "Impactful Work",
     description:
-      "At Padams Group, you will have the opportunity to work on challenging and meaningful projects that make a real difference for our clients.",
+      "At Achintya Group, you will have the opportunity to work on challenging and meaningful projects that make a real difference for our clients.",
   },
 ];
 
@@ -77,7 +77,7 @@ const page = () => {
 
   return (
     <Wrapper hideAnnouncements={true}>
-      <CommonBanner title="Careers" bgImage={assets.hero} />
+      <CommonBanner title="Careers" bgImage={assets.curved_desk_workspace} />
 
       <section className="career-section">
         <div className="container">
@@ -86,7 +86,7 @@ const page = () => {
               <div className="career-content">
                 <h2 className="career-title">Why work with us</h2>
                 <p className="career-description">
-                  At Padams Group, we understand that our workforce is our
+                  At Achintya Group, we understand that our workforce is our
                   greatest asset. We offer opportunities to work on innovative
                   projects in a collaborative environment, where your skills and
                   ideas help shape inspiring spaces. Explore our open positions

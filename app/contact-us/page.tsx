@@ -59,7 +59,7 @@ const ContactUs = () => {
       <CommonBanner
         title="Contact Us"
         description="Lorem ipsum dolor sit amet consectetur adipisicing elit. A sint nulla iusto doloremque dignissimos! Consequuntur eius tenetur corporis, nulla distinctio vel. Voluptatum molestias reiciendis deserunt? Inventore excepturi quo saepe ad.  "
-        bgImage={assets.hero}
+        bgImage={assets.contact_image}
       />
 
       <section ref={sectionRef} className="map-section ">
@@ -79,10 +79,13 @@ const ContactUs = () => {
             <h2 className="text-[#e31e24] text-4xl font-montserrat uppercase mb-2 font-medium">
               Head Office
             </h2>
-            <p className="text-xl font-medium text-gray-800">Kolkata</p>
+            <p className="text-xl font-medium text-gray-800">
+              Baligori Rd, Uniworld City, Newtown, Kolkata, Baligari, West
+              Bengal 700160
+            </p>
           </div>
 
-          <div className="fade-up">
+          <div className="fade-up" style={{ marginTop: "20px" }}>
             <h3 className="text-2xl font-montserrat uppercase mb-6 tracking-wider font-semibold border-b-2 border-gray-100 pb-2">
               PAN INDIA PRESENCE
             </h3>

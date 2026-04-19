@@ -133,7 +133,7 @@ const Page = () => {
       <CommonBanner
         title="Expertise"
         description="Today, our team of over 5,000+ skilled and multifaceted professionals bring unparalleled expertise and a commitment to excellence to every project we undertake.Explore our detailed services to see how we bring your vision to life!"
-        bgImage={assets.hero}
+        bgImage={assets.living_room_top_view}
       />
       <section className="expertise-section">
         <div className="expertise-scroll-track" ref={trackRef}>
