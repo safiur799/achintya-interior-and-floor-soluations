@@ -13,7 +13,7 @@ const slides = [
     isVideo: false,
   },
   {
-    bg: assets.bedroom_bed_detail,
+    bg: assets.premium_floring_banner,
     title: "Premium Flooring",
     desc: "Elegance under every step.",
     btn: "Explore Collections",
