@@ -14,9 +14,8 @@ const announcements = [
 
 const certifications = [
   { src: assets.certificate1, alt: "ISO 9001" },
-  { src: assets.certificate1, alt: "ISO 14001" },
-  { src: assets.certificate1, alt: "ISO 45001" },
-  { src: assets.certificate1, alt: "D-U-N-S" },
+  { src: assets.certificate2, alt: "ISO 14001" },
+  { src: assets.certificate3, alt: "ISO 45001" },
 ];
 
 export default function Footer({
@@ -76,13 +75,19 @@ export default function Footer({
         <div className="container">
           <div className="social-row">
             <div className="icons">
-              <a href="https://www.facebook.com/people/Achintiya-Interiors/61588450906412/" target="_blank">
+              <a
+                href="https://www.facebook.com/people/Achintiya-Interiors/61588450906412/"
+                target="_blank"
+              >
                 <FbIcon />
               </a>
               {/* <a href="#">
                 <XIcon />
               </a> */}
-              <a href="https://www.instagram.com/achintya.interiors" target="_blank">
+              <a
+                href="https://www.instagram.com/achintya.interiors"
+                target="_blank"
+              >
                 <InstaIcon />
               </a>
               {/* <a href="#">
@@ -108,7 +113,7 @@ export default function Footer({
               ))}
             </div>
             <div className="copyright">
-              Achintya Interior & Floor Solutions Pvt.Ltd @ 2026. all rights
+              Achintya Interior & Floor Solutions Pvt.Ltd @ 2027. all rights
               reserved
             </div>
             <div className="links">
