@@ -16,8 +16,6 @@ import BottomCards from "./components/BottomCards";
 import Wrapper from "./layout/Wrapper";
 
 export default function Home() {
-  const [formStatus, setFormStatus] = useState("PROCEED");
-
   // ScrollTrigger Animations
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
@@ -56,18 +54,6 @@ export default function Home() {
     return () => ctx.revert();
   }, []);
 
-  const handleFormSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    setFormStatus("PROCEEDING...");
-    setTimeout(() => {
-      alert(
-        "Your request has been sent to Achintya Interior and Floor Solutions.",
-      );
-      (e.target as HTMLFormElement).reset();
-      setFormStatus("PROCEED");
-    }, 1500);
-  };
-
   return (
     <Wrapper>
       <HeroSlider />
@@ -77,7 +63,7 @@ export default function Home() {
       <Portfolio />
       <TrustedBy />
       <BottomCards />
-      <Contact formStatus={formStatus} handleFormSubmit={handleFormSubmit} />
+      <Contact />
     </Wrapper>
   );
 }

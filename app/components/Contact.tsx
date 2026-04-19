@@ -1,14 +1,42 @@
+"use client";
+
+import { useState } from "react";
 import { assets } from "../json/assets";
 
-interface ContactProps {
-  formStatus: string;
-  handleFormSubmit: (e: React.FormEvent<HTMLFormElement>) => void;
-}
+export default function Contact() {
+  const [formStatus, setFormStatus] = useState("PROCEED");
 
-export default function Contact({
-  formStatus,
-  handleFormSubmit,
-}: ContactProps) {
+  const handleFormSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    setFormStatus("PROCEEDING...");
+
+    const formData = new FormData(e.currentTarget);
+    const data = Object.fromEntries(formData.entries());
+
+    try {
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(data),
+      });
+
+      if (response.ok) {
+        alert("Your request has been sent to Achintya Interior and Floor Solutions.");
+        (e.target as HTMLFormElement).reset();
+      } else {
+        const errorData = await response.json();
+        alert(`Error: ${errorData.error || "Something went wrong. Please try again later."}`);
+      }
+    } catch (error) {
+      console.error("Submission error:", error);
+      alert("An error occurred while sending your request. Please check your connection.");
+    } finally {
+      setFormStatus("PROCEED");
+    }
+  };
+
   return (
     <section id="contact">
       <h2 className="section-title">Get In Touch</h2>
@@ -47,7 +75,7 @@ export default function Contact({
         <div className="contact-form">
           <form id="contactForm" onSubmit={handleFormSubmit}>
             <div className="form-group">
-              <select id="topic" required>
+              <select id="topic" name="topic" required>
                 <option value="">Select Topic</option>
                 <option value="interior">Interior Design</option>
                 <option value="flooring">Flooring Solution</option>
@@ -55,16 +83,16 @@ export default function Contact({
               </select>
             </div>
             <div className="form-group">
-              <input type="text" id="name" placeholder="Name" required />
+              <input type="text" id="name" name="name" placeholder="Name" required />
             </div>
             <div className="form-group">
-              <input type="email" id="email" placeholder="Email" required />
+              <input type="email" id="email" name="email" placeholder="Email" required />
             </div>
             <div className="form-group">
-              <textarea id="message" rows={4} placeholder="Message"></textarea>
+              <textarea id="message" name="message" rows={4} placeholder="Message"></textarea>
             </div>
-            <button type="submit" className="submit-btn">
-              {formStatus}
+            <button type="submit" className="submit-btn" disabled={formStatus === "PROCEEDING..."}>
+              {formStatus === "PROCEEDING..." ? "SENDING..." : "PROCEED"}
             </button>
           </form>
         </div>
