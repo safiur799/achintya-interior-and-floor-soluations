@@ -12,18 +12,6 @@ gsap.registerPlugin(ScrollTrigger);
 
 const ContactUs = () => {
   const sectionRef = useRef<HTMLElement>(null);
-  const [formStatus, setFormStatus] = useState("PROCEED");
-  const handleFormSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    setFormStatus("PROCEEDING...");
-    setTimeout(() => {
-      alert(
-        "Your request has been sent to Achintya Interior and Floor Solutions.",
-      );
-      (e.target as HTMLFormElement).reset();
-      setFormStatus("PROCEED");
-    }, 1500);
-  };
 
   useEffect(() => {
     const ctx = gsap.context(() => {
@@ -129,7 +117,7 @@ const ContactUs = () => {
       </section>
 
       <section>
-        <Contact formStatus={formStatus} handleFormSubmit={handleFormSubmit} />
+        <Contact />
       </section>
     </Wrapper>
   );
