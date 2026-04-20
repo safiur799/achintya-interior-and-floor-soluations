@@ -61,6 +61,10 @@ export default function HeroSlider() {
               />
             )}
             <div className="hero-content">
+              <div className="banner_logo">
+                <Image src={assets.logo} alt="Logo" width={200} height={200} />
+                <h4>Achintya Interior & Floor Solutions Pvt.Ltd</h4>
+              </div>
               <h1 className="reveal-text">{slide.title}</h1>
               <p>{slide.desc}</p>
               <a href="#contact" className="btn">

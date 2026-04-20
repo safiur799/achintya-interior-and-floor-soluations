@@ -1175,19 +1175,732 @@
           "id": "tactile-tiles",
           "title": "Tactile Tiles",
           "image": "/assets/tactile-tiles.webp",
-          "products": []
+          "products": [
+            {
+              "id": "itt-001",
+              "title": "Stainless Steel Tactile Tiles – Integrated Concentric Rings & Studs",
+              "sku": "ITT-001",
+              "image": "/assets/products/tactile-tile-1.webp",
+              "material_grades": ["SS 316", "SS 304"],
+              "technical_specs": {
+                "Product Type": "Tactile Tile",
+                "Pattern": "Concentric Rings & Studs",
+                "Material": "Stainless Steel"
+              },
+              "gallery_images": ["/assets/products/tactile-tile-1.webp"],
+              "description": "High-quality stainless steel tactile tiles with integrated concentric rings and studs, designed for durability and enhanced safety in public spaces.",
+              "brand": "Eminent Tactiles",
+              "customization": "Yes (Color Options, Size Customization, Design Options)",
+              "origin": "Made in India",
+              "warranty": "5-Year Warranty",
+              "standards": [
+                "Australian Standard AS/NZS 1428.4.1:2009",
+                "National Building Code (India) 2016",
+                "Americans with Disabilities Act Amendments Act (ADAAA)"
+              ],
+              "installation_details": {
+                "method": "Adhesive / Screw Fix",
+                "surface": "Suitable for indoor & outdoor",
+                "substrates": "Stone, masonry, timber, vinyl, vitrified porcelain, ceramics, glass, metals",
+                "time": "Quick & easy installation"
+              },
+              "usage_applications": [
+                "Corporate buildings",
+                "Corporate Parks",
+                "Bus Stations",
+                "Railway Stations",
+                "Metro Stations",
+                "Airports",
+                "Shopping Malls",
+                "Footpaths & Sidewalks",
+                "Hospitals",
+                "Public Buildings",
+                "Pedestrian Crossings",
+                "Schools & Colleges"
+              ]
+            },
+            {
+              "id": "itt-002",
+              "title": "Stainless Steel Tactile Tile Integrated with Poly Insert Studs",
+              "sku": "ITT-002",
+              "image": "/assets/products/tactile-tile-2.webp",
+              "material_grades": ["SS 316", "Polyurethane"],
+              "technical_specs": {
+                "Product Type": "Tactile Tile",
+                "Pattern": "Poly Insert Studs",
+                "Material": "Stainless Steel & Polyurethane"
+              },
+              "gallery_images": ["/assets/products/tactile-tile-2.webp"],
+              "description": "Integrated stainless steel tactile tile featuring durable poly insert studs for high visibility and slip resistance.",
+              "brand": "Eminent Tactiles",
+              "customization": "Yes (Color Options, Size Customization, Design Options)",
+              "origin": "Made in India",
+              "warranty": "5-Year Warranty",
+              "standards": [
+                "Australian Standard AS/NZS 1428.4.1:2009",
+                "National Building Code (India) 2016",
+                "Americans with Disabilities Act Amendments Act (ADAAA)"
+              ],
+              "installation_details": {
+                "method": "Adhesive / Screw Fix",
+                "surface": "Suitable for indoor & outdoor",
+                "substrates": "Stone, masonry, timber, vinyl, vitrified porcelain, ceramics, glass, metals",
+                "time": "Quick & easy installation"
+              },
+              "usage_applications": [
+                "Corporate buildings",
+                "Corporate Parks",
+                "Bus Stations",
+                "Railway Stations",
+                "Metro Stations",
+                "Airports",
+                "Shopping Malls",
+                "Footpaths & Sidewalks",
+                "Hospitals",
+                "Public Buildings",
+                "Pedestrian Crossings",
+                "Schools & Colleges"
+              ]
+            },
+            {
+              "id": "itt-003",
+              "title": "Stainless Steel Integrated Carborundum Tactile Tile with Insert Stud",
+              "sku": "ITT-003",
+              "image": "/assets/products/tactile-tile-3.webp",
+              "material_grades": ["SS 316", "Carborundum"],
+              "technical_specs": {
+                "Product Type": "Tactile Tile",
+                "Pattern": "Carborundum Insert",
+                "Material": "Stainless Steel & Carborundum"
+              },
+              "gallery_images": ["/assets/products/tactile-tile-3.webp"],
+              "description": "Premium tactile tile with carborundum inserts for extreme grip and long-lasting performance in heavy traffic areas.",
+              "brand": "Eminent Tactiles",
+              "customization": "Yes (Color Options, Size Customization, Design Options)",
+              "origin": "Made in India",
+              "warranty": "5-Year Warranty",
+              "standards": [
+                "Australian Standard AS/NZS 1428.4.1:2009",
+                "National Building Code (India) 2016",
+                "Americans with Disabilities Act Amendments Act (ADAAA)"
+              ],
+              "installation_details": {
+                "method": "Adhesive / Screw Fix",
+                "surface": "Suitable for indoor & outdoor",
+                "substrates": "Stone, masonry, timber, vinyl, vitrified porcelain, ceramics, glass, metals",
+                "time": "Quick & easy installation"
+              },
+              "usage_applications": [
+                "Corporate buildings",
+                "Corporate Parks",
+                "Bus Stations",
+                "Railway Stations",
+                "Metro Stations",
+                "Airports",
+                "Shopping Malls",
+                "Footpaths & Sidewalks",
+                "Hospitals",
+                "Public Buildings",
+                "Pedestrian Crossings",
+                "Schools & Colleges"
+              ]
+            },
+            {
+              "id": "itt-004",
+              "title": "Stainless Steel Tactile Tiles – Integrated Design with Concentric Ring Studs",
+              "sku": "ITT-004",
+              "image": "/assets/products/tactile-tile-4.webp",
+              "material_grades": ["SS 316", "SS 304"],
+              "technical_specs": {
+                "Product Type": "Tactile Tile",
+                "Pattern": "Concentric Rings",
+                "Material": "Stainless Steel"
+              },
+              "gallery_images": ["/assets/products/tactile-tile-4.webp"],
+              "description": "Specially designed stainless steel tactile tile with concentric ring patterns, optimizing guidance for visually impaired individuals.",
+              "brand": "Eminent Tactiles",
+              "customization": "Yes (Color Options, Size Customization, Design Options)",
+              "origin": "Made in India",
+              "warranty": "5-Year Warranty",
+              "standards": [
+                "Australian Standard AS/NZS 1428.4.1:2009",
+                "National Building Code (India) 2016",
+                "Americans with Disabilities Act Amendments Act (ADAAA)"
+              ],
+              "installation_details": {
+                "method": "Adhesive / Screw Fix",
+                "surface": "Suitable for indoor & outdoor",
+                "substrates": "Stone, masonry, timber, vinyl, vitrified porcelain, ceramics, glass, metals",
+                "time": "Quick & easy installation"
+              },
+              "usage_applications": [
+                "Corporate buildings",
+                "Corporate Parks",
+                "Bus Stations",
+                "Railway Stations",
+                "Metro Stations",
+                "Airports",
+                "Shopping Malls",
+                "Footpaths & Sidewalks",
+                "Hospitals",
+                "Public Buildings",
+                "Pedestrian Crossings",
+                "Schools & Colleges"
+              ]
+            },
+            {
+              "id": "itt-005",
+              "title": "Stainless Steel Tactile Tiles – Truncated Domes with Concentric Rings",
+              "sku": "ITT-005",
+              "image": "/assets/products/tactile-tile-5.webp",
+              "material_grades": ["SS 316", "SS 304"],
+              "technical_specs": {
+                "Product Type": "Tactile Tile",
+                "Pattern": "Truncated Domes",
+                "Material": "Stainless Steel"
+              },
+              "gallery_images": ["/assets/products/tactile-tile-5.webp"],
+              "description": "Truncated dome tactile tiles designed for hazard warning at crosswalks and dangerous edges, featuring concentric rings for added grip.",
+              "brand": "Eminent Tactiles",
+              "customization": "Yes (Color Options, Size Customization, Design Options)",
+              "origin": "Made in India",
+              "warranty": "5-Year Warranty",
+              "standards": [
+                "Australian Standard AS/NZS 1428.4.1:2009",
+                "National Building Code (India) 2016",
+                "Americans with Disabilities Act Amendments Act (ADAAA)"
+              ],
+              "installation_details": {
+                "method": "Adhesive / Screw Fix",
+                "surface": "Suitable for indoor & outdoor",
+                "substrates": "Stone, masonry, timber, vinyl, vitrified porcelain, ceramics, glass, metals",
+                "time": "Quick & easy installation"
+              },
+              "usage_applications": [
+                "Corporate buildings",
+                "Corporate Parks",
+                "Bus Stations",
+                "Railway Stations",
+                "Metro Stations",
+                "Airports",
+                "Shopping Malls",
+                "Footpaths & Sidewalks",
+                "Hospitals",
+                "Public Buildings",
+                "Pedestrian Crossings",
+                "Schools & Colleges"
+              ]
+            },
+            {
+              "id": "itt-006",
+              "title": "Stainless Steel Integrated Directional Tactile Tiles with Linear Pattern Strips",
+              "sku": "ITT-006",
+              "image": "/assets/products/tactile-tile-6.webp",
+              "material_grades": ["SS 316", "SS 304"],
+              "technical_specs": {
+                "Product Type": "Directional Tile",
+                "Pattern": "Linear Strips",
+                "Material": "Stainless Steel"
+              },
+              "gallery_images": ["/assets/products/tactile-tile-6.webp"],
+              "description": "Directional tactile tiles with linear patterns to provide continuous guidance along paths, integrated into a single durable plate.",
+              "brand": "Eminent Tactiles",
+              "customization": "Yes (Color Options, Size Customization, Design Options)",
+              "origin": "Made in India",
+              "warranty": "5-Year Warranty",
+              "standards": [
+                "Australian Standard AS/NZS 1428.4.1:2009",
+                "National Building Code (India) 2016",
+                "Americans with Disabilities Act Amendments Act (ADAAA)"
+              ],
+              "installation_details": {
+                "method": "Adhesive / Screw Fix",
+                "surface": "Suitable for indoor & outdoor",
+                "substrates": "Stone, masonry, timber, vinyl, vitrified porcelain, ceramics, glass, metals",
+                "time": "Quick & easy installation"
+              },
+              "usage_applications": [
+                "Corporate buildings",
+                "Corporate Parks",
+                "Bus Stations",
+                "Railway Stations",
+                "Metro Stations",
+                "Airports",
+                "Shopping Malls",
+                "Footpaths & Sidewalks",
+                "Hospitals",
+                "Public Buildings",
+                "Pedestrian Crossings",
+                "Schools & Colleges"
+              ]
+            },
+            {
+              "id": "itt-007",
+              "title": "Brass Tactile Tile with Integrated Concentric Rings Studs",
+              "sku": "ITT-007",
+              "image": "/assets/products/tactile-tile-7.webp",
+              "material_grades": ["Brass"],
+              "technical_specs": {
+                "Product Type": "Tactile Tile",
+                "Pattern": "Concentric Rings",
+                "Material": "Brass"
+              },
+              "gallery_images": ["/assets/products/tactile-tile-7.webp"],
+              "description": "Elegant brass tactile tiles offering a premium look while maintaining essential safety functions, featuring integrated concentric ring studs.",
+              "brand": "Eminent Tactiles",
+              "customization": "Yes (Color Options, Size Customization, Design Options)",
+              "origin": "Made in India",
+              "warranty": "5-Year Warranty",
+              "standards": [
+                "Australian Standard AS/NZS 1428.4.1:2009",
+                "National Building Code (India) 2016",
+                "Americans with Disabilities Act Amendments Act (ADAAA)"
+              ],
+              "installation_details": {
+                "method": "Adhesive / Screw Fix",
+                "surface": "Suitable for indoor & outdoor",
+                "substrates": "Stone, masonry, timber, vinyl, vitrified porcelain, ceramics, glass, metals",
+                "time": "Quick & easy installation"
+              },
+              "usage_applications": [
+                "Corporate buildings",
+                "Corporate Parks",
+                "Bus Stations",
+                "Railway Stations",
+                "Metro Stations",
+                "Airports",
+                "Shopping Malls",
+                "Footpaths & Sidewalks",
+                "Hospitals",
+                "Public Buildings",
+                "Pedestrian Crossings",
+                "Schools & Colleges"
+              ]
+            },
+            {
+              "id": "itt-008",
+              "title": "Brass Directional Integrated Tactile Tile with Linear Pattern Strips",
+              "sku": "ITT-008",
+              "image": "/assets/products/tactile-tile-8.webp",
+              "material_grades": ["Brass"],
+              "technical_specs": {
+                "Product Type": "Directional Tile",
+                "Pattern": "Linear Strips",
+                "Material": "Brass"
+              },
+              "gallery_images": ["/assets/products/tactile-tile-8.webp"],
+              "description": "Directional brass tactile tiles combining aesthetic appeal with effective navigational guidance through integrated linear strips.",
+              "brand": "Eminent Tactiles",
+              "customization": "Yes (Color Options, Size Customization, Design Options)",
+              "origin": "Made in India",
+              "warranty": "5-Year Warranty",
+              "standards": [
+                "Australian Standard AS/NZS 1428.4.1:2009",
+                "National Building Code (India) 2016",
+                "Americans with Disabilities Act Amendments Act (ADAAA)"
+              ],
+              "installation_details": {
+                "method": "Adhesive / Screw Fix",
+                "surface": "Suitable for indoor & outdoor",
+                "substrates": "Stone, masonry, timber, vinyl, vitrified porcelain, ceramics, glass, metals",
+                "time": "Quick & easy installation"
+              },
+              "usage_applications": [
+                "Corporate buildings",
+                "Corporate Parks",
+                "Bus Stations",
+                "Railway Stations",
+                "Metro Stations",
+                "Airports",
+                "Shopping Malls",
+                "Footpaths & Sidewalks",
+                "Hospitals",
+                "Public Buildings",
+                "Pedestrian Crossings",
+                "Schools & Colleges"
+              ]
+            },
+            {
+              "id": "itt-011",
+              "title": "Porcelain Tactile Tile with Warning Studs",
+              "sku": "ITT-011",
+              "image": "/assets/products/tactile-tile-9.webp",
+              "material_grades": ["Porcelain"],
+              "technical_specs": {
+                "Product Type": "Tactile Tile",
+                "Pattern": "Warning Studs",
+                "Material": "Porcelain"
+              },
+              "gallery_images": ["/assets/products/tactile-tile-9.webp"],
+              "description": "Durable porcelain tactile tiles with high contrast warning studs, ideal for seamless integration into ceramic tiled floors.",
+              "brand": "Eminent Tactiles",
+              "customization": "No (Standard Sizes)",
+              "origin": "Made in India",
+              "warranty": "3-Year Warranty",
+              "standards": ["National Building Code (India) 2016"],
+              "installation_details": {
+                "method": "Adhesive Fix",
+                "surface": "Suitable for indoor",
+                "substrates": "Ceramics, glass",
+                "time": "Standard tile installation"
+              },
+              "usage_applications": [
+                "Shopping Malls",
+                "Hospitals",
+                "Public Buildings",
+                "Schools & Colleges"
+              ]
+            },
+            {
+              "id": "itt-012",
+              "title": "Porcelain Directional Tactile Tile Strips",
+              "sku": "ITT-012",
+              "image": "/assets/products/tactile-tile-10.webp",
+              "material_grades": ["Porcelain"],
+              "technical_specs": {
+                "Product Type": "Directional Tile",
+                "Pattern": "Linear Strips",
+                "Material": "Porcelain"
+              },
+              "gallery_images": ["/assets/products/tactile-tile-10.webp"],
+              "description": "Porcelain directional tiles for modular navigational guidance, designed to fit perfectly with standard flooring tiles.",
+              "brand": "Eminent Tactiles",
+              "customization": "No (Standard Sizes)",
+              "origin": "Made in India",
+              "warranty": "3-Year Warranty",
+              "standards": ["National Building Code (India) 2016"],
+              "installation_details": {
+                "method": "Adhesive Fix",
+                "surface": "Suitable for indoor",
+                "substrates": "Ceramics, glass",
+                "time": "Standard tile installation"
+              },
+              "usage_applications": [
+                "Shopping Malls",
+                "Hospitals",
+                "Public Buildings",
+                "Schools & Colleges"
+              ]
+            },
+            {
+              "id": "itt-013",
+              "title": "Stainless Steel Tactile Tile | Punched Studs & Concentric Rings",
+              "sku": "ITT-013",
+              "image": "/assets/products/tactile-tile-11.webp",
+              "material_grades": ["SS 316", "SS 304"],
+              "technical_specs": {
+                "Product Type": "Tactile Tile",
+                "Pattern": "Punched Studs & Concentric Rings",
+                "Material": "Stainless Steel"
+              },
+              "gallery_images": ["/assets/products/tactile-tile-11.webp"],
+              "description": "A stainless steel tactile tile featuring raised dots for enhanced accessibility and safety in public spaces and walkways.",
+              "brand": "Eminent Tactiles",
+              "customization": "Yes (Color Options, Size Customization, Design Options)",
+              "origin": "Made in India",
+              "warranty": "5-Year Warranty",
+              "standards": [
+                "Australian Standard AS/NZS 1428.4.1:2009",
+                "National Building Code (India) 2016",
+                "Americans with Disabilities Act Amendments Act (ADAAA)"
+              ],
+              "installation_details": {
+                "method": "Adhesive / Screw Fix",
+                "surface": "Suitable for indoor & outdoor",
+                "substrates": "Stone, masonry, timber, vinyl, vitrified porcelain, ceramics, glass, metals",
+                "time": "Quick & easy installation"
+              },
+              "usage_applications": [
+                "Corporate buildings",
+                "Corporate Parks",
+                "Bus Stations",
+                "Railway Stations",
+                "Metro Stations",
+                "Airports",
+                "Shopping Malls",
+                "Footpaths & Sidewalks",
+                "Hospitals",
+                "Public Buildings",
+                "Pedestrian Crossings",
+                "Schools & Colleges"
+              ]
+            },
+            {
+              "id": "itt-014",
+              "title": "Stainless Steel Directional Tactile Tile with Punched Strips",
+              "sku": "ITT-014",
+              "image": "/assets/products/tactile-tile-12.webp",
+              "material_grades": ["SS 316", "SS 304"],
+              "technical_specs": {
+                "Product Type": "Directional Tile",
+                "Pattern": "Punched Strips",
+                "Material": "Stainless Steel"
+              },
+              "gallery_images": ["/assets/products/tactile-tile-12.webp"],
+              "description": "Stainless Steel Directional Tactile Tile designed for enhanced navigation and safety in public spaces with tactile features.",
+              "brand": "Eminent Tactiles",
+              "customization": "Yes (Color Options, Size Customization, Design Options)",
+              "origin": "Made in India",
+              "warranty": "5-Year Warranty",
+              "standards": [
+                "Australian Standard AS/NZS 1428.4.1:2009",
+                "National Building Code (India) 2016",
+                "Americans with Disabilities Act Amendments Act (ADAAA)"
+              ],
+              "installation_details": {
+                "method": "Adhesive / Screw Fix",
+                "surface": "Suitable for indoor & outdoor",
+                "substrates": "Stone, masonry, timber, vinyl, vitrified porcelain, ceramics, glass, metals",
+                "time": "Quick & easy installation"
+              },
+              "usage_applications": [
+                "Corporate buildings",
+                "Corporate Parks",
+                "Bus Stations",
+                "Railway Stations",
+                "Metro Stations",
+                "Airports",
+                "Shopping Malls",
+                "Footpaths & Sidewalks",
+                "Hospitals",
+                "Public Buildings",
+                "Pedestrian Crossings",
+                "Schools & Colleges"
+              ]
+            }
+          ]
         },
         {
           "id": "pu-tactile-indicators",
           "title": "PU Tactile Indicators",
           "image": "/assets/Pu-stud1.webp",
-          "products": []
+          "products": [
+            {
+              "id": "pu-ts-001",
+              "title": "PU Tactile Strips – Polyurethane Directional Strips with Concentric Line Pattern",
+              "sku": "PU-DTS-029",
+              "image": "/assets/products/pu-tactile-1.webp",
+              "material_grades": ["Polyurethane (PU)"],
+              "technical_specs": {
+                "Product Type": "Tactile Strip",
+                "Material": "Polyurethane",
+                "Pattern": "Concentric Line"
+              },
+              "gallery_images": ["/assets/products/pu-tactile-1.webp"],
+              "description": "Bright yellow PU tactile strips designed for enhanced safety and accessibility in various environments, featuring a concentric line pattern for tactile feedback.",
+              "brand": "Eminent Tactiles",
+              "customization": "Yes (Color Options, Size Customization)",
+              "origin": "Made in India",
+              "warranty": "2-Year Warranty",
+              "standards": [
+                "Australian Standard AS/NZS 1428.4.1:2009",
+                "National Building Code (India) 2016"
+              ],
+              "installation_details": {
+                "method": "Adhesive Fix",
+                "surface": "Indoor & Outdoor",
+                "time": "Quick & easy installation"
+              },
+              "usage_applications": [
+                "Corporate buildings",
+                "Shopping Malls",
+                "Hospitals",
+                "Public Buildings"
+              ]
+            },
+            {
+              "id": "pu-ts-002",
+              "title": "PU Tactile Strip – Self Adhesive Polyurethane Directional Strip with Concentric Lines Pattern on Top",
+              "sku": "PU-DTS-030",
+              "image": "/assets/products/pu-tactile-2.webp",
+              "material_grades": ["Polyurethane (PU)"],
+              "technical_specs": {
+                "Product Type": "Tactile Strip",
+                "Material": "Polyurethane",
+                "Pattern": "Concentric Lines",
+                "Feature": "Self Adhesive"
+              },
+              "gallery_images": ["/assets/products/pu-tactile-2.webp"],
+              "description": "PU Tactile Strip and Polyurethane Directional Strip designed for enhanced safety and guidance in public spaces, with a convenient self-adhesive backing.",
+              "brand": "Eminent Tactiles",
+              "customization": "Yes (Color Options)",
+              "origin": "Made in India",
+              "warranty": "2-Year Warranty",
+              "standards": ["Australian Standard AS/NZS 1428.4.1:2009"],
+              "installation_details": {
+                "method": "Peel & Stick (Self Adhesive)",
+                "surface": "Smooth non-porous walls",
+                "time": "Ultra-fast installation"
+              },
+              "usage_applications": [
+                "Retail kiosks",
+                "Temporary dividers",
+                "Indoor corridors"
+              ]
+            },
+            {
+              "id": "pu-ws-001",
+              "title": "Polyurethane Tactile Warning Stud With Concentric Rings Pattern on Top",
+              "sku": "PU-WTS-028",
+              "image": "/assets/products/pu-tactile-3.webp",
+              "material_grades": ["Polyurethane (PU)"],
+              "technical_specs": {
+                "Product Type": "Tactile Stud",
+                "Material": "Polyurethane",
+                "Pattern": "Concentric Rings"
+              },
+              "gallery_images": ["/assets/products/pu-tactile-3.webp"],
+              "description": "Close-up of a PU tactile warning stud designed for safety and accessibility in public spaces, featuring a bright yellow color and concentric rings pattern.",
+              "brand": "Eminent Tactiles",
+              "customization": "Yes (Color Options)",
+              "origin": "Made in India",
+              "warranty": "2-Year Warranty",
+              "standards": ["National Building Code (India) 2016"],
+              "installation_details": {
+                "method": "Adhesive Fix",
+                "surface": "Indoor & Outdoor"
+              },
+              "usage_applications": [
+                "Public Buildings",
+                "Pedestrian Crossings",
+                "Schools & Colleges"
+              ]
+            },
+            {
+              "id": "pu-ws-002",
+              "title": "Self Adhesive PU Tactile Stud With Concentric Rings Pattern on Top",
+              "sku": "PU-WTS-029",
+              "image": "/assets/products/pu-tactile-4.webp",
+              "material_grades": ["Polyurethane (PU)"],
+              "technical_specs": {
+                "Product Type": "Tactile Stud",
+                "Material": "Polyurethane",
+                "Pattern": "Concentric Rings",
+                "Feature": "Self Adhesive"
+              },
+              "gallery_images": ["/assets/products/pu-tactile-4.webp"],
+              "description": "Self Adhesive PU Tactile Stud designed for enhanced grip and safety in various applications, featuring a textured surface for better traction.",
+              "brand": "Eminent Tactiles",
+              "customization": "Yes",
+              "origin": "Made in India",
+              "warranty": "2-Year Warranty",
+              "installation_details": {
+                "method": "Peel & Stick (Self Adhesive)"
+              },
+              "usage_applications": ["Stairs", "Ramps", "Hazardous Areas"]
+            }
+          ]
         },
         {
           "id": "pu-tactile-tiles",
           "title": "PU Tactile Tiles",
           "image": "/assets/pu-tactile-styles.webp",
-          "products": []
+          "products": [
+            {
+              "id": "pu-tile-001",
+              "title": "PU (Polyurethane) Tactile Tile with Warning Studs Self Adhesive",
+              "sku": "PU-ITT-009",
+              "image": "/assets/products/pu-tile-1.webp",
+              "material_grades": ["Polyurethane (PU)"],
+              "technical_specs": {
+                "Product Type": "Tactile Tile",
+                "Material": "Polyurethane",
+                "Pattern": "Warning Studs",
+                "Feature": "Self Adhesive"
+              },
+              "gallery_images": ["/assets/products/pu-tile-1.webp"],
+              "description": "A PU tactile tile showcasing its textured surface, ideal for enhancing safety and accessibility in various environments, with self-adhesive backing.",
+              "brand": "Eminent Tactiles",
+              "customization": "Yes (Color Options)",
+              "origin": "Made in India",
+              "warranty": "2-Year Warranty",
+              "standards": ["National Building Code (India) 2016"],
+              "installation_details": {
+                "method": "Peel & Stick (Self Adhesive)",
+                "surface": "Indoor & Outdoor",
+                "time": "Quick installation"
+              },
+              "usage_applications": [
+                "Corporate buildings",
+                "Public Buildings",
+                "Malls"
+              ]
+            },
+            {
+              "id": "pu-tile-002",
+              "title": "PU Tactile Tiles | Polyurethane Tactile Tile with Directional Strips (Self-Adhesive)",
+              "sku": "PU-ITT-010",
+              "image": "/assets/products/pu-tile-2.webp",
+              "material_grades": ["Polyurethane (PU)"],
+              "technical_specs": {
+                "Product Type": "Directional Tile",
+                "Material": "Polyurethane",
+                "Pattern": "Directional Strips",
+                "Feature": "Self Adhesive"
+              },
+              "gallery_images": ["/assets/products/pu-tile-2.webp"],
+              "description": "Polyurethane tactile tile in yellow, ideal for accessibility. Durable PU tactile tiles enhance safety and navigation for visually impaired individuals, with self-adhesive backing.",
+              "brand": "Eminent Tactiles",
+              "customization": "Yes (Color Options)",
+              "origin": "Made in India",
+              "warranty": "2-Year Warranty",
+              "installation_details": {
+                "method": "Peel & Stick (Self Adhesive)"
+              },
+              "usage_applications": ["Walkways", "Corridors", "Hazardous Areas"]
+            },
+            {
+              "id": "pu-tile-003",
+              "title": "PU Tactile Tile – Polyurethane Screw Fix Tactile Tile with Integrated Warning Studs",
+              "sku": "PU-ITT-SF-003",
+              "image": "/assets/products/pu-tile-3.webp",
+              "material_grades": ["Polyurethane (PU)"],
+              "technical_specs": {
+                "Product Type": "Tactile Tile",
+                "Material": "Polyurethane",
+                "Pattern": "Warning Studs",
+                "Feature": "Screw Fix"
+              },
+              "gallery_images": ["/assets/products/pu-tile-3.webp"],
+              "description": "Bright yellow PU tactile tile designed for enhanced safety and accessibility in public spaces and walkways, featuring integrated warning studs and screw-fix installation.",
+              "brand": "Eminent Tactiles",
+              "customization": "Yes",
+              "origin": "Made in India",
+              "warranty": "2-Year Warranty",
+              "installation_details": {
+                "method": "Screw Fix",
+                "surface": "Suitable for heavy traffic areas"
+              },
+              "usage_applications": [
+                "Public Squares",
+                "Railway Platforms",
+                "Metro Stations"
+              ]
+            },
+            {
+              "id": "pu-tile-004",
+              "title": "PU Tactile Tiles – Screw Fix Directional Tile with 4 Concentric Line Strips",
+              "sku": "PU-ITT-SF-004",
+              "image": "/assets/products/pu-tile-4.webp",
+              "material_grades": ["Polyurethane (PU)"],
+              "technical_specs": {
+                "Product Type": "Directional Tile",
+                "Material": "Polyurethane",
+                "Pattern": "Concentric Line Strips",
+                "Feature": "Screw Fix"
+              },
+              "gallery_images": ["/assets/products/pu-tile-4.webp"],
+              "description": "Bright yellow PU tactile tiles designed for enhancing safety and accessibility in public spaces and walkways, featuring 4 concentric line strips and screw-fix installation.",
+              "brand": "Eminent Tactiles",
+              "customization": "Yes",
+              "origin": "Made in India",
+              "warranty": "2-Year Warranty",
+              "installation_details": {
+                "method": "Screw Fix"
+              },
+              "usage_applications": ["Corridors", "Public Walkways", "Airports"]
+            }
+          ]
         }
       ]
     },

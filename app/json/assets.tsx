@@ -8,7 +8,7 @@ export const assets = {
   flooring: "/assets/flooring.png",
   hero: "/assets/hero.png",
   kitchen: "/assets/kitchen.png",
-  logo: "/assets/logo.jpeg",
+  logo: "/assets/logo.png",
   commercial: "/assets/commercial.jpg",
   residential: "/assets/residential.jpg",
   industrial: "/assets/industrial.jpg",

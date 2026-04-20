@@ -11,6 +11,8 @@ import { Product } from "@/app/types/product";
 import Pagination from "@/app/components/Pagination";
 import { categories as categoriesData } from "@/app/json/products.json";
 import { Category } from "@/app/types/product";
+import HowCanHelp from "@/app/components/HowCanHelp";
+import ContactCTA, { BottomIcons } from "@/app/components/ContactCTA";
 
 const categories = categoriesData as unknown as Category[];
 
@@ -156,6 +158,13 @@ const CategoryPage = () => {
                   window.scrollTo({ top: 0, behavior: "smooth" });
                 }}
               />
+            )}
+
+            {!hasSubcategories && (
+              <>
+                <HowCanHelp />
+                <BottomIcons />
+              </>
             )}
           </section>
         </>
