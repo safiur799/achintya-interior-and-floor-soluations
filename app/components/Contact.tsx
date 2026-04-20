@@ -23,15 +23,21 @@ export default function Contact() {
       });
 
       if (response.ok) {
-        alert("Your request has been sent to Achintya Interior and Floor Solutions.");
+        alert(
+          "Your request has been sent to Achintya Interior and Floor Solutions.",
+        );
         (e.target as HTMLFormElement).reset();
       } else {
         const errorData = await response.json();
-        alert(`Error: ${errorData.error || "Something went wrong. Please try again later."}`);
+        alert(
+          `Error: ${errorData.error || "Something went wrong. Please try again later."}`,
+        );
       }
     } catch (error) {
       console.error("Submission error:", error);
-      alert("An error occurred while sending your request. Please check your connection.");
+      alert(
+        "An error occurred while sending your request. Please check your connection.",
+      );
     } finally {
       setFormStatus("PROCEED");
     }
@@ -77,21 +83,43 @@ export default function Contact() {
             <div className="form-group">
               <select id="topic" name="topic" required>
                 <option value="">Select Topic</option>
+                <option value="products">Products</option>
                 <option value="interior">Interior Design</option>
                 <option value="flooring">Flooring Solution</option>
                 <option value="commercial">Commercial/Office</option>
               </select>
             </div>
             <div className="form-group">
-              <input type="text" id="name" name="name" placeholder="Name" required />
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Name"
+                required
+              />
             </div>
             <div className="form-group">
-              <input type="email" id="email" name="email" placeholder="Email" required />
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Email"
+                required
+              />
             </div>
             <div className="form-group">
-              <textarea id="message" name="message" rows={4} placeholder="Message"></textarea>
+              <textarea
+                id="message"
+                name="message"
+                rows={4}
+                placeholder="Message"
+              ></textarea>
             </div>
-            <button type="submit" className="submit-btn" disabled={formStatus === "PROCEEDING..."}>
+            <button
+              type="submit"
+              className="submit-btn"
+              disabled={formStatus === "PROCEEDING..."}
+            >
               {formStatus === "PROCEEDING..." ? "SENDING..." : "PROCEED"}
             </button>
           </form>
