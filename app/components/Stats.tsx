@@ -5,9 +5,9 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 const statsData = [
-  { label: "No. of Projects Delivered", value: "450+" },
+  { label: "No. of Projects Delivered", value: "60+" },
   { label: "Sq. Ft. Spaces Executed", value: "20+ Million" },
-  { label: "Team Members", value: "1000+" },
+  { label: "Team Members", value: "100+" },
   { label: "Pan India Office", value: "5+" },
   { label: "Years of Experience", value: "8+" },
 ];
