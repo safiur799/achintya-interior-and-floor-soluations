@@ -14,8 +14,12 @@ import Certificates from "./components/Certificates";
 import TrustedBy from "./components/TrustedBy";
 import BottomCards from "./components/BottomCards";
 import Wrapper from "./layout/Wrapper";
+import ServerDown from "./components/ServerDown";
+
 
 export default function Home() {
+  return <ServerDown />;
+
   // ScrollTrigger Animations
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
