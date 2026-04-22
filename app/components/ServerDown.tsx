@@ -21,7 +21,8 @@ const ServerDown = () => {
   return (
     <div
       ref={containerRef}
-      className="fixed inset-0 z-[9999] flex items-center justify-center bg-white font-montserrat"
+      className="fixed inset-0 z-[99999] flex items-center justify-center bg-white opacity-100 font-montserrat"
+      style={{ isolation: 'isolate' }}
     >
       <div
         ref={contentRef}
