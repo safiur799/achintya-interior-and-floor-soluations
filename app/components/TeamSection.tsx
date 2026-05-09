@@ -83,9 +83,9 @@ const TeamSection = () => {
         <div className="team-header">
           <h2>Our team</h2>
           <p>
-            Led by Mr. Shankar Kularia and Mr. Dharam Kularia, Achintya Group is
-            powered by a dedicated workforce of over 5,000 professionals. Our
-            Head Office in Mumbai, with them, overseeing core operations across
+            Led by Shashi & Raaj, Achintya Interior & Floor Solutions Pvt. Ltd. is
+            powered by a dedicated workforce of over 100+ professionals. Our
+            Head Office in Kolkata, with them, overseeing core operations across
             India, while our regional offices, managed by experienced Regional
             Heads and teams, ensure seamless execution and local expertise in
             every project. Together, we are committed to delivering excellence
@@ -93,28 +93,7 @@ const TeamSection = () => {
           </p>
         </div>
 
-        <div className="team-rows">
-          {/* Row 1: 2 Members */}
-          <div className="team-row team-row-2">
-            {teamData.row1.map((member, i) => (
-              <TeamMemberCard key={i} member={member} />
-            ))}
-          </div>
-
-          {/* Row 2: 5 Members */}
-          <div className="team-row team-row-5">
-            {teamData.row2.map((member, i) => (
-              <TeamMemberCard key={i} member={member} />
-            ))}
-          </div>
-
-          {/* Row 3: 3 Members */}
-          <div className="team-row team-row-3">
-            {teamData.row3.map((member, i) => (
-              <TeamMemberCard key={i} member={member} />
-            ))}
-          </div>
-        </div>
+    
       </div>
     </section>
   );
