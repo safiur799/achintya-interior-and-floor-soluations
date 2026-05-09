@@ -29,7 +29,13 @@ const page = () => {
       />
       <About
         title="Who we are"
-        description="We are a dynamic and performance-driven interior contracting company specializing in commercial and corporate interior environments. With a strong focus on functionality, cost-efficiency, and modern design principles, we deliver spaces that are not only visually impactful but also operationally effective. Our approach is rooted in the philosophy of “Form Follows Function”, ensuring every design decision enhances workplace productivity and user experience. We integrate biophilic elements, smart space planning, and contemporary materials to create environments that inspire collaboration and well-being. Over the years, we have successfully executed projects ranging from mid-scale offices to large-format commercial spaces exceeding 80,000 sq. ft., demonstrating our capability to scale while maintaining quality and cost control."
+        description={`The company was founded by Shashi & Raaj, couple of young talented entrepreneurs from Kolkata in the year 2017. The duo supported by a team of dedicated professionals and channel partners have a tremendous experience to successfully deliver large complex projects both to local and MNC clients pan India.
+
+Over the years Achintya Interior & Floor Solutions Pvt. Ltd. a.k.a. Achintya has developed to its present status due to its credibility, speed and quality of work, keeping in mind how to embrace the nature and reduce carbon emission to mother Earth.
+
+It’s motto 3S i.e. ‘Safety, Sustainability and Service brings growth’ maximizes customer satisfaction. In due course of time, Achintya has achieved certificates for Quality Management System (ISO 9001:2015), Environmental Management System (ISO 14001:2015) and Occupational Health and Safety Management System (ISO 45001:2018).
+
+We believe Achintya’s passion for innovation and perfection will lead us to be one of the best interior designer company in this part of the world.`}
       />
       <AnimatedHistory />
       <ScatteredCards cards={scatteredData} />

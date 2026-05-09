@@ -10,38 +10,52 @@ interface AboutProps {
 
 export default function About({
   title,
-  description = "We are a professional interior design and flooring solutions company based in Kolkata, West Bengal, established in 2017. With a strong foundation in innovation, functionality, and aesthetics, we specialize in creating thoughtfully designed interior environments for residential, commercial, and corporate spaces.As a dynamic and performance-driven interior contracting company, we focus particularly on commercial and corporate interiors, delivering spaces that are not only visually compelling but also highly efficient and practical.Our work is guided by the philosophy of “Form Follows Function,” ensuring that every design decision enhances usability, productivity, and overall user experience.We offer complete turnkey interior solutions—from concept design and space planning to execution and final finishing.By combining modern design principles, biophilic elements, and smart space planning with high - quality materials, we create environments that reflect our clients’ lifestyle, brand identity, and operational needs.Over the years, we have successfully executed projects ranging from mid - sized offices to large - format commercial spaces exceeding 80,000 sq.ft.Our ability to scale projects while maintaining strict quality standards and cost efficiency sets us apart.At our core, we are committed to transforming spaces into inspiring, functional, and future - ready environments that support growth, collaboration, and well - being.",
+  description = `The company was founded by Shashi & Raaj, couple of young talented entrepreneurs from Kolkata in the year 2017. The duo supported by a team of dedicated professionals and channel partners have a tremendous experience to successfully deliver large complex projects both to local and MNC clients pan India.
+
+Over the years Achintya Interior & Floor Solutions Pvt. Ltd. a.k.a. Achintya has developed to its present status due to its credibility, speed and quality of work, keeping in mind how to embrace the nature and reduce carbon emission to mother Earth.
+
+It’s motto 3S i.e. ‘Safety, Sustainability and Service brings growth’ maximizes customer satisfaction. In due course of time, Achintya has achieved certificates for Quality Management System (ISO 9001:2015), Environmental Management System (ISO 14001:2015) and Occupational Health and Safety Management System (ISO 45001:2018).
+
+We believe Achintya’s passion for innovation and perfection will lead us to be one of the best interior designer company in this part of the world.`,
 }: AboutProps) {
-  const textRef = useRef<HTMLParagraphElement>(null);
+  const containerRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
 
-    if (textRef.current) {
-      gsap.to(textRef.current, {
-        backgroundSize: "100% 100%, 100% 100%",
-        ease: "none",
-        scrollTrigger: {
-          trigger: textRef.current,
-          start: "top 80%",
-          end: "top 30%",
-          scrub: 1,
-        },
+    const ctx = gsap.context(() => {
+      const paragraphs = gsap.utils.toArray(".text-fill") as HTMLElement[];
+      
+      paragraphs.forEach((p) => {
+        gsap.to(p, {
+          backgroundSize: "100% 100%, 100% 100%",
+          ease: "none",
+          scrollTrigger: {
+            trigger: p,
+            start: "top 85%",
+            end: "top 40%",
+            scrub: 1,
+          },
+        });
       });
-    }
+    }, containerRef);
 
-    return () => {
-      ScrollTrigger.getAll().forEach((t) => t.kill());
-    };
-  }, []);
+    return () => ctx.revert();
+  }, [description]);
+
+  const paragraphs = description.split("\n\n").filter(p => p.trim() !== "");
 
   return (
-    <section id="about">
+    <section id="about" ref={containerRef}>
       <div className="container">
         {title && <h2 className="section-title">{title}</h2>}
-        <p ref={textRef} className="text-fill">
-          {description}
-        </p>
+        <div className="about-content">
+          {paragraphs.map((text, i) => (
+            <p key={i} className="text-fill mb-8">
+              {text}
+            </p>
+          ))}
+        </div>
       </div>
     </section>
   );

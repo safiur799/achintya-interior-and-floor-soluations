@@ -30,6 +30,7 @@ const CommonBanner = ({
           className="banner-video"
         />
       )}
+      <div className="watermark">Achintya Interior & Floor Solutions Pvt.Ltd</div>
       <div className="banner-overlay">
         <h1 className="reveal-text">{title}</h1>
         {description && <p>{description}</p>}
