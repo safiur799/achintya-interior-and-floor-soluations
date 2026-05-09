@@ -58,7 +58,7 @@ const ContactUs = () => {
     <Wrapper hideAnnouncements={true}>
       <CommonBanner
         title="Contact Us"
-        description="Lorem ipsum dolor sit amet consectetur adipisicing elit. A sint nulla iusto doloremque dignissimos! Consequuntur eius tenetur corporis, nulla distinctio vel. Voluptatum molestias reiciendis deserunt? Inventore excepturi quo saepe ad.  "
+        description="Ready to redefine your environment? Connect with our dedicated team of experts in Kolkata for personalized consultations and comprehensive turnkey solutions."
         bgImage={assets.contact_image}
       />
 

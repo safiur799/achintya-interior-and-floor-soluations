@@ -8,43 +8,30 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 const teamData = {
   row1: [
     {
-      name: "Shankar Kularia",
+      name: "Shashi",
       role: "Founder and Managing Director",
       image: assets.office_team,
     },
     {
-      name: "Dharam Kularia",
-      role: "Managing Partner and CEO",
+      name: "Raaj",
+      role: "Founder and Managing Partner",
       image: assets.office_team,
     },
   ],
   row2: [
-    { name: "Team Member 1", role: "Regional Head", image: assets.office_team },
+    { name: "Regional Head", role: "East & North", image: assets.office_team },
     {
-      name: "Team Member 2",
-      role: "Project Manager",
+      name: "Operations Lead",
+      role: "Project Execution",
       image: assets.office_team,
     },
-    { name: "Team Member 3", role: "Design Lead", image: assets.office_team },
+    { name: "Design Director", role: "Creative Strategy", image: assets.office_team },
     {
-      name: "Team Member 4",
-      role: "Operations Head",
+      name: "Technical Head",
+      role: "Flooring Solutions",
       image: assets.office_team,
     },
-    { name: "Team Member 5", role: "Business Lead", image: assets.office_team },
-  ],
-  row3: [
-    {
-      name: "Team Member 6",
-      role: "Technical Director",
-      image: assets.office_team,
-    },
-    { name: "Team Member 7", role: "HR Manager", image: assets.office_team },
-    {
-      name: "Team Member 8",
-      role: "Finance Controller",
-      image: assets.office_team,
-    },
+    { name: "Business Lead", role: "Corporate Relations", image: assets.office_team },
   ],
 };
 
@@ -85,15 +72,28 @@ const TeamSection = () => {
           <p>
             Led by Shashi & Raaj, Achintya Interior & Floor Solutions Pvt. Ltd. is
             powered by a dedicated workforce of over 100+ professionals. Our
-            Head Office in Kolkata, with them, overseeing core operations across
-            India, while our regional offices, managed by experienced Regional
-            Heads and teams, ensure seamless execution and local expertise in
-            every project. Together, we are committed to delivering excellence
-            on a national scale.
+            Head Office in Kolkata oversees core operations across India, while 
+            our regional presence, managed by experienced leads, ensures seamless 
+            execution and local expertise in every project. Together, we are committed 
+            to delivering excellence on a national scale.
           </p>
         </div>
 
-    
+        <div className="team-rows">
+          {/* Row 1: Founders */}
+          <div className="team-row team-row-2">
+            {teamData.row1.map((member, i) => (
+              <TeamMemberCard key={i} member={member} />
+            ))}
+          </div>
+
+          {/* Row 2: Leadership Team */}
+          <div className="team-row team-row-5">
+            {teamData.row2.map((member, i) => (
+              <TeamMemberCard key={i} member={member} />
+            ))}
+          </div>
+        </div>
       </div>
     </section>
   );

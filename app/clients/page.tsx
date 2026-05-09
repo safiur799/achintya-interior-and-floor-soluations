@@ -12,7 +12,7 @@ const page = () => {
     <Wrapper hideAnnouncements={true}>
       <CommonBanner
         title="Our Clients"
-        description="Lorem ipsum dolor sit amet consectetur adipisicing elit. A sint nulla iusto doloremque dignissimos! Consequuntur"
+        description="Trusted by leading MNCs and local enterprises, we deliver world-class interior and flooring solutions tailored to reflect every brand's unique excellence."
         bgImage={assets.large_open_office_floor}
       />
 

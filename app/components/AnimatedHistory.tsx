@@ -73,11 +73,10 @@ const AnimatedHistory = () => {
         {/* Phase 4: Text Reveal Overlay */}
         <div ref={textRef} className="history-overlay">
           <p className="history-text">
-            Our journey began with three brothers united by a profound passion
-            for carpentry, skillfully crafting each piece by hand for the houses
-            in the vicinity of a small village of Rajasthan; has now grown to a
-            community of professionals who deliver an average 4 million sq ft of
-            humongous projects every year, PAN India.
+            Our journey began in Kolkata with Shashi & Raaj, two visionary entrepreneurs 
+            who set out to redefine the standards of interior excellence. What started as 
+            a passionate venture in 2017 has evolved into a powerhouse of over 100+ 
+            dedicated professionals delivering premium turnkey projects across India.
           </p>
         </div>
       </div>
