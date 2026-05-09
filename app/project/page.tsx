@@ -99,7 +99,7 @@ const Page = () => {
     <Wrapper hideAnnouncements>
       <CommonBanner
         title="Projects"
-        description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis hic asperiores error, illo fuga facilis veniam nemo ullam esse excepturi eaque ea quibusdam. Praesentium possimus officiis dicta voluptates magnam velit."
+        description="Explore our diverse portfolio of premium projects, ranging from bespoke corporate offices to large-scale commercial complexes delivered across India."
         bgImage={assets.vibrant_breakout_swing_area}
       />
 
