@@ -195,6 +195,7 @@ export default function Portfolio() {
               onMouseLeave={() => handleMouseLeave(index)}
             >
               <img src={item.img} alt={item.title} className="portfolio-img" />
+              <div className="watermark">Achintya Interior & Floor Solutions Pvt.Ltd</div>
               <div className="portfolio-overlay">
                 <h3 className="portfolio-title">{item.title}</h3>
               </div>

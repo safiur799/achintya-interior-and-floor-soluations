@@ -60,9 +60,9 @@ export default function Wrapper({ children, hideAnnouncements }: WrapperProps) {
   }, []);
 
   const startHeroAnimations = () => {
-    gsap.to(".hero-content h1", {
-      opacity: 1,
-      y: 0,
+    gsap.from(".hero-content h1", {
+      opacity: 0,
+      y: 30,
       duration: 1.2,
       stagger: 0.3,
       ease: "power4.out",
