@@ -5,6 +5,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import "swiper/css/effect-fade";
+import Maintenance from "./components/Maintenance";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -23,6 +24,9 @@ export const metadata: Metadata = {
     "Experience bespoke interior design and premium flooring solutions with Achintya. Transforming spaces into masterpieces.",
 };
 
+// Toggle this to true to enable maintenance mode
+const IS_MAINTENANCE = true;
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -30,7 +34,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${inter.variable} ${montserrat.variable}`}>
-      <body>{children}</body>
+      <body className="antialiased">
+        {IS_MAINTENANCE ? <Maintenance /> : children}
+      </body>
     </html>
   );
 }
