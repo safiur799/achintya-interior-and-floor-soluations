@@ -52,27 +52,32 @@ export default function MaintenanceMode() {
   return (
     <div 
       ref={containerRef}
-      className="fixed inset-0 z-[9999] flex flex-col items-center justify-center bg-[#0a0a0a] text-white overflow-hidden font-montserrat"
-      style={{ fontFamily: 'var(--font-montserrat), sans-serif' }}
+      className="maintenance-container fixed inset-0 z-[9999]"
     >
       {/* Decorative Background Elements */}
-      <div className="bg-circle absolute top-1/4 left-1/4 w-96 h-96 bg-[#e31e24] rounded-full blur-[120px] opacity-[0.05] pointer-events-none" />
-      <div className="bg-circle absolute bottom-1/4 right-1/4 w-[500px] h-[500px] bg-[#e31e24] rounded-full blur-[150px] opacity-[0.03] pointer-events-none" />
+      <div 
+        className="bg-circle absolute top-1/4 left-1/4 w-96 h-96 rounded-full blur-[120px] pointer-events-none" 
+        style={{ backgroundColor: 'var(--maintenance-accent)', opacity: 0.05 }}
+      />
+      <div 
+        className="bg-circle absolute bottom-1/4 right-1/4 w-[500px] h-[500px] rounded-full blur-[150px] pointer-events-none" 
+        style={{ backgroundColor: 'var(--maintenance-accent)', opacity: 0.03 }}
+      />
 
       <div className="relative z-10 text-center px-6 max-w-4xl">
         {/* Brand Header */}
         <div ref={logoRef} className="mb-12">
-          <h2 className="text-sm tracking-[0.4em] uppercase text-[#e31e24] font-bold mb-2">
+          <h2 className="text-sm tracking-[0.4em] uppercase font-bold mb-2 maintenance-accent-text">
             Achintya Interior & Floor Solutions
           </h2>
-          <div className="h-[2px] w-24 bg-[#e31e24] mx-auto rounded-full" />
+          <div className="h-[2px] w-24 mx-auto rounded-full" style={{ backgroundColor: 'var(--maintenance-accent)' }} />
         </div>
 
         {/* Main Message */}
         <div ref={textRef} className="mb-16">
           <h1 className="text-5xl md:text-7xl font-extrabold mb-6 tracking-tight leading-tight">
             We&apos;re Under <br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-[#e31e24]">
+            <span className="maintenance-gradient-text">
               Refinement
             </span>
           </h1>
@@ -87,21 +92,21 @@ export default function MaintenanceMode() {
           <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-12">
             <div className="group cursor-pointer">
               <p className="text-[10px] uppercase tracking-[0.2em] text-gray-500 mb-1">Email Us</p>
-              <a href="mailto:info@achintyainterior.com" className="text-lg hover:text-[#e31e24] transition-colors">
+              <a href="mailto:info@achintyainterior.com" className="text-lg hover:maintenance-accent-text transition-colors">
                 info@achintyainterior.com
               </a>
             </div>
             <div className="hidden md:block w-[1px] h-10 bg-gray-800" />
             <div className="group cursor-pointer">
               <p className="text-[10px] uppercase tracking-[0.2em] text-gray-500 mb-1">Call Us</p>
-              <a href="tel:+91XXXXXXXXXX" className="text-lg hover:text-[#e31e24] transition-colors">
+              <a href="tel:+91XXXXXXXXXX" className="text-lg hover:maintenance-accent-text transition-colors">
                 +91 987 654 3210
               </a>
             </div>
           </div>
 
           <div className="pt-8">
-            <p className="text-xs uppercase tracking-[0.3em] text-[#e31e24] font-semibold">
+            <p className="text-xs uppercase tracking-[0.3em] font-semibold maintenance-accent-text">
               Coming Soon 2024
             </p>
           </div>
