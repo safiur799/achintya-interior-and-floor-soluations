@@ -25,14 +25,20 @@ export const metadata: Metadata = {
 
 
 
+import MaintenanceMode from "./components/MaintenanceMode";
+
+const isMaintenanceMode = true; // Set to true to take the website down temporarily
+
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
-        <html lang="en" className={`${inter.variable} ${montserrat.variable}`}>
-      <body>{children}</body>
+    <html lang="en" className={`${inter.variable} ${montserrat.variable}`}>
+      <body>
+        {isMaintenanceMode ? <MaintenanceMode /> : children}
+      </body>
     </html>
   );
 }
