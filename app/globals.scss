@@ -8,6 +8,8 @@
   --white: #ffffff;
   --shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
   --transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  --maintenance-bg: #0a0a0a;
+  --maintenance-accent: #e31e24;
 }
 
 * {
@@ -3787,4 +3789,28 @@ section {
       max-width: 150px;
     }
   }
+}
+
+/* Maintenance Mode Utilities */
+.maintenance-container {
+  background-color: var(--maintenance-bg);
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+  overflow: hidden;
+}
+
+.maintenance-accent-text {
+  color: var(--maintenance-accent);
+}
+
+.maintenance-gradient-text {
+  background: linear-gradient(to right, #fff, #fff, var(--maintenance-accent));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
