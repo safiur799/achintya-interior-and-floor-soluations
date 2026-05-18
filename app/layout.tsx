@@ -5,6 +5,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import "swiper/css/effect-fade";
+import MaintenanceMode from "./components/MaintenanceMode";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -22,8 +23,6 @@ export const metadata: Metadata = {
   description:
     "Experience bespoke interior design and premium flooring solutions with Achintya. Transforming spaces into masterpieces.",
 };
-
-import MaintenanceMode from "./components/MaintenanceMode";
 
 const isMaintenanceMode = true; // Set to true to take the website down temporarily
 
