@@ -5,6 +5,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import "swiper/css/effect-fade";
+import MaintenanceMode from "./components/MaintenanceMode";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -23,7 +24,7 @@ export const metadata: Metadata = {
     "Experience bespoke interior design and premium flooring solutions with Achintya. Transforming spaces into masterpieces.",
 };
 
-
+const isMaintenanceMode = true; // Set to true to take the website down temporarily
 
 export default function RootLayout({
   children,
@@ -31,8 +32,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-        <html lang="en" className={`${inter.variable} ${montserrat.variable}`}>
-      <body>{children}</body>
+    <html lang="en" className={`${inter.variable} ${montserrat.variable}`}>
+      <body>
+        {isMaintenanceMode ? <MaintenanceMode /> : children}
+      </body>
     </html>
   );
 }
