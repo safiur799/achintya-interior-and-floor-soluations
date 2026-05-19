@@ -13,7 +13,7 @@ const slides = [
     isVideo: false,
   },
   {
-    bg: assets.premium_floring_banner,
+    bg: "/assets/jaisalmer_corduroy_guidance_tactile_terracotta_round_dots_tactile_plus_grey_plain_300x300_mm_1.avif",
     title: "Premium Flooring",
     desc: "Elegance under every step.",
     btn: "Explore Collections",
@@ -32,12 +32,11 @@ export default function HeroSlider() {
   return (
     <div className="hero-slider swiper">
       <Swiper
-        modules={[Autoplay, Pagination, EffectFade]}
+        modules={[Autoplay, Pagination]}
         loop={true}
-        // autoplay={{ delay: 5000, disableOnInteraction: false }}
+        autoplay={{ delay: 2500, disableOnInteraction: false }}
+        speed={800}
         pagination={{ clickable: true }}
-        effect={"fade"}
-        fadeEffect={{ crossFade: true }}
         className="h-full w-full"
       >
         {slides.map((slide, index) => (
