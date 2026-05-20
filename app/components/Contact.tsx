@@ -48,15 +48,19 @@ export default function Contact() {
       <h2 className="section-title">Get In Touch</h2>
       <div className="contact-container">
         <div className="contact-info">
-          <h3>Kolkata HQ</h3>
+          <h2><strong>REGD. ADDRESS</strong></h2>
+
           <p>Baligori Rd, Uniworld City, Newtown, kolkata</p>
           <p>Baligari, West Bengal 700160</p>
           <br />
+          <h2><strong>OFFICE ADDRESS</strong></h2>
+          <p>Room- 11WS3D, Mani Casa Dona complex, 11F, 04; street no.- 372, Action Area 1, IIF New town, chakpachuria, kolkata 7000156</p>
+          <br />
           <p>
-            <strong>Email:</strong> Shashiprakash@achintyainteriors.com
+            <strong>Email:</strong> shashiprakash@achintyainteriors.com
           </p>
           <p>
-            <strong>Phone:</strong> +917439749267
+            <strong>Phone:</strong> +913345366843
           </p>
           <br />
           <div

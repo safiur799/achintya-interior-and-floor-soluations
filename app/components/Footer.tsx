@@ -95,8 +95,8 @@ export default function Footer({
               </a> */}
             </div>
             <div className="email">
-              <a href="mailto:Shashiprakash@achintyainteriors.com">
-                <MailIcon /> Shashiprakash@achintyainteriors.com
+              <a href="mailto:shashiprakash@achintyainteriors.com">
+                <MailIcon /> shashiprakash@achintyainteriors.com
               </a>
             </div>
           </div>

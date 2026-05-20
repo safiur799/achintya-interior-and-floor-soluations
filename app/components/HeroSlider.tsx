@@ -20,9 +20,9 @@ const slides = [
     isVideo: false,
   },
   {
-    bg: assets.biophilic_office_corridor,
+    bg: assets.slide3,
     title: "Commercial Space",
-    desc: "Kitchens that inspire culinary creativity.",
+    desc: "Office that inspire culinary creativity.",
     btn: "Contact Us",
     isVideo: false,
   },

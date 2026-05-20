@@ -114,4 +114,5 @@ export const assets = {
   tactile_tiles: "/assets/tactile-tiles.webp",
   contact_image: "/assets/contact_image.jpeg",
   premium_floring_banner: "/assets/premium_floring.jpeg",
+  slide3: "/assets/slide-3-image.jpeg",
 };

@@ -16,7 +16,7 @@ const portfolioItems = [
     title: "Serene Retreats",
   },
   {
-    img: assets.flooring,
+    img: assets.slide3,
     title: "Master Flooring",
   },
   {

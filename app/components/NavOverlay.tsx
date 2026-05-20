@@ -12,13 +12,17 @@ interface NavOverlayProps {
 }
 
 const menuLinks = [
-  { href: "/products", text: "Products" },
-  { href: "project", text: "Projects" },
-  { href: "/expertise", text: "Our Expertise" },
   { href: "/about-us", text: "About Us" },
+  { href: "/expertise", text: "Our Expertise" },
   { href: "/clients", text: "Clients" },
-  { href: "/contact-us", text: "Contact Us" },
+  { href: "project", text: "Projects" },
+
+  { href: "/products", text: "Products" },
   { href: "/career", text: "Careers" },
+
+
+  { href: "/contact-us", text: "Contact Us" },
+
 ];
 
 export default function NavOverlay({
@@ -86,19 +90,21 @@ export default function NavOverlay({
           </div>
           <div className="overlay-contact">
             <p>
-              <svg
-                width="16"
-                height="16"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                style={{ display: "inline", marginRight: "8px" }}
-              >
-                <path d="m22 2-7 20-4-9-9-4Z" />
-                <path d="M22 2 11 13" />
-              </svg>
-              Shashiprakash@achintyainteriors.com
+              <a href="mailto:shashiprakash@achintyainteriors.com" style={{ color: "inherit", textDecoration: "none" }}>
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  style={{ display: "inline", marginRight: "8px" }}
+                >
+                  <path d="m22 2-7 20-4-9-9-4Z" />
+                  <path d="M22 2 11 13" />
+                </svg>
+                shashiprakash@achintyainteriors.com
+              </a>
             </p>
           </div>
         </div>
