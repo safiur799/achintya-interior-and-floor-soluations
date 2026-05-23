@@ -11,8 +11,6 @@ const ClientCollab = () => {
     { src: assets.logo_manipal, alt: "Manipal Hospitals" },
     { src: assets.logo_standard_chartered, alt: "Standard Chartered" },
     { src: assets.logo_ey, alt: "EY" },
-    { src: assets.logo_lt, alt: "L&T" },
-    { src: assets.logo_ambuja_neotia, alt: "Ambuja Neotia" },
     { src: assets.logo_aditya_birla, alt: "Aditya Birla" },
     { src: assets.logo_bt, alt: "BT" },
     { src: assets.logo_tata, alt: "Tata" },

@@ -8,7 +8,6 @@ const ProjectManagement = () => {
     { src: assets.logo_jll, alt: "JLL" },
     { src: assets.logo_iss, alt: "ISS" },
     { src: assets.logo_ey, alt: "EY" },
-    { src: assets.logo_lt, alt: "L&T" },
     { src: assets.logo_tata, alt: "Tata" },
   ];
 

@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import { assets } from "../json/assets";
 
 const announcements = [
@@ -117,8 +118,8 @@ export default function Footer({
               reserved
             </div>
             <div className="links">
-              <a href="#">Careers</a>
-              <a href="#">Contact</a>
+              <Link href="/career">Careers</Link>
+              <Link href="/contact-us">Contact</Link>
             </div>
           </div>
         </div>
