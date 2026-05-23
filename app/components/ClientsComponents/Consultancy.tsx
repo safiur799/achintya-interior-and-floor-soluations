@@ -5,7 +5,6 @@ import React from "react";
 const Consultancy = () => {
   const logos = [
     { src: assets.logo_ey, alt: "EY" },
-    { src: assets.logo_lt, alt: "L&T" },
     { src: assets.logo_standard_chartered, alt: "Standard Chartered" },
     { src: assets.logo_cognizant, alt: "Cognizant" },
     { src: assets.logo_bt, alt: "BT" },
