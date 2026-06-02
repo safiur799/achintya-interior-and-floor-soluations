@@ -249,7 +249,7 @@ const ProductDetailPage = () => {
                           <tbody>
                             <tr>
                               <th>Brand</th>
-                              <td>{product.brand || "Achintya Interior & Floor Soluations Pvt.Ltd"}</td>
+                              <td>{product.brand || "Achintya"}</td>
                             </tr>
                             <tr>
                               <th>Origin</th>
